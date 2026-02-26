@@ -150,3 +150,4 @@ template <typename T>
 const Vector2<T> Vector2<T>::NULLVECT(0, 0);
 
 using FVector2 = Vector2<float>;
+using DVector2 = Vector2<double>;
