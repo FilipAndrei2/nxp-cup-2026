@@ -25,7 +25,13 @@ public: // Constructori
     * Creates the object by translating the segment with said endpoints to origin.
     */
     Vector2(T x1, T y1, T x2, T y2) {
-        TODO(); // todo: impl
+        if (x1 < x2) {
+            this->x = x2 - x1;
+            this->y =   y2 - y1;
+        } else {
+            this->x = x1 - x2;
+            this->y = y1 - y2;
+        }
     }
 
     Vector2(const Vector2& other)
@@ -88,12 +94,20 @@ public: // Metode statice
     }
 
     static Vector2 Avg(const Vector2& lhs, const Vector2& rhs) {
-        TODO(); // todo
+        return Vector2((lhs.x + rhs.x)/2, (lhs.y + rhs.y)/2);
     }
 
     static float AngleBetween(const Vector2& lhs, const Vector2& rhs) {
-        // Optimizare -> pentru vectori normalizati se simplifica niste norme
-        TODO(); // todo
+        // A dot B = A.len * B.len * cos(alph)
+        // alph    = acos((A dot B) / (A.len*B.len))
+        // Optimizare -> pentru vectori normalizati normele sunt 1
+        auto dot = Vector2::Dot(lhs, rhs);
+        bool areNormalized = lhs.isNormalized() && rhs.isNormalized();
+        if (areNormalized) {
+            return std::acos(dot);
+        } else {
+            return std::acos(dot / (lhs.len() * rhs.len()));
+        }
     }
 
 public: // Membri statici
@@ -156,7 +170,8 @@ public: // Metode instanta
     }
 
     void avg(const Vector2& other) {
-        TODO(); // todo:
+        this->x = (this->x + other.y)/2;
+        this->y = (this->y + other.y)/2;
     }
 
 public: // Operatori
