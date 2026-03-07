@@ -1,0 +1,155 @@
+diff -ruN gcc-9.5.0-orig/gcc/testsuite/gcc.target/arm/section-6.c gcc-9.5.0/gcc/testsuite/gcc.target/arm/section-6.c
+--- gcc-9.5.0-orig/gcc/testsuite/gcc.target/arm/section-6.c	1969-12-31 17:00:00.000000000 -0700
++++ gcc-9.5.0/gcc/testsuite/gcc.target/arm/section-6.c	2022-08-25 13:29:20.819659148 -0700
+@@ -0,0 +1,71 @@
++/* { dg-do compile } */
++/* { dg-options "-O2 -ffunction-sections -fdata-sections" } */
++
++// Tests that pragma changes sections and also returns to default
++
++#pragma GCC section bss ".foobss"
++#pragma GCC section data ".foodata"
++#pragma GCC section rodata ".foorodata"
++#pragma GCC section text ".footext"
++char c1;
++char k1;
++char c2 = 2;
++char k2 = 3;
++const char c3 = 3;
++const char k3 = 4;
++int f1 (int x) { return x; }
++int g1 (int x) { return -x; }
++#pragma GCC section bss "default"
++#pragma GCC section data "default"
++#pragma GCC section rodata "default"
++#pragma GCC section text
++char c4;
++char k4;
++char c5 = 5;
++char k5 = 6;
++const char c6 = 6;
++const char k6 = 7;
++int f2 (int x) { return x; }
++int g2 (int x) { return -x; }
++
++#pragma GCC section bss ".barbss"
++#pragma GCC section data ".bardata"
++#pragma GCC section rodata ".barrodata"
++#pragma GCC section text ".bartext"
++int v1[8];
++int v2[8] = {1, 2, 3, 4, 5, 6, 7, 8};
++const int v3[8] = {1, 2, 3, 4, 5, 6, 7, 8};
++int h1 (int x) { return x; }
++#pragma GCC section bss
++#pragma GCC section data
++#pragma GCC section rodata
++#pragma GCC section text
++int v4[8];
++int v5[8] = {1, 2, 3, 4, 5, 6, 7, 8};
++const int v6[8] = {1, 2, 3, 4, 5, 6, 7, 8};
++int h2 (int x) { return x; }
++
++/* { dg-final { scan-assembler-times ".section\t.foobss.c1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.foobss.k1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.foodata.c2" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.foodata.k2" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.foorodata.c3" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.foorodata.k3" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.footext.f1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.footext.g1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.bss.c4" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.bss.k4" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.data.c5" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.data.k5" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.rodata.c6" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.rodata.k6" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.text.f2" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.text.g2" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.barbss.v1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.bardata.v2" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.barrodata.v3" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.bartext.h1" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.bss.v4" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.data.v5" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.rodata.v6" 1 } } */
++/* { dg-final { scan-assembler-times ".section\t.text.h2" 1 } } */
+diff -ruN gcc-9.5.0-orig/gcc/varasm.c gcc-9.5.0/gcc/varasm.c
+--- gcc-9.5.0-orig/gcc/varasm.c	2022-08-25 13:28:05.758424832 -0700
++++ gcc-9.5.0/gcc/varasm.c	2022-08-25 12:40:08.183241237 -0700
+@@ -495,16 +495,29 @@
+ 
+ #endif
+ 
++static inline tree ultimate_transparent_alias_target (tree *alias);
++
+ section *
+ get_context_text (tree decl, section *sec)
+ {
+   char section_name[256];
++  const char *name;
++  tree id;
++
+   if (TREE_CODE(decl) == FUNCTION_DECL
+       && decl->base.context_section_text)
+     {
+       section_name[0] = '\0';
+       strcat (section_name, "\t.section\t");
+       strcat (section_name, decl->base.context_section_text);
++      if (flag_function_sections) {
++	id = DECL_ASSEMBLER_NAME (decl);
++	ultimate_transparent_alias_target (&id);
++	name = IDENTIFIER_POINTER (id);
++	name = targetm.strip_name_encoding (name);
++	strcat (section_name, ".");
++	strcat (section_name, name);
++      }
+       strcat (section_name, ",\"ax\",%progbits");
+       return get_unnamed_section (SECTION_CODE, output_section_asm_op, ggc_strdup(section_name));
+     }
+diff -ruN gcc-11.2.0-orig/gcc/varasm.c gcc-11.2.0/gcc/varasm.c
+--- gcc-11.2.0-orig/gcc/varasm.c	2022-08-26 07:04:57.541944022 -0700
++++ gcc-11.2.0/gcc/varasm.c	2022-08-26 07:07:13.900201754 -0700
+@@ -7227,19 +7227,28 @@
+   switch (categorize_decl_for_section (decl, reloc))
+     {
+     case SECCAT_TEXT:
+-      prefix = one_only ? ".t" : ".text";
++      if (decl->base.context_section_text)
++	prefix = decl->base.context_section_text;
++      else
++	prefix = one_only ? ".t" : ".text";
+       break;
+     case SECCAT_RODATA:
+     case SECCAT_RODATA_MERGE_STR:
+     case SECCAT_RODATA_MERGE_STR_INIT:
+     case SECCAT_RODATA_MERGE_CONST:
+-      prefix = one_only ? ".r" : ".rodata";
++      if (decl->base.context_section_rodata)
++	prefix = decl->base.context_section_rodata;
++      else
++	prefix = one_only ? ".r" : ".rodata";
+       break;
+     case SECCAT_SRODATA:
+       prefix = one_only ? ".s2" : ".sdata2";
+       break;
+     case SECCAT_DATA:
+-      prefix = one_only ? ".d" : ".data";
++      if (decl->base.context_section_data)
++	prefix = decl->base.context_section_data;
++      else
++	prefix = one_only ? ".d" : ".data";
+       if (DECL_P (decl) && DECL_PERSISTENT_P (decl))
+ 	{
+ 	  prefix = one_only ? ".p" : ".persistent";
+@@ -7267,7 +7276,10 @@
+ 	  prefix = one_only ? ".n" : ".noinit";
+ 	  break;
+ 	}
+-      prefix = one_only ? ".b" : ".bss";
++      if (decl->base.context_section_bss)
++	prefix = decl->base.context_section_bss;
++      else
++	prefix = one_only ? ".b" : ".bss";
+       break;
+     case SECCAT_SBSS:
+       prefix = one_only ? ".sb" : ".sbss";

@@ -5,6 +5,9 @@
 #include <cmath>
 #include <optional>
 
+
+namespace ls {
+
 /**
  * @brief A class representing a 2-dimensional vector
  * The parameter T must be an arithmetic type (float, double, int, long, etc). Although it could be used with unsigned types, the class was not designed with that intend in mind.
@@ -25,13 +28,6 @@ public: // Constructori
     * Creates the object by translating the segment with said endpoints to origin.
     */
     Vector2(T x1, T y1, T x2, T y2) {
-        if (x1 < x2) {
-            this->x = x2 - x1;
-            this->y =   y2 - y1;
-        } else {
-            this->x = x1 - x2;
-            this->y = y1 - y2;
-        }
     }
 
     Vector2(const Vector2& other)
@@ -94,19 +90,17 @@ public: // Metode statice
     }
 
     static Vector2 Avg(const Vector2& lhs, const Vector2& rhs) {
-        return Vector2((lhs.x + rhs.x)/2, (lhs.y + rhs.y)/2);
+        return Vector2((lhs.x + rhs.x) / 2, (lhs.y + rhs.y) / 2);
     }
 
     static float AngleBetween(const Vector2& lhs, const Vector2& rhs) {
-        // A dot B = A.len * B.len * cos(alph)
-        // alph    = acos((A dot B) / (A.len*B.len))
-        // Optimizare -> pentru vectori normalizati normele sunt 1
-        auto dot = Vector2::Dot(lhs, rhs);
-        bool areNormalized = lhs.isNormalized() && rhs.isNormalized();
-        if (areNormalized) {
-            return std::acos(dot);
+        // Optimizare -> pentru vectori normalizati se simplifica niste norme
+        // A dot B = ||A|| * ||B|| * cos(alph)
+        // alph = acos((A dot B) / (||A|| * ||B||))
+        if (lhs.isNormalized() && rhs.isNormalized()) {
+            return std::acos(Vector2::Dot(lhs, rhs));
         } else {
-            return std::acos(dot / (lhs.len() * rhs.len()));
+            return std::acos(Vector2::Dot(lhs, rhs) / (lhs.len() * rhs.len()));
         }
     }
 
@@ -170,8 +164,8 @@ public: // Metode instanta
     }
 
     void avg(const Vector2& other) {
-        this->x = (this->x + other.y)/2;
-        this->y = (this->y + other.y)/2;
+        this->x = (this->x + other.x) / 2;
+        this->y = (this->y + other.y) / 2;
     }
 
 public: // Operatori
@@ -224,10 +218,11 @@ const Vector2<T> Vector2<T>::EAST(0, 1);
 
 template <typename T>
 const Vector2<T> Vector2<T>::WEST(0, -1);
-:wa
 
 template <typename T>
 const Vector2<T> Vector2<T>::NULLVECT(0, 0);
 
 using FVector2 = Vector2<float>;
 using DVector2 = Vector2<double>;
+
+}

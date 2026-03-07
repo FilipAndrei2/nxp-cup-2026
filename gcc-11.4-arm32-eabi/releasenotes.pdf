@@ -1,0 +1,2369 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R /F4 6 0 R /F5 10 0 R /F6 13 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://gcc.gnu.org/gcc-11/changes.html)
+>> /Border [ 0 0 0 ] /Rect [ 111.0329 346.6075 288.3429 358.6075 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html)
+>> /Border [ 0 0 0 ] /Rect [ 125.6929 257.3575 423.6029 269.3575 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/Annots [ 7 0 R 8 0 R ] /Contents 39 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.arm.com/docs/100863/latest)
+>> /Border [ 0 0 0 ] /Rect [ 133.8329 342.6236 191.3929 354.6236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/Annots [ 11 0 R ] /Contents 40 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 41 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.python.org/download/)
+>> /Border [ 0 0 0 ] /Rect [ 322.8129 263.8236 472.8829 275.8236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/Annots [ 15 0 R ] /Contents 42 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+17 0 obj
+<<
+/Contents 43 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 37 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+18 0 obj
+<<
+/Outlines 20 0 R /PageLabels 44 0 R /PageMode /UseNone /Pages 37 0 R /Type /Catalog
+>>
+endobj
+19 0 obj
+<<
+/Author () /CreationDate (D:20231025171407+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20231025171407+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (GNU Bare-Metal Targeted Tools for Arm 32-bit Embedded Processors) /Trapped /False
+>>
+endobj
+20 0 obj
+<<
+/Count 19 /First 21 0 R /Last 36 0 R /Type /Outlines
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 765.0236 0 ] /Next 22 0 R /Parent 20 0 R /Title (Release description)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 609.0236 0 ] /Next 23 0 R /Parent 20 0 R /Prev 21 0 R /Title (Version identification)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 415.6075 0 ] /Next 24 0 R /Parent 20 0 R /Prev 22 0 R /Title (About this Release)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 217.6075 0 ] /Next 25 0 R /Parent 20 0 R /Prev 23 0 R /Title (Using the GNU GCC Compiler System)
+>>
+endobj
+25 0 obj
+<<
+/Count 6 /Dest [ 9 0 R /XYZ 62.69291 184.6075 0 ] /First 26 0 R /Last 30 0 R /Next 32 0 R /Parent 20 0 R 
+  /Prev 24 0 R /Title (C Libraries usage)
+>>
+endobj
+26 0 obj
+<<
+/Count 3 /Dest [ 12 0 R /XYZ 62.69291 579.8236 0 ] /First 27 0 R /Last 29 0 R /Next 30 0 R /Parent 25 0 R 
+  /Title (Additional newlib-nano libraries usage)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 453.8236 0 ] /Next 28 0 R /Parent 26 0 R /Title (Semihosting)
+>>
+endobj
+28 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 375.6236 0 ] /Next 29 0 R /Parent 26 0 R /Prev 27 0 R /Title (Semihosting v2)
+>>
+endobj
+29 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 255.4236 0 ] /Parent 26 0 R /Prev 28 0 R /Title (Non-semihosting/retarget)
+>>
+endobj
+30 0 obj
+<<
+/Count 1 /Dest [ 14 0 R /XYZ 62.69291 765.0236 0 ] /First 31 0 R /Last 31 0 R /Parent 25 0 R /Prev 26 0 R 
+  /Title (Newlib hooks)
+>>
+endobj
+31 0 obj
+<<
+/Dest [ 14 0 R /XYZ 62.69291 735.0236 0 ] /Parent 30 0 R /Title (Stack pointer initialization)
+>>
+endobj
+32 0 obj
+<<
+/Dest [ 16 0 R /XYZ 62.69291 765.0236 0 ] /Next 33 0 R /Parent 20 0 R /Prev 25 0 R /Title (GCC Section Pragmas)
+>>
+endobj
+33 0 obj
+<<
+/Dest [ 16 0 R /XYZ 62.69291 458.8236 0 ] /Next 34 0 R /Parent 20 0 R /Prev 32 0 R /Title (Installing executables on Windows)
+>>
+endobj
+34 0 obj
+<<
+/Dest [ 16 0 R /XYZ 62.69291 383.8236 0 ] /Next 35 0 R /Parent 20 0 R /Prev 33 0 R /Title (Installing executables on Linux)
+>>
+endobj
+35 0 obj
+<<
+/Dest [ 16 0 R /XYZ 62.69291 332.8236 0 ] /Next 36 0 R /Parent 20 0 R /Prev 34 0 R /Title (GDB with Python)
+>>
+endobj
+36 0 obj
+<<
+/Dest [ 17 0 R /XYZ 62.69291 765.0236 0 ] /Parent 20 0 R /Prev 35 0 R /Title (Release history)
+>>
+endobj
+37 0 obj
+<<
+/Count 6 /Kids [ 4 0 R 9 0 R 12 0 R 14 0 R 16 0 R 17 0 R ] /Type /Pages
+>>
+endobj
+38 0 obj
+<<
+/Length 581
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 20 Tf 24 TL 16.02488 0 Td (GNU Bare-Metal Targeted Tools for Arm 32-bit) Tj T* 110.55 0 Td (Embedded Processors) Tj T* -126.5749 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 77.81988 0 Td (NXP GCC for Arm Release: 25-October-2023) Tj T* -77.81988 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 677.0236 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+39 0 obj
+<<
+/Length 7255
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Release description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 726.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Current release is based on:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 62 Tm  T* ET
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (gcc 11.4.0) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (binutils 2.38) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (newlib 3.3.0) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (gdb 9.2.0) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .445366 Tw 12 TL /F1 10 Tf 0 0 0 rg (This distribution provides support for newlib and newlib-nano. Further details about the components used) Tj T* 0 Tw (in this software build can be found here: <) Tj (installation_directory) Tj (>) Tj (/patches_applied/NXP_SOURCES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Version identification) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .729318 Tw 12 TL /F1 10 Tf 0 0 0 rg (The version information \(emitted via ) Tj /F3 10 Tf (--version) Tj /F1 10 Tf ( or ) Tj /F3 10 Tf (-v) Tj /F1 10 Tf (\) output format has changed to precisely define a) Tj T* 0 Tw .721318 Tw (build ) Tj /F2 10 Tf (BLD) Tj /F1 10 Tf ( identifier as an integer value whose value will always increase with each subsequent release.) Tj T* 0 Tw (Example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 490.5717 cm
+q
+q
+.96447 0 0 .96447 0 0 cm
+q
+1 0 0 1 6.6 6.843137 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 486 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 474 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 432 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( ./arm-none-eabi-gcc --version) Tj T* .501961 .501961 .501961 rg (arm-none-eabi-gcc \(BLD = 1763\) 11.4.0 20230528 \(build.sh rev=gf703eb2 s=F1140 \\) Tj T* (-i /opt/freescale Earmv7nTGCC -V release_gf703eb2_build_Fed_Earmv7nTGCC\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 427.6075 cm
+q
+q
+.898107 0 0 .898107 0 0 cm
+q
+1 0 0 1 6.6 7.348787 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 522 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 0 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 360 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 510 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( arm-none-eabi-gcc -v) Tj T* .501961 .501961 .501961 rg (<) Tj (snip) Tj (>) Tj  T* (gcc version 11.4.0 20230528 \(build.sh rev=gf703eb2 s=F1140 \\) Tj T* (-i /opt/freescale Earmv7nTGCC -V release_gf703eb2_build_Fed_Earmv7nTGCC\) \(BLD = 1763\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 394.6075 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (About this Release) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 376.6075 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This is GCC 11.4 for ARM Linux and embedded \(eabi\) target processors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 346.6075 cm
+q
+BT 1 0 0 1 0 14 Tm .129988 Tw 12 TL /F1 10 Tf 0 0 0 rg (Please refer to the GNU GCC website for details about the changes present in the GCC 11 series of ARM) Tj T* 0 Tw (compilers. ) Tj 0 0 .501961 rg (https://gcc.gnu.org/gcc-11/changes.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 328.6075 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The major highlights as it pertains to NXP processors is as follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 322.6075 cm
+Q
+q
+1 0 0 1 62.69291 229.6075 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 87 cm
+Q
+q
+1 0 0 1 20 87 cm
+Q
+q
+1 0 0 1 20 75 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The ARM Cortex-A78 family of processors is now supported.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 69 cm
+Q
+q
+1 0 0 1 20 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL (The potential security hazard as described by CVS-2023-4039 has been mitigated in this) Tj T* (release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 .501961 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 24 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.499213 Tw (We provide two EABI builds, one with multi-threaded newlib enablement and one with single) Tj T* 0 Tw (thread newlib enablement. This supports Zephyr OS multi-threaded requirements.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 229.6075 cm
+Q
+q
+1 0 0 1 62.69291 196.6075 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Using the GNU GCC Compiler System) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 163.6075 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (C Libraries usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 133.6075 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .106098 Tw (This toolchain is released with two prebuilt C libraries based on newlib: one is the standard newlib and the) Tj T* 0 Tw (other is newlib-nano for code size. To distinguish them, we rename the size optimized libraries as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 127.6075 cm
+Q
+q
+1 0 0 1 62.69291 97.60753 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 18 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (libc.a --) Tj (> libc_nano.a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (libg.a --) Tj (> libg_nano.a) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 97.60753 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+40 0 obj
+<<
+/Length 7201
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (To use newlib-nano, users should provide additional gcc link time option:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 738.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (--specs=nano.specs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .543615 Tw 12 TL /F1 10 Tf 0 0 0 rg (Nano.specs also handles two additional gcc libraries: ) Tj /F3 10 Tf (libstdc++_s.a) Tj /F1 10 Tf ( and ) Tj /F3 10 Tf (libsupc++_s.a) Tj /F1 10 Tf (, which are) Tj T* 0 Tw (optimized for code size.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 78 12 re f*
+.960784 .960784 .862745 rg
+n 360 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( arm-none-eabi-gcc src.c --specs) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nano.specs ) Tj /F4 10 Tf .733333 .4 .533333 rg (${) Tj /F3 10 Tf .098039 .090196 .486275 rg (OTHER_OPTIONS) Tj /F4 10 Tf .733333 .4 .533333 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 636.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (This option can also work together with other specs options like) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (--specs=rdimon.specs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 591.8236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.399985 Tw 12 TL /F1 10 Tf 0 0 0 rg (Please note that ) Tj /F3 10 Tf (--specs=nano.specs) Tj /F1 10 Tf ( is a linker option. Be sure to include it in linker options if) Tj T* 0 Tw (compiling and linking separately.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Additional newlib-nano libraries usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.890751 Tw (Newlib-nano is different from newlib in addition to the libraries' name. Formatted input/output of) Tj T* 0 Tw 1.309431 Tw (floating-point number are implemented as weak symbol. If you want to use %f, you have to pull in the) Tj T* 0 Tw (symbol by explicitly specifying "-u" command option.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.8236 cm
+Q
+q
+1 0 0 1 62.69291 483.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 18 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (-u) Tj ( ) Tj (_scanf_float) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (-u) Tj ( ) Tj (_printf_float) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 483.8236 cm
+Q
+q
+1 0 0 1 62.69291 465.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Users can choose to use or not use semihosting by following instructions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 438.8236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Semihosting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 420.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If you need semihosting, linking like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 258 0 108 12 re f*
+.960784 .960784 .862745 rg
+n 366 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( arm-none-eabi-gcc --specs) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (rdimon.specs ) Tj /F4 10 Tf .733333 .4 .533333 rg (${) Tj /F3 10 Tf .098039 .090196 .486275 rg (OTHER_LINK_OPTIONS) Tj /F4 10 Tf .733333 .4 .533333 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 360.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Semihosting v2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 318.6236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.26998 Tw 12 TL /F1 10 Tf 0 0 0 rg (Semihosting v2 ) Tj 0 0 .501961 rg (specification) Tj 0 0 0 rg ( introduces new extensions and the HLT encodings. Where possible, have) Tj T* 0 Tw 1.303059 Tw (semihosting callers continue to use the previously existing trap instructions to ensure compatibility with) Tj T* 0 Tw (legacy semihosting implementations. Thus requires mixed implementation of libraries and specs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To use new v2 specs, linking like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 108 12 re f*
+.960784 .960784 .862745 rg
+n 390 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( arm-none-eabi-gcc --specs) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (rdimon-v2m.specs ) Tj /F4 10 Tf .733333 .4 .533333 rg (${) Tj /F3 10 Tf .098039 .090196 .486275 rg (OTHER_LINK_OPTIONS) Tj /F4 10 Tf .733333 .4 .533333 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 240.4236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Non-semihosting/retarget) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 222.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If you are using retarget, linking like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 0 108 12 re f*
+.960784 .960784 .862745 rg
+n 360 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 .501961 rg ($) Tj /F3 10 Tf 0 0 0 rg ( arm-none-eabi-gcc --specs) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nosys.specs ) Tj /F4 10 Tf .733333 .4 .533333 rg (${) Tj /F3 10 Tf .098039 .090196 .486275 rg (OTHER_LINK_OPTIONS) Tj /F4 10 Tf .733333 .4 .533333 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 157.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .53784 Tw (User must provide its own IO subroutines \(like _write, _read etc.\) implementation otherwise warnings will) Tj T* 0 Tw (appear on link stage:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 151.2236 cm
+Q
+q
+1 0 0 1 62.69291 139.2236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (undefined) Tj ( ) Tj (reference) Tj ( ) Tj (to) Tj ( ) Tj (`_write') Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 139.2236 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+41 0 obj
+<<
+/Length 30405
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Newlib hooks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Stack pointer initialization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Original newlib stack pointer initialization has several drawbacks:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (There is no SP intialization for Cortex-R profile cores) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (No SP initialization for different CPU modes \(e.g. FIQ, ABT etc\) in Thumb state) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 660.0236 cm
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Different SP and SL initialization for semihosting case) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 642.0236 cm
+Q
+q
+1 0 0 1 62.69291 630.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Hardwired SP and SL values) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 630.0236 cm
+Q
+q
+1 0 0 1 62.69291 600.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .757318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Therefore, existing Arm crt0 code were refactored and SP and SL initialization was moved into separate) Tj T* 0 Tw /F6 10 Tf (_stack_init) Tj /F1 10 Tf ( hook. Short description of this hook is below:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.2009 cm
+q
+q
+.988825 0 0 .988825 0 0 cm
+q
+1 0 0 1 6.6 6.674587 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 474 480 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 456 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 456 24 12 re f*
+.960784 .960784 .862745 rg
+n 60 456 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 456 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 456 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 456 42 12 re f*
+.960784 .960784 .862745 rg
+n 234 456 30 12 re f*
+.960784 .960784 .862745 rg
+n 270 456 42 12 re f*
+.960784 .960784 .862745 rg
+n 318 456 36 12 re f*
+.960784 .960784 .862745 rg
+n 360 456 48 12 re f*
+.960784 .960784 .862745 rg
+n 414 456 30 12 re f*
+.960784 .960784 .862745 rg
+n 12 444 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 444 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 444 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 444 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 444 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 444 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 444 84 12 re f*
+.960784 .960784 .862745 rg
+n 282 444 18 12 re f*
+.960784 .960784 .862745 rg
+n 306 444 54 12 re f*
+.960784 .960784 .862745 rg
+n 366 444 54 12 re f*
+.960784 .960784 .862745 rg
+n 426 444 30 12 re f*
+.960784 .960784 .862745 rg
+n 456 444 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 432 36 12 re f*
+.960784 .960784 .862745 rg
+n 144 432 18 12 re f*
+.960784 .960784 .862745 rg
+n 162 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 432 30 12 re f*
+.960784 .960784 .862745 rg
+n 204 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 432 18 12 re f*
+.960784 .960784 .862745 rg
+n 234 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 432 54 12 re f*
+.960784 .960784 .862745 rg
+n 300 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 432 60 12 re f*
+.960784 .960784 .862745 rg
+n 372 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 384 432 36 12 re f*
+.960784 .960784 .862745 rg
+n 426 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 432 432 24 12 re f*
+.960784 .960784 .862745 rg
+n 456 432 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 420 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 420 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 420 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 420 18 12 re f*
+.960784 .960784 .862745 rg
+n 168 420 36 12 re f*
+.960784 .960784 .862745 rg
+n 210 420 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 420 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 420 30 12 re f*
+.960784 .960784 .862745 rg
+n 306 420 30 12 re f*
+.960784 .960784 .862745 rg
+n 342 420 12 12 re f*
+.960784 .960784 .862745 rg
+n 354 420 6 12 re f*
+.960784 .960784 .862745 rg
+n 360 420 24 12 re f*
+.960784 .960784 .862745 rg
+n 390 420 18 12 re f*
+.960784 .960784 .862745 rg
+n 414 420 24 12 re f*
+.960784 .960784 .862745 rg
+n 444 420 18 12 re f*
+.960784 .960784 .862745 rg
+n 12 408 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 408 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 408 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 408 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 408 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 408 24 12 re f*
+.960784 .960784 .862745 rg
+n 174 408 48 12 re f*
+.960784 .960784 .862745 rg
+n 228 408 24 12 re f*
+.960784 .960784 .862745 rg
+n 258 408 120 12 re f*
+.960784 .960784 .862745 rg
+n 384 408 18 12 re f*
+.960784 .960784 .862745 rg
+n 408 408 18 12 re f*
+.960784 .960784 .862745 rg
+n 432 408 18 12 re f*
+.960784 .960784 .862745 rg
+n 12 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 396 36 12 re f*
+.960784 .960784 .862745 rg
+n 186 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 396 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 396 30 12 re f*
+.960784 .960784 .862745 rg
+n 258 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 384 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 384 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 372 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 372 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 372 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 372 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 372 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 372 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 360 42 12 re f*
+.960784 .960784 .862745 rg
+n 108 360 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 360 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 360 36 12 re f*
+.960784 .960784 .862745 rg
+n 234 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 360 30 12 re f*
+.960784 .960784 .862745 rg
+n 288 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 360 18 12 re f*
+.960784 .960784 .862745 rg
+n 330 360 30 12 re f*
+.960784 .960784 .862745 rg
+n 360 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 360 30 12 re f*
+.960784 .960784 .862745 rg
+n 408 360 30 12 re f*
+.960784 .960784 .862745 rg
+n 444 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 60 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 84 348 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 348 54 12 re f*
+.960784 .960784 .862745 rg
+n 210 348 12 12 re f*
+.960784 .960784 .862745 rg
+n 228 348 42 12 re f*
+.960784 .960784 .862745 rg
+n 276 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 300 348 48 12 re f*
+.960784 .960784 .862745 rg
+n 354 348 24 12 re f*
+.960784 .960784 .862745 rg
+n 384 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 408 348 24 12 re f*
+.960784 .960784 .862745 rg
+n 438 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 150 336 30 12 re f*
+.960784 .960784 .862745 rg
+n 186 336 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 336 18 12 re f*
+.960784 .960784 .862745 rg
+n 240 336 48 12 re f*
+.960784 .960784 .862745 rg
+n 288 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 336 12 12 re f*
+.960784 .960784 .862745 rg
+n 318 336 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 336 24 12 re f*
+.960784 .960784 .862745 rg
+n 378 336 42 12 re f*
+.960784 .960784 .862745 rg
+n 426 336 12 12 re f*
+.960784 .960784 .862745 rg
+n 438 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 450 336 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 324 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 324 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 324 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 324 36 12 re f*
+.960784 .960784 .862745 rg
+n 210 324 18 12 re f*
+.960784 .960784 .862745 rg
+n 234 324 18 12 re f*
+.960784 .960784 .862745 rg
+n 258 324 42 12 re f*
+.960784 .960784 .862745 rg
+n 306 324 30 12 re f*
+.960784 .960784 .862745 rg
+n 342 324 48 12 re f*
+.960784 .960784 .862745 rg
+n 390 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 324 42 12 re f*
+.960784 .960784 .862745 rg
+n 444 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 312 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 216 312 24 12 re f*
+.960784 .960784 .862745 rg
+n 246 312 24 12 re f*
+.960784 .960784 .862745 rg
+n 276 312 36 12 re f*
+.960784 .960784 .862745 rg
+n 318 312 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 312 30 12 re f*
+.960784 .960784 .862745 rg
+n 384 312 24 12 re f*
+.960784 .960784 .862745 rg
+n 414 312 18 12 re f*
+.960784 .960784 .862745 rg
+n 12 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 300 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 300 66 12 re f*
+.960784 .960784 .862745 rg
+n 222 300 30 12 re f*
+.960784 .960784 .862745 rg
+n 258 300 12 12 re f*
+.960784 .960784 .862745 rg
+n 276 300 48 12 re f*
+.960784 .960784 .862745 rg
+n 330 300 30 12 re f*
+.960784 .960784 .862745 rg
+n 360 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 288 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 276 42 12 re f*
+.960784 .960784 .862745 rg
+n 162 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 180 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 276 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 270 276 54 12 re f*
+.960784 .960784 .862745 rg
+n 330 276 30 12 re f*
+.960784 .960784 .862745 rg
+n 366 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 390 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 414 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 432 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 12 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 264 18 12 re f*
+.960784 .960784 .862745 rg
+n 174 264 24 12 re f*
+.960784 .960784 .862745 rg
+n 204 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 264 24 12 re f*
+.960784 .960784 .862745 rg
+n 246 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 252 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 252 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 240 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 240 24 12 re f*
+.960784 .960784 .862745 rg
+n 174 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 228 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 234 228 18 12 re f*
+.960784 .960784 .862745 rg
+n 258 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 288 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 228 18 12 re f*
+.960784 .960784 .862745 rg
+n 330 228 42 12 re f*
+.960784 .960784 .862745 rg
+n 378 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 408 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 12 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 216 18 12 re f*
+.960784 .960784 .862745 rg
+n 180 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 216 60 12 re f*
+.960784 .960784 .862745 rg
+n 252 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 276 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 354 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 384 216 18 12 re f*
+.960784 .960784 .862745 rg
+n 408 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 426 216 30 12 re f*
+.960784 .960784 .862745 rg
+n 12 204 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 204 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 246 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 264 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 288 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 336 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 366 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 396 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 12 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 192 60 12 re f*
+.960784 .960784 .862745 rg
+n 228 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 246 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 294 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 312 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 342 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 366 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 180 36 12 re f*
+.960784 .960784 .862745 rg
+n 12 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 168 30 12 re f*
+.960784 .960784 .862745 rg
+n 186 168 60 12 re f*
+.960784 .960784 .862745 rg
+n 246 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 156 36 12 re f*
+.960784 .960784 .862745 rg
+n 156 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 156 66 12 re f*
+.960784 .960784 .862745 rg
+n 270 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 144 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 288 144 30 12 re f*
+.960784 .960784 .862745 rg
+n 324 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 354 144 66 12 re f*
+.960784 .960784 .862745 rg
+n 0 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 132 72 12 re f*
+.960784 .960784 .862745 rg
+n 276 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 120 54 12 re f*
+.960784 .960784 .862745 rg
+n 252 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 156 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 108 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 108 30 12 re f*
+.960784 .960784 .862745 rg
+n 258 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 276 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 96 72 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 30 12 re f*
+.960784 .960784 .862745 rg
+n 312 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 336 96 60 12 re f*
+.960784 .960784 .862745 rg
+n 402 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 426 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 156 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 84 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 240 84 30 12 re f*
+.960784 .960784 .862745 rg
+n 0 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 222 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 276 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 72 30 12 re f*
+.960784 .960784 .862745 rg
+n 354 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 360 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 48 48 12 re f*
+.960784 .960784 .862745 rg
+n 216 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 234 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 276 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 294 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 324 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 354 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 378 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 414 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 438 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 174 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 198 36 84 12 re f*
+.960784 .960784 .862745 rg
+n 288 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 354 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 384 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 390 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 420 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 12 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 36 12 re f*
+BT 1 0 0 1 0 458 Tm 12 TL /F3 10 Tf 0 0 0 rg (User) Tj ( ) Tj (mode) Tj ( ) Tj .627451 .627451 0 rg (only) Tj 0 0 0 rg (:) Tj (           ) Tj (This) Tj ( ) Tj (routine) Tj ( ) Tj (makes) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (default) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (target) Tj ( ) Tj (specific) Tj ( ) Tj (Stack) Tj  T* (  ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SL_sys) Tj (,) Tj (    ) Tj (Pointer) Tj ( ) Tj (initialization) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (different) Tj ( ) Tj (processor) Tj ( ) Tj .627451 .627451 0 rg (modes) Tj 0 0 0 rg (:) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (    ) Tj (SL_usr) Tj (     ) Tj (FIQ) Tj (,) Tj ( ) Tj (Abort) Tj (,) Tj ( ) Tj (IRQ) Tj (,) Tj ( ) Tj (Undefined) Tj (,) Tj ( ) Tj (Supervisor) Tj (,) Tj ( ) Tj (System) Tj ( ) Tj (\() Tj (User) Tj (\)) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (SYS) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (               ) Tj (and) Tj ( ) Tj (setups) Tj ( ) Tj (a) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (default) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (Stack) Tj ( ) Tj (Limit) Tj ( ) Tj (in) Tj .4 .4 .4 rg (-) Tj /F4 10 Tf 0 .501961 0 rg (case) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (the) Tj ( ) Tj (code) Tj ( ) Tj (has) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (USR) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj (0x10000) Tj 0 0 0 rg (     ) Tj (been) Tj ( ) Tj (compiled) Tj ( ) Tj (with) Tj ( ) Tj .729412 .129412 .129412 rg ("-mapcs-stack-check") Tj 0 0 0 rg ( ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (FIQ) Tj ( ) Tj (and) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (               ) Tj (System) Tj ( ) Tj (\() Tj (User) Tj (\)) Tj ( ) Tj (modes) Tj (.) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (initial) Tj ( ) Tj (SP) Tj (,) Tj  T* (          ) Tj (becomes) Tj ( ) Tj (SP_sys) Tj (   ) Tj (Hard) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg (wiring) Tj ( ) Tj (SL) Tj ( ) Tj (value) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (ideal) Tj (,) Tj ( ) Tj (since) Tj ( ) Tj (there) Tj ( ) Tj (is) Tj  T* (          ) Tj (and) Tj ( ) Tj (SL_usr) Tj (     ) Tj (currently) Tj ( ) Tj (no) Tj ( ) Tj (support) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (checking) Tj ( ) Tj (that) Tj ( ) Tj (the) Tj ( ) Tj (heap) Tj ( ) Tj (and) Tj  T* (                         ) Tj (stack) Tj ( ) Tj (have) Tj ( ) Tj (not) Tj ( ) Tj (collided) Tj (,) Tj ( ) Tj (or) Tj ( ) Tj (that) Tj ( ) Tj (this) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (default) Tj /F3 10 Tf 0 0 0 rg ( ) Tj .4 .4 .4 rg (64) Tj 0 0 0 rg (k) Tj ( ) Tj (is) Tj  T* (All) Tj ( ) Tj .627451 .627451 0 rg (modes) Tj 0 0 0 rg (:) Tj (               ) Tj (is) Tj ( ) Tj (enough) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (the) Tj ( ) Tj (program) Tj ( ) Tj (being) Tj ( ) Tj (executed) Tj (.) Tj ( ) Tj (However) Tj (,) Tj  T* (  ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SL_sys) Tj (,) Tj (     ) Tj (it) Tj ( ) Tj (ensures) Tj ( ) Tj (that) Tj ( ) Tj (this) Tj ( ) Tj (simple) Tj ( ) Tj (crt0) Tj ( ) Tj (world) Tj ( ) Tj (will) Tj ( ) Tj (not) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (    ) Tj (SL_usr) Tj (      ) Tj (immediately) Tj ( ) Tj (cause) Tj ( ) Tj (an) Tj ( ) Tj (overflow) Tj ( ) Tj (event) Tj (.) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (SYS) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (USR) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj (0x10000) Tj 0 0 0 rg (        ) Tj (We) Tj ( ) Tj (go) Tj ( ) Tj (through) Tj ( ) Tj (all) Tj ( ) Tj (execution) Tj ( ) Tj (modes) Tj ( ) Tj (and) Tj ( ) Tj (set) Tj ( ) Tj (up) Tj ( ) Tj (SP) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (each) Tj ( ) Tj (of) Tj ( ) Tj (them) Tj (.) Tj  T* (  ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SP_sys) Tj (,) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (    ) Tj (SP_usr) Tj (      ) Tj .627451 .627451 0 rg (Note) Tj 0 0 0 rg (:) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (SVC) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0x8000) Tj 0 0 0 rg (        ) Tj (Mode) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (switch) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (via) Tj ( ) Tj (CPSR) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (allowed) Tj ( ) Tj (once) Tj ( ) Tj (in) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                  ) Tj (non) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg (privileged) Tj ( ) Tj (mode) Tj (,) Tj ( ) Tj (so) Tj ( ) Tj (we) Tj ( ) Tj (take) Tj ( ) Tj (care) Tj ( ) Tj (not) Tj ( ) Tj (to) Tj ( ) Tj (enter) Tj  T* (  ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SP_svc) Tj (        ) Tj .729412 .129412 .129412 rg ("User") Tj 0 0 0 rg ( ) Tj (to) Tj ( ) Tj (set) Tj ( ) Tj (up) Tj ( ) Tj (its) Tj ( ) Tj (sp) Tj (,) Tj ( ) Tj (and) Tj ( ) Tj (also) Tj ( ) Tj (skip) Tj ( ) Tj (most) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                  ) Tj (operations) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (already) Tj ( ) Tj (in) Tj ( ) Tj (that) Tj ( ) Tj (mode) Tj (.) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (IRQ) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0x2000) Tj 0 0 0 rg  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                ) Tj (Input) Tj ( ) Tj .627451 .627451 0 rg (parameters) Tj 0 0 0 rg (:) Tj  T* .4 .4 .4 rg (^) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SP_und) Tj (       ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (sp) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (Initialized) Tj ( ) Tj (SP) Tj  T* (s) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                 ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (r2) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (May) Tj ( ) Tj (contain) Tj ( ) Tj (SL) Tj ( ) Tj (value) Tj ( ) Tj (from) Tj ( ) Tj (semihosting) Tj  T* (t) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (UND) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0x1000) Tj 0 0 0 rg (              ) Tj (SYS_HEAPINFO) Tj ( ) Tj (call) Tj  T* (a) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                ) Tj (Scratch) Tj ( ) Tj .627451 .627451 0 rg (registers) Tj 0 0 0 rg (:) Tj  T* (c) Tj ( ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SP_und) Tj (       ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (r1) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (new) Tj ( ) Tj (value) Tj ( ) Tj (of) Tj ( ) Tj (CPSR) Tj  T* (k) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                 ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (r2) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (intermediate) Tj ( ) Tj (value) Tj ( ) Tj (\() Tj (in) Tj ( ) Tj (standalone) Tj ( ) Tj (mode) Tj (\)) Tj  T* (  ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (ABT) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0x1000) Tj 0 0 0 rg (       ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (r3) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (new) Tj ( ) Tj (SP) Tj ( ) Tj (value) Tj  T* (g) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (                 ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (r4) Tj ( ) Tj .4 .4 .4 rg (-) Tj 0 0 0 rg ( ) Tj (save) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (restore) Tj ( ) Tj (CPSR) Tj ( ) Tj (on) Tj ( ) Tj (entry) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (exit) Tj  T* (r) Tj ( ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (SP_abt) Tj (,) Tj  T* (o) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (    ) Tj (SL_fiq) Tj (        ) Tj (Declared) Tj ( ) Tj (as) Tj ( ) Tj .729412 .129412 .129412 rg ("weak") Tj 0 0 0 rg ( ) Tj (so) Tj ( ) Tj (that) Tj ( ) Tj (user) Tj ( ) Tj (can) Tj ( ) Tj (write) Tj ( ) Tj (and) Tj ( ) Tj (use) Tj  T* (w) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj (FIQ) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (-=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0x1000) Tj 0 0 0 rg (      ) Tj (his) Tj ( ) Tj (own) Tj ( ) Tj (implementation) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (current) Tj ( ) Tj (doesn) Tj (') Tj (t) Tj ( ) Tj (fit) Tj (.) Tj  T* (t) Tj ( ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg (     ) Tj .4 .4 .4 rg (|) Tj 0 0 0 rg  T* (h) Tj ( ) Tj .4 .4 .4 rg (+-----+) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (<) Tj (-) Tj 0 0 0 rg ( ) Tj (initial) Tj ( ) Tj (SP) Tj (,) Tj  T* (          ) Tj (becomes) Tj ( ) Tj (SP_fiq) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+42 0 obj
+<<
+/Length 5876
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (GCC Section Pragmas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 726.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (GCC supports ) Tj /F3 10 Tf (#pragma) Tj ( ) Tj (GCC) Tj ( ) Tj (section) Tj ( ) Tj (\(text|data|bss|rodata\)) Tj ( ) Tj (".name") Tj /F1 10 Tf ( pragma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This pragma allows to redefine standard sections by user defined section) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (#pragma) Tj ( ) Tj (GCC) Tj ( ) Tj (section) Tj ( ) Tj (\(text|data|bss|rodata\)) Tj ( ) Tj (".name") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This pragma restores standard section) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (#pragma) Tj ( ) Tj (GCC) Tj ( ) Tj (section) Tj ( ) Tj (\(text|data|bss|rodata\)) Tj ( ) Tj ("default") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+Q
+q
+1 0 0 1 62.69291 636.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Fore example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 470.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 156 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 132 198 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 210 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 234 12 re f*
+.960784 .960784 .862745 rg
+n 0 96 210 12 re f*
+.960784 .960784 .862745 rg
+n 0 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 60 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 66 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 144 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 198 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 204 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 216 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 204 12 re f*
+BT 1 0 0 1 0 134 Tm 12 TL /F3 10 Tf .737255 .478431 0 rg (#pragma GCC section bss ".foobss") Tj T* (#pragma GCC section data ".foodata") Tj T* (#pragma GCC section rodata ".foorodata") Tj T* (#pragma GCC section text ".footext") Tj T* .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj (c1) Tj (;) Tj  T* .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj (c2) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg (;) Tj  T* /F4 10 Tf 0 .501961 0 rg (const) Tj /F3 10 Tf 0 0 0 rg ( ) Tj .690196 0 .25098 rg (char) Tj 0 0 0 rg ( ) Tj (c3) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (;) Tj  T* .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj 0 0 1 rg (f1) Tj 0 0 0 rg ( ) Tj (\() Tj .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj (x) Tj (\)) Tj ( ) Tj ({) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (x) Tj (;) Tj ( ) Tj (}) Tj  T* .737255 .478431 0 rg (#pragma GCC section bss "default") Tj T* (#pragma GCC section data "default") Tj T* (#pragma GCC section rodata "default") Tj T* (#pragma GCC section text "default") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 437.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Installing executables on Windows) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 395.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .530814 Tw (Some executables built by MinGW requires additional libraries. Thus to support out-of-the-box execution,) Tj T* 0 Tw 2.043555 Tw (libwinpthread.dll comes with toolchain. This library can be moved in appropitate place if host system) Tj T* 0 Tw (requires. Or MinGW package can be installed to get executables working.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 362.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Installing executables on Linux) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 344.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This release contains only 64-bit Linux executables. 32-bit Linux hosts are no longer supported.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 311.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (GDB with Python) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 293.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Windows) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 263.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .310651 Tw 12 TL /F1 10 Tf 0 0 0 rg (To use gdb python build \(arm-none-eabi-gdb-py.exe\) on Windows, you need to install 32 bit python2.7 no) Tj T* 0 Tw (matter 32 or 64 bit Windows. Please get the package from ) Tj 0 0 .501961 rg (https://www.python.org/download/) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 263.8236 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+43 0 obj
+<<
+/Length 2311
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Release history) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 732.0236 cm
+Q
+q
+1 0 0 1 62.69291 558.0236 cm
+1 1 1 rg
+n 0 174 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 156 469.8898 -30 re f*
+1 1 1 rg
+n 0 126 469.8898 -42 re f*
+.878431 .878431 .878431 rg
+n 0 84 469.8898 -42 re f*
+1 1 1 rg
+n 0 42 469.8898 -42 re f*
+.960784 .960784 .862745 rg
+n 0 174 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 159 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 100.7735 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 39.82677 0 Td (Date) Tj T* -39.82677 0 Td ET
+Q
+Q
+q
+1 0 0 1 118.7735 159 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 345.1162 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 147.5531 0 Td (Description) Tj T* -147.5531 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (7-June-2021 bld=1706) Tj T* (rev=gd25dbc2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 118.7735 141 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GCC 10.2 Release) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (23-July-2021) Tj T* (bld=1725) Tj T* (rev=g8a8a426) Tj T* ET
+Q
+Q
+q
+1 0 0 1 118.7735 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Fix section pragma to work with static variables) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (10-September-2021) Tj T* (bld=1728) Tj T* (rev=g5963bc8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 118.7735 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Dependency on linux host GLIBC_2.27 library is removed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (25-October-2023) Tj T* (bld=1763) Tj T* (rev=gf703eb2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 118.7735 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GCC 11.4 Release) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 156 m 469.8898 156 l S
+n 0 126 m 469.8898 126 l S
+n 0 84 m 469.8898 84 l S
+n 0 42 m 469.8898 42 l S
+n 112.7735 0 m 112.7735 174 l S
+n 0 174 m 469.8898 174 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 174 l S
+n 469.8898 0 m 469.8898 174 l S
+Q
+Q
+q
+1 0 0 1 62.69291 558.0236 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 195.3699 0 Td 12 TL /F1 10 Tf 0 0 0 rg (Copyright 2023 NXP) Tj T* -195.3699 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+44 0 obj
+<<
+/Nums [ 0 45 0 R 1 46 0 R 2 47 0 R 3 48 0 R 4 49 0 R 
+  5 50 0 R ]
+>>
+endobj
+45 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+46 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+47 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+48 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+49 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+50 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+xref
+0 51
+0000000000 65535 f 
+0000000073 00000 n 
+0000000156 00000 n 
+0000000263 00000 n 
+0000000375 00000 n 
+0000000580 00000 n 
+0000000685 00000 n 
+0000000795 00000 n 
+0000000986 00000 n 
+0000001204 00000 n 
+0000001433 00000 n 
+0000001553 00000 n 
+0000001750 00000 n 
+0000001975 00000 n 
+0000002091 00000 n 
+0000002297 00000 n 
+0000002482 00000 n 
+0000002707 00000 n 
+0000002913 00000 n 
+0000003019 00000 n 
+0000003341 00000 n 
+0000003416 00000 n 
+0000003536 00000 n 
+0000003672 00000 n 
+0000003804 00000 n 
+0000003951 00000 n 
+0000004121 00000 n 
+0000004300 00000 n 
+0000004413 00000 n 
+0000004542 00000 n 
+0000004668 00000 n 
+0000004821 00000 n 
+0000004938 00000 n 
+0000005072 00000 n 
+0000005220 00000 n 
+0000005366 00000 n 
+0000005496 00000 n 
+0000005613 00000 n 
+0000005707 00000 n 
+0000006339 00000 n 
+0000013646 00000 n 
+0000020899 00000 n 
+0000051357 00000 n 
+0000057285 00000 n 
+0000059648 00000 n 
+0000059737 00000 n 
+0000059771 00000 n 
+0000059805 00000 n 
+0000059839 00000 n 
+0000059873 00000 n 
+0000059907 00000 n 
+trailer
+<<
+/ID 
+[<f9503729c23026fd89c91fcc213343a8><f9503729c23026fd89c91fcc213343a8>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 19 0 R
+/Root 18 0 R
+/Size 51
+>>
+startxref
+59941
+%%EOF
