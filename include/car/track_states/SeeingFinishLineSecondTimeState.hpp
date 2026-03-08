@@ -14,6 +14,7 @@ class SeeingFinishLineSecondTimeState
 
 public:
   virtual const ls::DrivingCommandDTO
-  computeCommand(const SensorDataDTO &sensorData) override;
+  computeCommand(const ls::SensorDataDTO &sensorData,
+                 ATrackStateContext &ctx) override;
 };
 } // namespace ls

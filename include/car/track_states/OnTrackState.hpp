@@ -11,6 +11,7 @@ class OnTrackState : public Singleton<OnTrackState>, public ITrackState {
 
 public:
   virtual const ls::DrivingCommandDTO
-  computeCommand(const SensorDataDTO &sensorData) override;
+  computeCommand(const ls::SensorDataDTO &sensorData,
+                 ATrackStateContext &ctx) override;
 };
 } // namespace ls
