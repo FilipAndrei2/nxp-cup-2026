@@ -1,0 +1,3 @@
+-Iinclude
+-Ilibs/math/include
+-std=c++20

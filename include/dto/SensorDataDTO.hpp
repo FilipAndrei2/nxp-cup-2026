@@ -7,8 +7,8 @@
 
 namespace ls {
 
-    struct SensorDataDTO {
-        std::unique_ptr<std:vector<ls::Vector2<float>>> vectors;
-        ls::proximity_t cubeProximity;
-    };
-}
+struct SensorDataDTO {
+  const std::vector<ls::FVector2> &vectors;
+  const ls::proximity_t cubeProximity;
+};
+} // namespace ls

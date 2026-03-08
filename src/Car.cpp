@@ -1,30 +1,42 @@
-#include "lifesource.hpp"
 #include "car/Car.hpp"
+#include "lifesource.hpp"
+
+#include <memory>
 
 namespace ls {
-    Car::Car(std::unique_ptr<IPixyCam> pixyCam, 
-                std::unique_ptr<IServo> servo, 
-                std::unique_ptr<ISpeedController> speedController, 
-                std::unique_ptr<IUltrasoundSensor> ultrasoundSensor,
-                std::unique_ptr<IAlgorithmStrategy> strat) {
-            if (!pixyCam || !servo || !speedController || !ultrasoundSensor || !strat) {
-                throw std::invalid_argument("ls::Car::Car(): invalid argument: nullptr");
-            }
+Car::Car(ls::Car::Context &ctx) : ctx(ctx) { this->isRunning = true; }
 
-            this->m_pixyCam = std::move(pixyCam);
-            this->m_servo = std::move(servo);
-            this->m_speedController = std::move(speedController);
-            this->m_ultrasoundSensor = std::move(ultrasoundSensor);
-            this->m_strat          = std::move(strat);
-            this->isRunning = true;
-        }
+void Car::stopCar() { this->isRunning = false; }
 
-    int Car::run() {
-        // MainLoop 
-        while (this->isRunning) {
+SensorDataDTO Car::readSensors() {
+  static std::vector<FVector2> vectors;
+  vectors = this->ctx.pixySensor.getVectors();
+  auto cubeProximity = this->ctx.ultrasoundSensor.cubeProximity();
 
-        }
-
-        return 0;
-    }
+  return {vectors, cubeProximity};
 }
+
+DrivingCommandDTO Car::computeDrivingCommand(const SensorDataDTO &sensorData) {
+  return this->ctx.algorithm.computeParameters(sensorData);
+}
+
+void Car::controlCar(const DrivingCommandDTO drivingCommand) {
+  if (drivingCommand.shouldStop) {
+    this->stopCar();
+  } else {
+    this->ctx.servoController.steer(drivingCommand.angle);
+    this->ctx.engineController.changeSpeed(drivingCommand.speed);
+  }
+}
+
+int Car::run() {
+  // MainLoop
+  while (this->isRunning) {
+    auto sensorData = this->readSensors();
+    auto drivingCommand = this->computeDrivingCommand(sensorData);
+    this->controlCar(drivingCommand);
+  }
+
+  return 0;
+}
+} // namespace ls
