@@ -1,7 +1,6 @@
 #pragma once
 #include "lifesource.hpp"
 
-#include "car/ATrackStateContext.hpp"
 #include "dto/DrivingCommandDTO.hpp"
 #include "dto/SensorDataDTO.hpp"
 
@@ -14,5 +13,8 @@ public:
   virtual const ls::DrivingCommandDTO
   computeCommand(const ls::SensorDataDTO &sensorData,
                  ATrackStateContext &ctx) = 0;
+
+  virtual void updateNextState(const ls::SensorDataDTO &sensorData,
+                               ATrackStateContext &ctx) const = 0;
 };
 } // namespace ls

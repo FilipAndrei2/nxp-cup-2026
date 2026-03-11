@@ -1,5 +1,6 @@
 #pragma once
 #include "car/ITrackState.hpp"
+#include "car/track_states/StartingBeforeFinishLineState.hpp"
 #include "lifesource.hpp"
 
 namespace ls {
@@ -7,12 +8,12 @@ class ITrackState;
 class ATrackStateContext {
 
 public:
-  void setState(std::shared_ptr<ITrackState> state) { this->state = state; }
+  void setState(ITrackState &state) { this->state = state; }
 
 protected:
   ATrackStateContext() = default;
 
 private:
-  std::shared_ptr<ITrackState> state = nullptr;
+  ITrackState &state = StartingBeforeFinishLineState::getInstance();
 };
 } // namespace ls

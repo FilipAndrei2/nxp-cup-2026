@@ -2,5 +2,5 @@
 #include "car/Car.hpp"
 
 int main(void) {
-    return 0; // ls::Car(/* TODO: Dependency injection*/).run();
+    return  ls::Car(/* TODO: Dependency injection*/).run();
 }
