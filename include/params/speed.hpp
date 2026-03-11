@@ -1,6 +1,6 @@
 #pragma once
 
-#include "lifesource.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
   class Speed {

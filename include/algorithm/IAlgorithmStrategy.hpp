@@ -1,7 +1,7 @@
 #pragma once
 #include "dto/DrivingCommandDTO.hpp"
 #include "dto/SensorDataDTO.hpp"
-#include <lifesource.hpp>
+#include "utils/lifesource.hpp"
 
 namespace ls {
 class IAlgorithmStrategy {

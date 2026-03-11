@@ -1,9 +1,9 @@
-#include "car/track_states/SeeingFinishFirstTimeState.hpp"
-#include "car/ATrackStateContext.hpp"
-#include "car/track_states/OnTrackState.hpp"
-#include "lifesource.hpp"
+#include "track_states/SeeingFinishFirstTimeState.hpp"
 #include "math/Vectors.hpp"
-#include "speed.hpp"
+#include "params/speed.hpp"
+#include "track_states/ATrackStateContext.hpp"
+#include "track_states/OnTrackState.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
 const ls::DrivingCommandDTO

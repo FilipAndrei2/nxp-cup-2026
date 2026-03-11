@@ -1,10 +1,10 @@
 
 
 #pragma once
-#include "car/ITrackState.hpp"
 #include "dp/TSingleton.hpp"
 #include "dto/DrivingCommandDTO.hpp"
-#include "lifesource.hpp"
+#include "track_states/ITrackState.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
 class SeeingFinishLineSecondTimeState

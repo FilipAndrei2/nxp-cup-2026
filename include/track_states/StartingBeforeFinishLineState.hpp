@@ -1,7 +1,7 @@
 #pragma once
-#include "car/ITrackState.hpp"
 #include "dp/TSingleton.hpp"
-#include "lifesource.hpp"
+#include "track_states/ITrackState.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
 class StartingBeforeFinishLineState

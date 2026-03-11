@@ -1,5 +1,5 @@
 #pragma once
-#include "lifesource.hpp"
+#include "utils/lifesource.hpp"
 #include "math/Vector2.hpp"
 
 namespace ls {

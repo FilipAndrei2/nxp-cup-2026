@@ -1,10 +1,10 @@
 #pragma once
-#include "lifesource.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
-    struct DrivingCommandDTO {
-        angle_t angle;
-        speed_t speed;
-        bool    shouldStop;
-    };
-}
+struct DrivingCommandDTO {
+  angle_t angle;
+  speed_t speed;
+  bool shouldStop;
+};
+} // namespace ls

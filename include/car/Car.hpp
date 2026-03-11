@@ -1,12 +1,11 @@
 #pragma once
-#include "../lifesource.hpp"
-
-#include "IAlgorithmStrategy.hpp"
 #include "ICar.hpp"
 #include "IPixyCamController.hpp"
 #include "IServoController.hpp"
 #include "ISpeedController.hpp"
 #include "IUltrasoundSensorController.hpp"
+#include "algorithm/IAlgorithmStrategy.hpp"
+#include "utils/lifesource.hpp"
 
 namespace ls {
 class Car : public ICar {
