@@ -8,12 +8,13 @@ class ITrackState;
 class ATrackStateContext {
 
 public:
-  void setState(ITrackState &state) { this->state = state; }
+  void setState(ITrackState *state) { this->state = state; }
 
 protected:
   ATrackStateContext() = default;
+  ITrackState &getState() { return *state; }
 
 private:
-  ITrackState &state = StartingBeforeFinishLineState::getInstance();
+  ITrackState *state = &StartingBeforeFinishLineState::getInstance();
 };
 } // namespace ls

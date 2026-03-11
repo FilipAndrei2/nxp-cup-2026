@@ -18,14 +18,14 @@ SeeingFinishFirstState::computeCommand(const ls::SensorDataDTO &sensorData,
 void SeeingFinishFirstState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
   if (seeFinishLine(sensorData)) {
-    ctx.setState(OnTrackState::getInstance());
+    ctx.setState(&OnTrackState::getInstance());
   }
 }
 
 bool SeeingFinishFirstState::seeFinishLine(
     const ls::SensorDataDTO &sensorData) const {
   for (auto &vector : sensorData.vectors) {
-    if (Vectors::isFinishLine(vector)) { // FIXME:
+    if (Vectors::isFinishLine(vector)) {
       return true;
     }
   }

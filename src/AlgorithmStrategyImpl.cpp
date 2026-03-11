@@ -6,6 +6,9 @@ AlgorithmStrategyImpl::AlgorithmStrategyImpl() {}
 
 const ls::DrivingCommandDTO
 AlgorithmStrategyImpl::computeParameters(const SensorDataDTO &sensorData) {
-  TODO(); // todo: impl
+  auto res = this->getState().computeCommand(sensorData, *this);
+  this->getState().updateNextState(sensorData, *this);
+
+  return res;
 }
 } // namespace ls
