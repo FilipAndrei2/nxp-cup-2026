@@ -17,6 +17,9 @@ public:
   computeCommand(const ls::SensorDataDTO &sensorData,
                  ATrackStateContext &ctx) override;
 
+  virtual void updateNextState(const ls::SensorDataDTO &,
+                               ATrackStateContext &) const override;
+
 private:
   StartingBeforeFinishLineState() = default;
 };

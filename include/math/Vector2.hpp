@@ -1,6 +1,6 @@
 #pragma once
+#include "math/Floats.hpp"
 #include "utils/lifesource.hpp"
-
 #include <cmath>
 #include <optional>
 #include <type_traits>
@@ -39,8 +39,8 @@ public: // Destructor
   ~Vector2() = default;
 
 public: // Getteri setteri
-  T getX() { return this->x; }
-  T getY() { return this->y; }
+  T getX() const { return this->x; }
+  T getY() const { return this->y; }
 
   bool isNormalized() {
     if (this->cache.isNormalized.has_value()) {
@@ -178,6 +178,15 @@ public: // Operatori
     this->x = other.x;
     this->y = other.y;
     this->cache = other.cache;
+  }
+
+  bool operator==(const Vector2 &other) const {
+
+    return Floats::eq(this->x, other.x) && Floats::eq(this->y, other.y);
+  }
+
+  bool operator!=(const Vector2 &other) const {
+    return !Floats::eq(this->x, other.x) || !Floats::eq(this->y, other.y);
   }
 
 private: // Clasa ajutatoare cache

@@ -16,8 +16,5 @@ public:
 
   virtual void updateNextState(const ls::SensorDataDTO &sensorData,
                                ATrackStateContext &ctx) const override;
-
-private:
-  bool seeFinishLine(const ls::SensorDataDTO &sensorData) const;
 };
 } // namespace ls
