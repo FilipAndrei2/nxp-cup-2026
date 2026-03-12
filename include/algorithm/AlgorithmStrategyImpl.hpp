@@ -13,11 +13,11 @@ class AlgorithmStrategyImpl : public ATrackStateContext,
   friend class Singleton<AlgorithmStrategyImpl>;
 
 public:
-  virtual ~AlgorithmStrategyImpl() override;
+  virtual ~AlgorithmStrategyImpl() override = default;
   virtual const ls::DrivingCommandDTO
   computeParameters(const SensorDataDTO &sensorData) override;
 
 private:
-  AlgorithmStrategyImpl();
+  AlgorithmStrategyImpl() = default;
 };
 } // namespace ls

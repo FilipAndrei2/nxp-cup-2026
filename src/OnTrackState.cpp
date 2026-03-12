@@ -16,24 +16,27 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
     if (numberInfoVectors >= 4) {
       break;
     }
-    if (Vectors::isFinishLine(v) && v != Vectors::ZERO) {
+    if (!Vectors::isFinishLine(v) && v != Vectors::ZERO) {
       infoVectors[numberInfoVectors] = v;
       numberInfoVectors++;
     }
   }
 
+  angle_t angle;
+  speed_t speed;
   switch (numberInfoVectors) {
   case 0: {
     // Daca nu vedem niciun vector, probabil e in intersectie cu 4 cai, mergem
     // inainte
-    return DrivingCommandDTO{.angle = 0.0f,
-                             .speed = Speed::_4_WAY_CROSSWAY_SPEED,
-                             .shouldStop = false};
+    angle = 0.0f;
+    speed = Speed::_4_WAY_CROSSWAY_SPEED;
+    break;
   }
   case 1: {
     // Pentru un vector, calculam unghiul intre el si vectorul nord, si scalam
     // viteza
-
+    angle = Vector2<float>::AngleBetween(infoVectors[0], Vectors::NORTH);
+    speed = Speed::scale(Speed::MAX, angle);
     break;
   }
   case 2: {
@@ -41,15 +44,22 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
     // 1. se calculeaza un vector mediu M intre ei
     // 2. se calculeaza unghiul dintre vectorul mediu M si vectorul NORD
     // 3. se scaleaza viteza in functie de unghi
+    FVector2 medi = Vector2<float>::Avg(infoVectors[0], infoVectors[1]);
+    angle = Vector2<float>::AngleBetween(medi, Vectors::NORTH);
+    speed = Speed::scale(Speed::MAX, angle);
     break;
   }
   default: {
     // Pentru 3 sau mai multi vectori:
     // Ii luam doar pe primi 2 si aplicam acelasi algoritm ca in cazul cu 2
     // vectori
+    FVector2 medi = Vector2<float>::Avg(infoVectors[0], infoVectors[1]);
+    angle = Vector2<float>::AngleBetween(infoVectors[0], infoVectors[1]);
+    speed = Speed::scale(Speed::MAX, angle);
     break;
   }
   }
+  return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
 }
 
 void OnTrackState::updateNextState(const ls::SensorDataDTO &sensorData,

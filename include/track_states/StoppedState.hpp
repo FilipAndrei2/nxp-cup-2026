@@ -12,5 +12,7 @@ public:
   virtual const ls::DrivingCommandDTO
   computeCommand(const SensorDataDTO &sensorData,
                  ATrackStateContext &ctx) override;
+  virtual void updateNextState(const SensorDataDTO &sensorData,
+                               ATrackStateContext &ctx) const override;
 };
 } // namespace ls

@@ -45,5 +45,6 @@ public:
   }
 
   static const FVector2 ZERO;
+  static const FVector2 NORTH;
 };
 } // namespace ls

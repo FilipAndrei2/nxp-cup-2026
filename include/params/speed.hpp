@@ -16,5 +16,9 @@ public:
   static speed_t scale(const speed_t maxSpeed, const angle_t angle) {
     return (speed_t)((angle_t)maxSpeed * std::cos(angle));
   }
+
+  static speed_t scale(const speed_t maxSpeed, const proximity_t cubeProxi) {
+    return maxSpeed * (cubeProxi / 100);
+  }
 };
 } // namespace ls
