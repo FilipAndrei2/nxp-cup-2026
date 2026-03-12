@@ -31,12 +31,22 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
                              .shouldStop = false};
   }
   case 1: {
+    // Pentru un vector, calculam unghiul intre el si vectorul nord, si scalam
+    // viteza
+
     break;
   }
   case 2: {
+    // Pentru 2 vectori:
+    // 1. se calculeaza un vector mediu M intre ei
+    // 2. se calculeaza unghiul dintre vectorul mediu M si vectorul NORD
+    // 3. se scaleaza viteza in functie de unghi
     break;
   }
   default: {
+    // Pentru 3 sau mai multi vectori:
+    // Ii luam doar pe primi 2 si aplicam acelasi algoritm ca in cazul cu 2
+    // vectori
     break;
   }
   }

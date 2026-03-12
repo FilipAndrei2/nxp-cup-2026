@@ -1,6 +1,7 @@
 #pragma once
 
 #include "utils/lifesource.hpp"
+#include <cmath>
 
 namespace ls {
 class Speed {
@@ -10,5 +11,10 @@ public:
       30; // viteza maxima asteptand cubul
   static constexpr speed_t _4_WAY_CROSSWAY_SPEED =
       40; // viteza in intersectia cu 4 cai
+
+public:
+  static speed_t scale(const speed_t maxSpeed, const angle_t angle) {
+    return (speed_t)((angle_t)maxSpeed * std::cos(angle));
+  }
 };
 } // namespace ls
