@@ -8,7 +8,7 @@ const DrivingCommandDTO
 StoppedState::computeCommand(const SensorDataDTO &sensorData,
                              ATrackStateContext &ctx) {
   // nu mai miscam 1 centilitru
-  return DrivingCommandDTO{.angle = 0.0f, .speed = 0, true};
+  return DrivingCommandDTO{.angle = 0.0f, .speed = 0, .shouldStop = true};
 }
 
 void StoppedState::updateNextState(const SensorDataDTO &sensorData,
