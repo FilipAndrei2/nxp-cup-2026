@@ -1,10 +1,7 @@
-#include "algorithm/AlgorithmStrategyImpl.hpp"
-#include "car/Car.hpp"
-#include "math/Vector2.hpp"
-
+#include "utils/lifesource.hpp"
 int main(void) {
-  ls::Car::Context ctx = {
-      .engineController = ls::EngineControllerImpl::getInstance(),
-      .algorithm = ls::AlgorithmStrategyImpl::getInstance()};
+
+  auto ctx = ls::createCarContext();
+
   return ls::Car(ctx).run();
 }
