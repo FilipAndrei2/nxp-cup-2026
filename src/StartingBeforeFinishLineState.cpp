@@ -8,13 +8,14 @@ namespace ls {
 const ls::DrivingCommandDTO StartingBeforeFinishLineState::computeCommand(
     const ls::SensorDataDTO &sensorData, ls::ATrackStateContext &ctx) {
 
-  return DrivingCommandDTO{0, Speed::MAX, false};
+  return DrivingCommandDTO{
+      .angle = 0, .speed = Speed::MAX, .shouldStop = false};
 }
 
 void StartingBeforeFinishLineState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
   // Schimbam stateul daca detectam linia de fin
-  if (Vectors::seeingFinishLine(sensorData.vectors)) {
+  if (Vectors::seeingFinishLine(*sensorData.vectors)) {
     ctx.setState(&SeeingFinishFirstState::getInstance());
   }
 }

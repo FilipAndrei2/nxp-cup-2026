@@ -8,7 +8,7 @@
 namespace ls {
 
 struct SensorDataDTO {
-  const std::vector<ls::FVector2> &vectors;
+  const std::shared_ptr<std::vector<ls::FVector2>> &vectors;
 
   /**
    * @brief Distanta pana la cub, in procente

@@ -12,7 +12,7 @@ WaitingToApproachCubeState::computeCommand(const SensorDataDTO &sensorData,
   angle_t angle;
   speed_t speed;
 
-  switch (sensorData.vectors.size()) {
+  switch (sensorData.vectors->size()) {
   case 0: {
     angle = 0.0f;
     break;

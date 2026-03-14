@@ -11,7 +11,7 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) {
   std::array<FVector2, 5> infoVectors;
   size_t numberInfoVectors = 0;
-  for (auto &v : sensorData.vectors) {
+  for (auto &v : *sensorData.vectors) {
     if (numberInfoVectors >= 5) {
       break;
     }
@@ -58,7 +58,7 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
 void SeeingFinishLineSecondTimeState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
   // schimba stateul daca nu mai vezi fin, sau daca incepem sa percepem cubul
-  if (Vectors::notSeeingFinishLine(sensorData.vectors) ||
+  if (Vectors::notSeeingFinishLine(*sensorData.vectors) ||
       sensorData.cubeProximity > Params::APPROACHING_CUBE_PERC_TSH) {
     ctx.setState(&WaitingToApproachCubeState::getInstance());
   }

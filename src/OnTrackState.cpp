@@ -12,7 +12,7 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
                              ATrackStateContext &ctx) {
   std::array<FVector2, 4> infoVectors;
   uint8_t numberInfoVectors = 0;
-  for (auto &v : sensorData.vectors) {
+  for (auto &v : *sensorData.vectors) {
     if (numberInfoVectors >= 4) {
       break;
     }
@@ -65,7 +65,7 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
 void OnTrackState::updateNextState(const ls::SensorDataDTO &sensorData,
                                    ATrackStateContext &ctx) const {
   // Schimbam stateul cand detectam linia de finish
-  if (Vectors::seeingFinishLine(sensorData.vectors)) {
+  if (Vectors::seeingFinishLine(*sensorData.vectors)) {
     ctx.setState(&SeeingFinishLineSecondTimeState::getInstance());
   }
 }

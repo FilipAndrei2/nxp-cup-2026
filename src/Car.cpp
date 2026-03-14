@@ -4,12 +4,24 @@
 #include <memory>
 
 namespace ls {
+
+int Car::run() {
+  // MainLoop
+  while (this->isRunning) {
+    auto sensorData = this->readSensors();
+    auto drivingCommand = this->computeDrivingCommand(sensorData);
+    this->controlCar(drivingCommand);
+  }
+
+  return 0;
+}
+
 Car::Car(ls::Car::Context &ctx) : ctx(ctx) { this->isRunning = true; }
 
 void Car::stopCar() { this->isRunning = false; }
 
 SensorDataDTO Car::readSensors() {
-  static std::vector<FVector2> vectors;
+  static std::shared_ptr<std::vector<FVector2>> vectors;
   vectors = this->ctx.pixySensor.getVectors();
   auto cubeProximity = this->ctx.ultrasoundSensor.cubeProximity();
 
@@ -29,14 +41,4 @@ void Car::controlCar(const DrivingCommandDTO drivingCommand) {
   }
 }
 
-int Car::run() {
-  // MainLoop
-  while (this->isRunning) {
-    auto sensorData = this->readSensors();
-    auto drivingCommand = this->computeDrivingCommand(sensorData);
-    this->controlCar(drivingCommand);
-  }
-
-  return 0;
-}
 } // namespace ls

@@ -15,7 +15,7 @@ SeeingFinishFirstState::computeCommand(const ls::SensorDataDTO &sensorData,
 
 void SeeingFinishFirstState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
-  if (Vectors::notSeeingFinishLine(sensorData.vectors)) {
+  if (Vectors::notSeeingFinishLine(*sensorData.vectors)) {
     ctx.setState(&OnTrackState::getInstance());
   }
 }

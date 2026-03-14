@@ -28,9 +28,9 @@ public: // Constructori
    */
   Vector2(T x1, T y1, T x2, T y2) {}
 
-  Vector2(const Vector2 &other) : x(other.x), y(other.y), cache(other.cache) {}
+  Vector2(const Vector2 &other) : x(other.x), y(other.y) {}
 
-  Vector2(Vector2 &&other) : x(other.x), y(other.y), cache(other.cache) {
+  Vector2(Vector2 &&other) : x(other.x), y(other.y) {
     other.x = (T)0;
     other.y = (T)0;
   }
@@ -42,24 +42,11 @@ public: // Getteri setteri
   T getX() const { return this->x; }
   T getY() const { return this->y; }
 
-  bool isNormalized() {
-    if (this->cache.isNormalized.has_value()) {
-      return this->cache.isNormalized.value();
-    }
-    bool res = (1.0f - this->len()) <= std::numeric_limits<float>::epsilon();
-    this->cache.isNormalized = res;
-    return res;
-  }
+  bool isNormalized() const { return Floats::eq(this->len(), 1.0f); }
 
-  void setX(T x) {
-    this->x = x;
-    cache.clear();
-  }
+  void setX(T x) { this->x = x; }
 
-  void setY(T y) {
-    this->y = y;
-    cache.clear();
-  }
+  void setY(T y) { this->y = y; }
 
 public: // Metode statice
   static Vector2 Add(const Vector2 &lhs, const Vector2 &rhs) {
@@ -83,12 +70,18 @@ public: // Metode statice
   }
 
   static Vector2 Avg(const Vector2 &lhs, const Vector2 &rhs) {
-    TODO(); // todo
+    return Vector2((lhs.x + rhs.x) / 2, (lhs.y + rhs.y) / 2);
   }
 
   static float AngleBetween(const Vector2 &lhs, const Vector2 &rhs) {
-    // Optimizare -> pentru vectori normalizati se simplifica niste norme
-    TODO(); // todo
+    // NOTE: Optimizare -> pentru vectori normalizati se simplifica niste norme
+    // NOTE: A dot B = A.len * B.len * cos(alph)
+    // alph = acos(A dot B/ (A.len* B.len))
+    if (lhs.isNormalized() && rhs.isNormalized()) {
+      return std::acos(Vector2::Dot(lhs, rhs));
+    } else {
+      return std::acos(Vector2::Dot(lhs, rhs) / (lhs.len() * rhs.len()));
+    }
   }
 
 public: // Membri statici
@@ -102,27 +95,8 @@ public: // Membri statici
 
   inline static const Vector2 NULLVECT{0, 0};
 
-private: // Metode private
-  void computeCache(void) {
-    if (!cache.len.has_value()) {
-      cache.len = this->len();
-    }
-
-    if (!cache.isNormalized.has_value()) {
-      cache.isNormalized = this->isNormalized();
-    }
-  }
-
 public: // Metode instanta
-  float len() const {
-    if (cache.len.has_value()) {
-      return cache.len.value();
-    }
-
-    float res = std::sqrt(x * x + y * y);
-    cache.len = res;
-    return res;
-  }
+  float len() const { return std::sqrt(x * x + y * y); }
 
   Vector2 normalized() const { return Vector2(x / len(), y / len()); }
 
@@ -130,29 +104,26 @@ public: // Metode instanta
     auto l = len();
     x /= l;
     y /= l;
-    this->cache.isNormalized = true;
   }
 
   void add(const Vector2 &other) {
     this->x += other.x;
     this->y += other.y;
-    this->cache.clear();
   }
 
   void sub(const Vector2 &other) {
     this->x -= other.x;
     this->y -= other.y;
-    this->cache.clear();
   }
 
   void mul(const float scalar) {
     this->x *= scalar;
     this->y *= scalar;
-    this->cache.clear();
   }
 
   void avg(const Vector2 &other) {
-    TODO(); // todo:
+    this->x = (this->x + other.x) / 2;
+    this->y = (this->y + other.y) / 2;
   }
 
 public: // Operatori
@@ -171,13 +142,13 @@ public: // Operatori
   Vector2 &operator=(const Vector2 &other) {
     this->x = other.x;
     this->y = other.y;
-    this->cache = other.cache;
+    return *this;
   }
 
   Vector2 &operator=(Vector2 &&other) {
     this->x = other.x;
     this->y = other.y;
-    this->cache = other.cache;
+    return *this;
   }
 
   bool operator==(const Vector2 &other) const {
@@ -188,19 +159,6 @@ public: // Operatori
   bool operator!=(const Vector2 &other) const {
     return !Floats::eq(this->x, other.x) || !Floats::eq(this->y, other.y);
   }
-
-private: // Clasa ajutatoare cache
-  struct Cache {
-    std::optional<bool> isNormalized;
-    std::optional<float> len;
-
-    void clear(void) {
-      isNormalized = std::nullopt;
-      len = std::nullopt;
-    }
-  };
-
-  Vector2::Cache cache;
 };
 
 using FVector2 = Vector2<float>;
