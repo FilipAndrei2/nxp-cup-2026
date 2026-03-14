@@ -15,6 +15,8 @@
 #include "car/SpeedControllerImpl.hpp"
 #include "car/UltrasoundSensorControllerImpl.hpp"
 
+#include "main_functions.h"
+
 #define TODO() static_assert(true == false, "TODO: must impl method");
 
 namespace ls {
@@ -24,10 +26,8 @@ using angle_t = float;
 using speed_t = int32_t;
 using proximity_t = uint32_t;
 
-// DIVERSI PARAMETRI HARDWARE
-constexpr uint32_t PIXY2CAM_FRAMERATE = 60; // todo: VERIFICA CORECTITUDINEA
-
 Car::Context createCarContext() {
+  DriversInit();
   return Car::Context{
       .algorithm = ls::AlgorithmStrategyImpl::getInstance(),
       .engineController = ls::SpeedControllerImpl::getInstance(),

@@ -29,5 +29,9 @@ public:
   static constexpr uint16_t SERVO_MIN_DUTY_CYCLE = 0U;
   static constexpr uint16_t SERVO_MED_DUTY_CYCLE = 0U;
   static constexpr uint16_t SERVO_MAX_DUTY_CYCLE = 0U;
+
+  // PIXY2
+  static constexpr uint32_t PIXY2CAM_FRAMERATE =
+      60; // todo: VERIFICA CORECTITUDINEA
 };
 } // namespace ls
