@@ -1,0 +1,16 @@
+
+module spacer_hex(rh, h, rc) {
+    difference() {
+        // corpul hexagonal
+        linear_extrude(height = h)
+            circle(r = rh, $fn = 6);
+        
+        // gaura cilindrica
+        translate([0, 0, -1])  // puțin mai jos ca să străpungă complet
+            linear_extrude(height = h + 2)
+                circle(r = rc, $fn = 50);
+    }
+}
+
+// exemplu de utilizare
+spacer_hex(rh = 1.5, h = 12, rc = 0.5);
