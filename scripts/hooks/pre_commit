@@ -2,3 +2,6 @@
 echo "Formating code.."
 clang-format -style=.clang-format -i ./src/*.cpp ./include/*.hpp ./include/*/*.hpp
 git add ./src/*.cpp ./include/*.hpp ./include/*/*.hpp
+
+echo "Generating documentation.."
+doxygen Doxyfile

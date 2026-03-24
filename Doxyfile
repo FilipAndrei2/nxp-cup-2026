@@ -1,0 +1,25 @@
+# Doxyfile - generat manual pentru proiect C++20
+
+# Numele proiectului
+PROJECT_NAME           = "Proiect C++20"
+
+# Directorul unde va fi generată documentația
+OUTPUT_DIRECTORY       = docs
+
+# Tipul de documentație generată
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# Directoarele / fișierele de intrare
+INPUT                  = src include includel*
+FILE_PATTERNS          = *.cpp *.hpp
+
+# Caută recursiv în subfoldere
+RECURSIVE              = YES
+
+# Extrage toate entitățile, chiar dacă nu au comentarii Doxygen
+EXTRACT_ALL            = YES
+
+# Limbajul sursă
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO

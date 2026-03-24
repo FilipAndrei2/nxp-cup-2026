@@ -22,7 +22,7 @@ def install_dep(dep_name: str):
     if res.returncode != 0:
         raise RuntimeError("Err: Nu s-a putut instala " + dep_name)
 
-needed_deps = ['clang-format', 'make']
+needed_deps = ['clang-format', 'doxygen', 'make']
 def verify_dependencies()-> None:
     for dep in needed_deps:
         if !find_dep(dep):
