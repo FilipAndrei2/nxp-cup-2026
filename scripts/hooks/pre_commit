@@ -1,0 +1,4 @@
+#! /bin/env bash
+echo "Formating code.."
+clang-format -style=.clang-format -i ./src/*.cpp ./include/*.hpp ./include/*/*.hpp
+git add ./src/*.cpp ./include/*.hpp ./include/*/*.hpp
