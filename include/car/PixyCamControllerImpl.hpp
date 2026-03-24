@@ -14,7 +14,7 @@ class PixyCamControllerImpl : public IPixyCamController,
    * @returns nullptr daca nu detecteaza niciun vector camera
    *
    */
-  virtual std::shared_ptr<std::vector<FVector2>> getVectors() override;
+  virtual std::shared_ptr<std::vector<Vector2<float>>> getVectors() override;
   ~PixyCamControllerImpl() = default;
 
 private:

@@ -1,7 +1,11 @@
 #include "utils/lifesource.hpp"
+#include "utils/main_functions.hpp"
+
+/**
+ * Program entry point
+ */
 int main(void) {
+  DriversInit();
 
-  auto ctx = ls::createCarContext();
-
-  return ls::Car(ctx).run();
+  return ls::buildCar().run();
 }
