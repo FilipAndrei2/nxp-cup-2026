@@ -1,3 +1,7 @@
+/**
+ * @file SeeingFinishLineSecondTimeState.cpp
+ * @brief Implementarea stării în care mașina vede linia de finish a doua oară.
+ */
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
 #include "params/Params.hpp"
 #include "params/speed.hpp"
@@ -7,6 +11,18 @@
 
 namespace ls {
 
+/**
+ * @brief Calculează comanda de conducere cu viteză redusă, adaptată pentru
+ *        apropierea de cub după a doua trecere peste linia de finish.
+ *
+ * Algoritmul filtrează vectorii de linie (orizontali) și folosește vectorii
+ * de direcție rămași pentru a calcula unghiul. Viteza este scalată ulterior
+ * în funcție de proximitatea cubului dacă acesta este detectat.
+ *
+ * @param sensorData Datele de la senzori.
+ * @param ctx Contextul stărilor pistei.
+ * @return Comanda de conducere cu unghi și viteză adaptate.
+ */
 const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) {
   std::array<FVector2, 5> infoVectors;
@@ -46,21 +62,27 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
   }
   }
 
-  // Urmeaza sa scalam viteza in functie de senzorul de proxi
+  // Scalam viteza in functie de senzorul de proximitate al cubului
   if (sensorData.cubeProximity > 0) {
     speed = speed * (sensorData.cubeProximity / 100);
   }
 
   return DrivingCommandDTO{
-      .angle = angle, .speed = speed, .shouldStop = false}; // todo: finish
+      .angle = angle, .speed = speed, .shouldStop = false};
 }
 
+/**
+ * @brief Actualizează starea la @c WaitingToApproachCubeState când linia
+ *        de finish nu mai este vizibilă sau cubul este detectat.
+ * @param sensorData Datele de la senzori.
+ * @param ctx Contextul stărilor pistei.
+ */
 void SeeingFinishLineSecondTimeState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
-  // schimba stateul daca nu mai vezi fin, sau daca incepem sa percepem cubul
   if (Vectors::notSeeingFinishLine(*sensorData.vectors) ||
       sensorData.cubeProximity > Params::APPROACHING_CUBE_PERC_TSH) {
     ctx.setState(&WaitingToApproachCubeState::getInstance());
   }
 }
+
 } // namespace ls

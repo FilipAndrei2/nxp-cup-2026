@@ -1,3 +1,7 @@
+/**
+ * @file OnTrackState.cpp
+ * @brief Implementarea stării de navigație normală pe pistă.
+ */
 #include "track_states/OnTrackState.hpp"
 #include "params/Params.hpp"
 #include "params/speed.hpp"
@@ -7,6 +11,20 @@
 
 namespace ls {
 
+/**
+ * @brief Calculează comanda de conducere în starea de navigație normală.
+ *
+ * Algoritmul selectează până la 4 vectori relevanți (non-orizontali, nenuli)
+ * și aplică una din strategiile de navigație în funcție de numărul lor:
+ *  - 0 vectori: intersecție cu 4 căi — merge înainte cu viteză redusă.
+ *  - 1 vector: calculează unghiul față de NORD și scalează viteza.
+ *  - 2 vectori: calculează vectorul mediu, apoi unghiul și viteza.
+ *  - 3+ vectori: folosește primii 2 vectori ca în cazul cu 2 vectori.
+ *
+ * @param sensorData Datele de la senzori.
+ * @param ctx Contextul stărilor pistei.
+ * @return Comanda de conducere cu unghi și viteză calculate.
+ */
 const ls::DrivingCommandDTO
 OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
                              ATrackStateContext &ctx) {
@@ -62,11 +80,17 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
   return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
 }
 
+/**
+ * @brief Actualizează starea la @c SeeingFinishLineSecondTimeState
+ *        când este detectată linia de finish.
+ * @param sensorData Datele de la senzori.
+ * @param ctx Contextul stărilor pistei.
+ */
 void OnTrackState::updateNextState(const ls::SensorDataDTO &sensorData,
                                    ATrackStateContext &ctx) const {
-  // Schimbam stateul cand detectam linia de finish
   if (Vectors::seeingFinishLine(*sensorData.vectors)) {
     ctx.setState(&SeeingFinishLineSecondTimeState::getInstance());
   }
 }
+
 } // namespace ls

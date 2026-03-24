@@ -1,12 +1,31 @@
+/**
+ * @file PixyCamControllerImpl.cpp
+ * @brief Implementarea controllerului camerei Pixy2.
+ */
 #include "car/PixyCamControllerImpl.hpp"
 #include "params/Params.hpp"
 #include "pixy2.h"
 
 namespace ls {
+
+/**
+ * @brief Inițializează camera Pixy2 prin interfața I2C.
+ *
+ * Utilizează adresa I2C și canalul definite în @c Params.
+ */
 PixyCamControllerImpl::PixyCamControllerImpl() {
   Pixy2Init(Params::PIXY2_I2C_ADDRESS, Params::PIXY2_I2C_CHANNEL);
 }
 
+/**
+ * @brief Returnează vectorii de direcție detectați de camera Pixy2.
+ *
+ * Apelează driverul Pixy2 pentru a obține vectorii detectați, calculează
+ * diferențele de coordonate și normalizează fiecare vector rezultat.
+ *
+ * @return Un pointer partajat la lista vectorilor normalizați,
+ *         sau @c nullptr dacă nu s-a detectat niciun vector.
+ */
 std::shared_ptr<std::vector<FVector2>> getVectors() {
   using namespace std;
 
