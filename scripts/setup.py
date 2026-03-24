@@ -1,43 +1,65 @@
-#!/usr/env python
+#!/usr/bin/env python3
+import os
+import shutil
 import subprocess
 import sys
 
-updated_apt: bool = false
+# --- Pas 1: Copierea fișierelor din ./scripts/hooks în ./.git/hooks ---
+src_hooks = "./scripts/hooks"
+dst_hooks = "./.git/hooks"
 
-def update_apt() -> bool:
-    res = subprocess.run("sudo", "apt-get", "update")
-    return res.returncode != 0:
-        
-def install_dep(package_name: str) -> bool:
-    res = subprocess.run('sudo', 'apt-get', 'install', package_name)
-    if res.returncode != 0:
-        raise RuntimeError("Err: Nu s-a putut instala pachetul " + package_name)
+if not os.path.exists(src_hooks):
+    print(f"Folderul sursă '{src_hooks}' nu există!")
+    sys.exit(1)
 
-def find_dep(dep_name) -> bool:
-    res = subprocess.run(dep_name, "-h")
-    return res.returncode != 0:
-    
-def install_dep(dep_name: str):
-    res = subprocess.run("sudo", "apt-get", "install", dep_name)
-    if res.returncode != 0:
-        raise RuntimeError("Err: Nu s-a putut instala " + dep_name)
+if not os.path.exists(dst_hooks):
+    print(f"Folderul destinație '{dst_hooks}' nu există. Creare folder...")
+    os.makedirs(dst_hooks)
 
-needed_deps = ['clang-format', 'doxygen', 'make']
-def verify_dependencies()-> None:
-    for dep in needed_deps:
-        if !find_dep(dep):
-            if !updated_apt:
-                update_apt()
-            succes: bool = install_dep(dep)
-            if !succes:
-                print("Err: Nu s-a putut instala dependenta " + dep + ". Scriptul se va inchide.")
-                sys.exit(1)
+for filename in os.listdir(src_hooks):
+    src_file = os.path.join(src_hooks, filename)
+    dst_file = os.path.join(dst_hooks, filename)
+    shutil.copy2(src_file, dst_file)
+    # Se face fișierul executabil
+    os.chmod(dst_file, 0o755)
+    print(f"Copiat {filename} în {dst_hooks}")
 
-def main() -> None:
-    verify_dependencies()
-    res = subprocess.run('cp', './scripts/hooks/*', './.git/hooks')
-    if res.returncode != 0:
-        print('Warn: Nu s-au putut copia hooks. ')
+# --- Pas 2: Detectarea distribuției Linux ---
+def detect_linux_distribution():
+    try:
+        with open("/etc/os-release") as f:
+            content = f.read()
+            if "Linux Mint" in content:
+                return "mint"
+            elif "Arch Linux" in content:
+                return "arch"
+            else:
+                return "other"
+    except FileNotFoundError:
+        return "unknown"
 
-if __name__ == '__main__':
-    main()
+distro = detect_linux_distribution()
+print(f"Distribuția Linux detectată: {distro}")
+
+# --- Pas 3: Funcție pentru verificarea unui program ---
+def command_exists(cmd):
+    return shutil.which(cmd) is not None
+
+# --- Pas 4: Instalarea clang-format și doxygen dacă nu există ---
+packages = ["clang-format", "doxygen"]
+
+if distro == "mint":  # Mint folosește apt-get
+    installer = "sudo apt-get install -y"
+elif distro == "arch":  # Arch folosește pacman
+    installer = "sudo pacman -S --noconfirm"
+else:
+    print("Distribuție Linux necunoscută. Nu se poate instala automat clang-format și doxygen.")
+    sys.exit(1)
+
+for pkg in packages:
+    if command_exists(pkg):
+        print(f"{pkg} este deja instalat.")
+    else:
+        print(f"{pkg} nu este instalat. Instalare...")
+        subprocess.run(f"{installer} {pkg}", shell=True, check=True)
+        print(f"{pkg} instalat cu succes.")
