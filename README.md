@@ -1,5 +1,18 @@
 
+# NXP Cup 2026
+
+A sample project for the K144 microcontroller, designed for the NXP Cup Race. It uses a Pixy2 camera to detect two black lines and autonomously steer the car between them.
+
 ## Setup
-Run 
-`./scripts/setup.py`. You need to have python installed on your machine. 
-Info: The script is working only on apt-get based machines.
+
+Python 3 is required. Run the setup script from the repository root:
+
+```bash
+./setup.sh
+```
+
+The script installs the required tools (`clang-format`, `doxygen`) and configures the git hooks. It supports the following package managers:
+
+- `apt-get` (Ubuntu / Debian)
+- `pacman` (Arch Linux)
+
