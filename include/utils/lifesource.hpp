@@ -4,7 +4,7 @@
  *
  * Acest fișier acționează ca un header centralizat de bază. Definește
  * tipurile de date specifice domeniului (unghiuri, viteze, proximitate)
- * și macrocomanda @c TODO() pentru metodele neimplementate.
+ * și macrocomandă @c TODO() pentru metodele neimplementate.
  */
 #pragma once
 

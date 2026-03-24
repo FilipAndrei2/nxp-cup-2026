@@ -1,6 +1,6 @@
 /**
  * @file WaitingToAproachCubeState.hpp
- * @brief Definește starea de așteptare și aproach față de cub.
+ * @brief Definește starea de așteptare și aproach (approach) față de cub.
  */
 #pragma once
 #include "dp/TSingleton.hpp"

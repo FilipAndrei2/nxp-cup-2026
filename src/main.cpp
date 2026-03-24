@@ -10,7 +10,7 @@
 /**
  * @brief Funcția principală de intrare în program.
  *
- * Inițializează toate drivere-le hardware prin @c DriversInit(), construiește
+ * Inițializează toate driverele hardware prin @c DriversInit(), construiește
  * obiectul @c Car folosind @c ls::buildCar() și pornește bucla de control
  * prin apelul @c run().
  *
