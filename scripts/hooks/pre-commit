@@ -4,4 +4,4 @@ clang-format -style=.clang-format -i ./src/*.cpp ./include/*.hpp ./include/*/*.h
 
 echo "Generating documentation.."
 doxygen Doxyfile
-git add ./src/*.cpp ./include/*.hpp ./include/*/*.hpp
+git add .

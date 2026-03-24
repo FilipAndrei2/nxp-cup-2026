@@ -1,0 +1,36 @@
+var annotated_dup =
+[
+    [ "ls", "namespacels.html", [
+      [ "AlgorithmStrategyImpl", "classls_1_1AlgorithmStrategyImpl.html", "classls_1_1AlgorithmStrategyImpl" ],
+      [ "IAlgorithmStrategy", "classls_1_1IAlgorithmStrategy.html", "classls_1_1IAlgorithmStrategy" ],
+      [ "Car", "classls_1_1Car.html", "classls_1_1Car" ],
+      [ "CarBuilder", "classls_1_1CarBuilder.html", "classls_1_1CarBuilder" ],
+      [ "ICar", "classls_1_1ICar.html", "classls_1_1ICar" ],
+      [ "IClock", "classls_1_1IClock.html", "classls_1_1IClock" ],
+      [ "IPixyCamController", "classls_1_1IPixyCamController.html", "classls_1_1IPixyCamController" ],
+      [ "IServoController", "classls_1_1IServoController.html", "classls_1_1IServoController" ],
+      [ "ISpeedController", "classls_1_1ISpeedController.html", "classls_1_1ISpeedController" ],
+      [ "IUltrasoundSensorController", "classls_1_1IUltrasoundSensorController.html", "classls_1_1IUltrasoundSensorController" ],
+      [ "PixyCamControllerImpl", "classls_1_1PixyCamControllerImpl.html", "classls_1_1PixyCamControllerImpl" ],
+      [ "ServoControllerImpl", "classls_1_1ServoControllerImpl.html", "classls_1_1ServoControllerImpl" ],
+      [ "SpeedControllerImpl", "classls_1_1SpeedControllerImpl.html", "classls_1_1SpeedControllerImpl" ],
+      [ "UltrasoundSensorController", "classls_1_1UltrasoundSensorController.html", "classls_1_1UltrasoundSensorController" ],
+      [ "Singleton", "classls_1_1Singleton.html", "classls_1_1Singleton" ],
+      [ "DrivingCommandDTO", "structls_1_1DrivingCommandDTO.html", "structls_1_1DrivingCommandDTO" ],
+      [ "SensorDataDTO", "structls_1_1SensorDataDTO.html", "structls_1_1SensorDataDTO" ],
+      [ "Angles", "classls_1_1Angles.html", null ],
+      [ "Floats", "classls_1_1Floats.html", null ],
+      [ "Vector2", "classls_1_1Vector2.html", "classls_1_1Vector2" ],
+      [ "Vectors", "classls_1_1Vectors.html", null ],
+      [ "Params", "classls_1_1Params.html", null ],
+      [ "Speed", "classls_1_1Speed.html", null ],
+      [ "ATrackStateContext", "classls_1_1ATrackStateContext.html", "classls_1_1ATrackStateContext" ],
+      [ "ITrackState", "classls_1_1ITrackState.html", "classls_1_1ITrackState" ],
+      [ "OnTrackState", "classls_1_1OnTrackState.html", "classls_1_1OnTrackState" ],
+      [ "SeeingFinishFirstState", "classls_1_1SeeingFinishFirstState.html", "classls_1_1SeeingFinishFirstState" ],
+      [ "SeeingFinishLineSecondTimeState", "classls_1_1SeeingFinishLineSecondTimeState.html", "classls_1_1SeeingFinishLineSecondTimeState" ],
+      [ "StartingBeforeFinishLineState", "classls_1_1StartingBeforeFinishLineState.html", "classls_1_1StartingBeforeFinishLineState" ],
+      [ "StoppedState", "classls_1_1StoppedState.html", "classls_1_1StoppedState" ],
+      [ "WaitingToApproachCubeState", "classls_1_1WaitingToApproachCubeState.html", "classls_1_1WaitingToApproachCubeState" ]
+    ] ]
+];

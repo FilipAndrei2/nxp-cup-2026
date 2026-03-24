@@ -1,0 +1,27 @@
+var classls_1_1Vector2 =
+[
+    [ "Vector2", "classls_1_1Vector2.html#a8271a889fd71acae81b201d9378fe031", null ],
+    [ "Vector2", "classls_1_1Vector2.html#a01622379c3a86414d059eeaa7371b7e6", null ],
+    [ "Vector2", "classls_1_1Vector2.html#a37362c5fa62cf8b4e1ddf07173e720f3", null ],
+    [ "Vector2", "classls_1_1Vector2.html#aa0626a5a2110a3f78a7b370864d1aa34", null ],
+    [ "~Vector2", "classls_1_1Vector2.html#a3c1073a23113e437713405e85c4f2728", null ],
+    [ "add", "classls_1_1Vector2.html#ae9382fe3cba3ff644ff9002c62c8d85a", null ],
+    [ "avg", "classls_1_1Vector2.html#a86507fb042aca0640e27612fe797db17", null ],
+    [ "getX", "classls_1_1Vector2.html#ac4ac9ea6fb9e44eb0f33eada9d98add4", null ],
+    [ "getY", "classls_1_1Vector2.html#a42101fa39572037b8f9f5ed64d089c0e", null ],
+    [ "isNormalized", "classls_1_1Vector2.html#aa82fdd7058f7f66b34243cc0ca14cdf5", null ],
+    [ "len", "classls_1_1Vector2.html#a3cc11c6af32b245bccff213afbeaa2dc", null ],
+    [ "mul", "classls_1_1Vector2.html#ad0042e93a76de069a6df5ffe55bfd034", null ],
+    [ "normalize", "classls_1_1Vector2.html#aa25c9d3291360836c40f0b999f3df4f4", null ],
+    [ "normalized", "classls_1_1Vector2.html#afc6b1337b5e85f6ec49e4715695f1188", null ],
+    [ "operator!=", "classls_1_1Vector2.html#a4dfae3e8131ad9d5afda043e9b92b4fa", null ],
+    [ "operator*", "classls_1_1Vector2.html#afe5d8f61b8c8b3689aec453fccde8cfc", null ],
+    [ "operator+", "classls_1_1Vector2.html#ac6a079e0986b7cd1bb2523a166d23303", null ],
+    [ "operator-", "classls_1_1Vector2.html#a5b6ffa8ee3cc095d5cfe29502b4433dd", null ],
+    [ "operator=", "classls_1_1Vector2.html#a4c56b4d716260c2d8821385da4f97bfd", null ],
+    [ "operator=", "classls_1_1Vector2.html#a3db573806f46fa53479ab27a69335927", null ],
+    [ "operator==", "classls_1_1Vector2.html#ac2c684194f7a7ef4b1d1e86b9223e604", null ],
+    [ "setX", "classls_1_1Vector2.html#a07e134e9ade85dba59354347495ba1c1", null ],
+    [ "setY", "classls_1_1Vector2.html#a3909da6563f190ac3174805387e76ef3", null ],
+    [ "sub", "classls_1_1Vector2.html#a9ea0b3d2923172b6350dabab38123c8f", null ]
+];
