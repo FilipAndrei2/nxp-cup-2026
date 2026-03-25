@@ -16,3 +16,10 @@ The script installs the required tools (`clang-format`, `doxygen`) and configure
 - `apt-get` (Ubuntu / Debian)
 - `pacman` (Arch Linux)
 
+## Tests
+
+To build and run the test suite, run the test script from the repository root:
+
+```bash
+./test.sh
+```

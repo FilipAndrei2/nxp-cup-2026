@@ -62,7 +62,7 @@ public: // Metode statice
   }
 
   static float Dot(const Vector2 &lhs, const Vector2 &rhs) {
-    return std::sqrt(lhs.x * rhs.x + lhs.y * rhs.y);
+    return (float)(lhs.x * rhs.x + lhs.y * rhs.y);
   }
 
   static float Cross(const Vector2 &lhs, const Vector2 &rhs) {

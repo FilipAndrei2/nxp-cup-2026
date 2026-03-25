@@ -17,6 +17,7 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
     }
     if (!Vectors::isFinishLine(v) && v != Vectors::ZERO) {
       infoVectors[numberInfoVectors] = v;
+      numberInfoVectors++;
     }
   }
 

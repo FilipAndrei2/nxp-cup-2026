@@ -1,3 +1,4 @@
+#include "math/Vector2.hpp"
 #include "params/Params.hpp"
 #include "params/speed.hpp"
 #include "track_states/ATrackStateContext.hpp"
@@ -19,7 +20,8 @@ WaitingToApproachCubeState::computeCommand(const SensorDataDTO &sensorData,
   }
 
   case 1: {
-    angle = Vector2<float>::AngleBetween((*sensorData.vectors)[0], Vectors::NORTH);
+    angle =
+        Vector2<float>::AngleBetween((*sensorData.vectors)[0], Vectors::NORTH);
     break;
   }
 
