@@ -33,6 +33,7 @@ TEST_SRCS := \
     test_angles.cpp \
     test_states.cpp \
     test_algorithm.cpp \
+    test_speed.cpp \
     catch2/catch_amalgamated.cpp
 
 TARGET := run_tests

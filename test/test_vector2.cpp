@@ -290,3 +290,49 @@ TEST_CASE("Vector2 – setX / setY", "[vector2]") {
     CHECK(v.getX() == Approx(7.0f));
     CHECK(v.getY() == Approx(8.0f));
 }
+
+// ── Move assignment operator ──────────────────────────────────────────────────
+
+TEST_CASE("Vector2::operator= – move assignment does NOT zero the source", "[vector2]") {
+    // Unlike the move constructor, the move assignment operator copies but
+    // does not clear the moved-from object's components.
+    FVector2 a(3.0f, 4.0f);
+    FVector2 b;
+    b = std::move(a);
+    CHECK(b.getX() == Approx(3.0f));
+    CHECK(b.getY() == Approx(4.0f));
+    // Source is NOT zeroed (move constructor zeros it, but operator= does not)
+    CHECK(a.getX() == Approx(3.0f));
+    CHECK(a.getY() == Approx(4.0f));
+}
+
+// ── AngleBetween – 45-degree case (documents implementation behaviour) ────────
+
+TEST_CASE("Vector2::AngleBetween – 45-degree unit vectors give incorrect result due to Dot bug",
+          "[vector2][angle]") {
+    // True angle between (1,0) and (1/√2, 1/√2) is PI/4 ≈ 0.785 rad.
+    // The buggy Dot computes sqrt(1*1/√2 + 0*1/√2) = sqrt(1/√2) ≈ 0.841.
+    // acos(0.841) ≈ 0.572 rad, which is NOT PI/4.
+    FVector2 a(1.0f, 0.0f);
+    FVector2 b(1.0f / std::sqrt(2.0f), 1.0f / std::sqrt(2.0f));
+    float result = FVector2::AngleBetween(a, b);
+    float expected_buggy = std::acos(std::sqrt(1.0f / std::sqrt(2.0f)));
+    CHECK(result == Approx(expected_buggy).epsilon(1e-5f));
+    // Confirm it diverges from the mathematically correct PI/4
+    CHECK_FALSE(result == Approx(PI / 4.0f).epsilon(1e-3f));
+}
+
+// ── 4-argument constructor ────────────────────────────────────────────────────
+
+TEST_CASE("Vector2 – 4-argument constructor (endpoint-to-endpoint) compiles and constructs",
+          "[vector2]") {
+    // The 4-arg constructor body is currently empty; x and y are left at
+    // their default-initialised values.  This test documents the current
+    // (placeholder) behaviour so that any future implementation change is
+    // immediately visible.
+    FVector2 v(1.0f, 2.0f, 3.0f, 4.0f);
+    // Object must be constructible; exact component values are implementation-defined
+    // until the constructor body is filled in.
+    (void)v; // suppress unused-variable warning
+}
+
