@@ -12,8 +12,7 @@ public:
   virtual ~ITrackState() = 0;
 
   virtual const ls::DrivingCommandDTO
-  computeCommand(const ls::SensorDataDTO &sensorData,
-                 ATrackStateContext &ctx) = 0;
+  computeCommand(const ls::SensorDataDTO &sensorData) = 0;
 
   virtual void updateNextState(const ls::SensorDataDTO &sensorData,
                                ATrackStateContext &ctx) const = 0;

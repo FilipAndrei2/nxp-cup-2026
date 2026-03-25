@@ -8,8 +8,7 @@
 namespace ls {
 
 const ls::DrivingCommandDTO
-WaitingToApproachCubeState::computeCommand(const SensorDataDTO &sensorData,
-                                           ATrackStateContext &ctx) {
+WaitingToApproachCubeState::computeCommand(const SensorDataDTO &sensorData) {
   angle_t angle;
   speed_t speed;
 

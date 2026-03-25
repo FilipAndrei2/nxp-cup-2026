@@ -7,8 +7,7 @@
 
 namespace ls {
 const ls::DrivingCommandDTO
-SeeingFinishFirstState::computeCommand(const ls::SensorDataDTO &sensorData,
-                                       ATrackStateContext &ctx) {
+SeeingFinishFirstState::computeCommand(const ls::SensorDataDTO &sensorData) {
   return DrivingCommandDTO{
       .angle = 0.0f, .speed = Speed::MAX, .shouldStop = false};
 }

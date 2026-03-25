@@ -8,8 +8,7 @@
 namespace ls {
 
 const ls::DrivingCommandDTO
-OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData,
-                             ATrackStateContext &ctx) {
+OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData) {
   std::array<FVector2, 4> infoVectors;
   uint8_t numberInfoVectors = 0;
   for (auto &v : *sensorData.vectors) {

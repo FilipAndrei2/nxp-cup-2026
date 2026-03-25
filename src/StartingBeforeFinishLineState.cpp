@@ -6,7 +6,7 @@
 
 namespace ls {
 const ls::DrivingCommandDTO StartingBeforeFinishLineState::computeCommand(
-    const ls::SensorDataDTO &sensorData, ls::ATrackStateContext &ctx) {
+    const ls::SensorDataDTO &sensorData) {
 
   return DrivingCommandDTO{
       .angle = 0, .speed = Speed::MAX, .shouldStop = false};

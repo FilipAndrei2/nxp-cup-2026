@@ -8,7 +8,7 @@
 namespace ls {
 
 const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
-    const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) {
+    const ls::SensorDataDTO &sensorData) {
   std::array<FVector2, 5> infoVectors;
   size_t numberInfoVectors = 0;
   for (auto &v : *sensorData.vectors) {
