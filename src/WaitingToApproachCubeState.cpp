@@ -19,20 +19,20 @@ WaitingToApproachCubeState::computeCommand(const SensorDataDTO &sensorData,
   }
 
   case 1: {
-    angle = Vector2<float>::AngleBetween(sensorData.vectors[0], Vectors::NORTH);
+    angle = Vector2<float>::AngleBetween((*sensorData.vectors)[0], Vectors::NORTH);
     break;
   }
 
   default: {
     FVector2 medi =
-        Vector2<float>::Avg(sensorData.vectors[0], sensorData.vectors[1]);
+        Vector2<float>::Avg((*sensorData.vectors)[0], (*sensorData.vectors)[1]);
     angle = Vector2<float>::AngleBetween(medi, Vectors::NORTH);
     break;
   }
   }
   speed = Speed::scale(Speed::WAITING_CUBE_SPEED, angle);
   speed = Speed::scale(speed, sensorData.cubeProximity);
-  return DrivingCommandDTO{.angle = angle, .speed = speed, false};
+  return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
 }
 
 void WaitingToApproachCubeState::updateNextState(
