@@ -377,3 +377,166 @@ TEST_CASE("ATrackStateContext – delegates to the injected ITrackState mock",
     Verify(Method(mockState, computeCommand)).Once();
     Verify(Method(mockState, updateNextState)).Once();
 }
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  WaitingToApproachCubeState – computeCommand (previously untested)
+// ═════════════════════════════════════════════════════════════════════════════
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 0 → speed 0",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    TestableContext ctx;
+    // 0 vectors → angle = 0, speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
+    // then speed = scale(speed, 0) = speed * (0/100) = 0  (integer division)
+    SensorFixture sf({}, 0);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == 0);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 100 → full waiting speed",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    TestableContext ctx;
+    // 0 vectors → angle = 0, speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
+    // then speed = scale(speed, 100) = speed * (100/100) = speed  (integer division)
+    SensorFixture sf({}, 100);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 50 → speed 0",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    TestableContext ctx;
+    // cubeProxi / 100 is integer division: 50/100 = 0 → speed = 0
+    SensorFixture sf({}, 50);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.speed == 0);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – 1 NORTH vector, proximity 100 → zero angle",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    TestableContext ctx;
+    // Vector (0,1) == Vectors::NORTH; AngleBetween(NORTH, Vectors::NORTH) = 0
+    // speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
+    // then scale(speed, 100) = WAITING_CUBE_SPEED
+    SensorFixture sf({FVector2(0.0f, 1.0f)}, 100);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – 2 identical NORTH vectors, proximity 100",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    TestableContext ctx;
+    // Avg({0,1},{0,1}) = {0,1}, AngleBetween({0,1}, Vectors::NORTH) = 0
+    SensorFixture sf({FVector2(0.0f, 1.0f), FVector2(0.0f, 1.0f)}, 100);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  OnTrackState – additional computeCommand cases
+// ═════════════════════════════════════════════════════════════════════════════
+
+TEST_CASE("OnTrackState::computeCommand – finish-line vectors are filtered out",
+          "[states][ontrack]") {
+    auto &state = OnTrackState::getInstance();
+    TestableContext ctx;
+    // (1,0) is a finish-line vector (|y|=0 <= 0.1); (0,1) is not
+    // After filtering: numberInfoVectors = 1, infoVectors[0] = {0,1}
+    SensorFixture sf({FVector2(1.0f, 0.0f), FVector2(0.0f, 1.0f)});
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    // case 1: AngleBetween({0,1}, Vectors::NORTH) = 0
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::MAX);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("OnTrackState::computeCommand – zero vectors are filtered out",
+          "[states][ontrack]") {
+    auto &state = OnTrackState::getInstance();
+    TestableContext ctx;
+    // {0,0} is filtered (v == Vectors::ZERO); {0,1} is kept
+    SensorFixture sf({FVector2(0.0f, 0.0f), FVector2(0.0f, 1.0f)});
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::MAX);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("OnTrackState::computeCommand – 3 non-finish vectors uses angle between first two",
+          "[states][ontrack]") {
+    auto &state = OnTrackState::getInstance();
+    TestableContext ctx;
+    // default branch: angle = AngleBetween(v0, v1) (not Avg→NORTH like case 2)
+    // With all identical {0,1}: AngleBetween({0,1},{0,1}) = 0
+    SensorFixture sf({FVector2(0.0f, 1.0f), FVector2(0.0f, 1.0f), FVector2(0.0f, 1.0f)});
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::MAX);
+    CHECK(cmd.shouldStop == false);
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  SeeingFinishLineSecondTimeState – cubeProximity scaling in computeCommand
+// ═════════════════════════════════════════════════════════════════════════════
+
+TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 0 leaves speed unchanged",
+          "[states][seeinfsecond]") {
+    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    TestableContext ctx;
+    // Due to a bug (missing numberInfoVectors++), always falls into case 0:
+    //   angle = 0, speed = WAITING_CUBE_SPEED
+    // cubeProximity == 0 → scaling branch is NOT entered → speed unchanged
+    SensorFixture sf({FVector2(0.0f, 0.5f)}, 0);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 100 preserves speed",
+          "[states][seeinfsecond]") {
+    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    TestableContext ctx;
+    // cubeProximity = 100 > 0 → speed = speed * (100/100) = speed * 1 = WAITING_CUBE_SPEED
+    SensorFixture sf({FVector2(0.0f, 0.5f)}, 100);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 50 zeroes speed via integer division",
+          "[states][seeinfsecond]") {
+    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    TestableContext ctx;
+    // cubeProximity = 50 > 0 → speed = speed * (50/100) = speed * 0 = 0  (integer division)
+    SensorFixture sf({FVector2(0.0f, 0.5f)}, 50);
+    auto cmd = state.computeCommand(sf.dto, ctx);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == 0);
+    CHECK(cmd.shouldStop == false);
+}
