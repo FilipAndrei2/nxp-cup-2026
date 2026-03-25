@@ -35,17 +35,23 @@ TEST_SRCS := \
     test_algorithm.cpp \
     catch2/catch_amalgamated.cpp
 
+ALL_SRCS := $(TEST_SRCS) $(SRC_UNDER_TEST)
+OBJS     := $(ALL_SRCS:.cpp=.o)
+
 TARGET := run_tests
 
 .PHONY: all run clean
 
 all: $(TARGET)
 
-$(TARGET): $(TEST_SRCS) $(SRC_UNDER_TEST)
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+$(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
 run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGET) $(OBJS)

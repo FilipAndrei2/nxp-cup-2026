@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Read user input from the terminal, even when stdin is used by git
+exec < /dev/tty
+
+printf "Do you want to run tests? (y/N): "
+read -r run_tests_answer
+
+if [[ "$run_tests_answer" == "y" || "$run_tests_answer" == "Y" ]]; then
+    echo "Running tests..."
+
+    REPO_ROOT="$(git rev-parse --show-toplevel)"
+    bash "$REPO_ROOT/test.sh"
+    TEST_RESULT=$?
+
+    if [ $TEST_RESULT -ne 0 ]; then
+        echo "Tests failed!"
+        printf "Do you still want to push? (y/N): "
+        read -r force_push_answer
+
+        if [[ "$force_push_answer" != "y" && "$force_push_answer" != "Y" ]]; then
+            echo "Push aborted."
+            exit 1
+        fi
+
+        echo "Pushing despite test failures..."
+    else
+        echo "All tests passed!"
+    fi
+fi
+
+exit 0
