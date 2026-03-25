@@ -12,7 +12,7 @@ echo "Compiling tests. Please wait."
 ) &
 LOADER_PID=$!
 
-make  > /dev/null 2>&1
+make -j$(nproc 2>/dev/null || echo 1)  > /dev/null 2>&1
 
 kill $LOADER_PID
 echo ""
