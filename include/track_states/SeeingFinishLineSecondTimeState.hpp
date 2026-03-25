@@ -14,8 +14,7 @@ class SeeingFinishLineSecondTimeState
 
 public:
   virtual const ls::DrivingCommandDTO
-  computeCommand(const ls::SensorDataDTO &sensorData,
-                 ATrackStateContext &ctx) override;
+  computeCommand(const ls::SensorDataDTO &sensorData) override;
 
   virtual void updateNextState(const ls::SensorDataDTO &sensorData,
                                ATrackStateContext &ctx) const override;
