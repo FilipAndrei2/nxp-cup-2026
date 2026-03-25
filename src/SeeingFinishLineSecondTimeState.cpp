@@ -1,4 +1,5 @@
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
+#include "SeeingFinishLineSecondTimeImplFunctions.hpp"
 #include "params/Params.hpp"
 #include "params/speed.hpp"
 #include "track_states/ATrackStateContext.hpp"
@@ -12,7 +13,7 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
   std::array<FVector2, 5> infoVectors;
 
   uint8_t numberInfoVectors =
-      filterInfoVectors(sensorData.vectors, infoVectors);
+      filterInfoVectors(*sensorData.vectors, infoVectors);
 
   angle_t angle;
   speed_t speed;

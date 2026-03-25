@@ -7,6 +7,9 @@ namespace ls {
 static uint8_t filterInfoVectors(const std::vector<FVector2> &inVectors,
                                  std::array<FVector2, 5> &outInfoVectors);
 
+static speed_t scaleSpeedByCubeProximity(proximity_t proximity,
+                                         speed_t maxSpeed);
+
 static void computeSpeedAndAngle(const std::array<FVector2, 5> &inVectors,
                                  const uint8_t inNumberInfoVectors,
                                  angle_t &outAngle, speed_t &outSpeed);

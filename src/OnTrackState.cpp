@@ -5,8 +5,6 @@
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
 #include <array>
 
-#include <pair>
-
 #include "OnTrackStateImplFunctions.hpp"
 
 namespace ls {
@@ -15,7 +13,7 @@ const ls::DrivingCommandDTO
 OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData) {
   std::array<FVector2, 4> infoVectors;
   uint8_t numberInfoVectors =
-      filterTrackVectors(sensorData.vectors, infoVectors);
+      filterTrackVectors(*sensorData.vectors, infoVectors);
 
   angle_t angle;
   speed_t speed;

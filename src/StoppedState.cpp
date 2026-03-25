@@ -5,8 +5,7 @@
 namespace ls {
 
 const DrivingCommandDTO
-StoppedState::computeCommand(const SensorDataDTO &sensorData,
-                             ATrackStateContext &ctx) {
+StoppedState::computeCommand(const SensorDataDTO &sensorData) {
   // nu mai miscam 1 centilitru
   return DrivingCommandDTO{.angle = 0.0f, .speed = 0, .shouldStop = true};
 }
