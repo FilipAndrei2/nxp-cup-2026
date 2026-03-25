@@ -10,6 +10,9 @@ OUTPUT_DIRECTORY       = docs
 GENERATE_HTML          = YES
 GENERATE_LATEX         = NO
 
+# Generează HTML direct în docs/ (necesar pentru GitHub Pages)
+HTML_OUTPUT            = .
+
 # Directoarele / fișierele de intrare
 INPUT                  = src include includel*
 FILE_PATTERNS          = *.cpp *.hpp
