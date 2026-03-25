@@ -5,37 +5,57 @@
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
 #include <array>
 
+#include <pair>
+
+#include "OnTrackStateImplFunctions.hpp"
+
 namespace ls {
 
 const ls::DrivingCommandDTO
 OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData) {
   std::array<FVector2, 4> infoVectors;
+  uint8_t numberInfoVectors =
+      filterTrackVectors(sensorData.vectors, infoVectors);
+
+  angle_t angle;
+  speed_t speed;
+  computeSpeedAndAngle(infoVectors, numberInfoVectors, angle, speed);
+  return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
+}
+
+static uint8_t filterTrackVectors(const std::vector<ls::FVector2> &vectors,
+                                  std::array<ls::FVector2, 4> &outInfoVectors) {
+  using namespace ls;
+
   uint8_t numberInfoVectors = 0;
-  for (auto &v : *sensorData.vectors) {
+  for (auto &v : vectors) {
     if (numberInfoVectors >= 4) {
       break;
     }
     if (!Vectors::isFinishLine(v) && v != Vectors::ZERO) {
-      infoVectors[numberInfoVectors] = v;
+      outInfoVectors[numberInfoVectors] = v;
       numberInfoVectors++;
     }
   }
+  return numberInfoVectors;
+}
 
-  angle_t angle;
-  speed_t speed;
-  switch (numberInfoVectors) {
+static void computeSpeedAndAngle(const std::array<FVector2, 4> &inInfoVectors,
+                                 uint8_t inNumberInfoVectors, angle_t &outAngle,
+                                 speed_t &outSpeed) {
+  switch (inNumberInfoVectors) {
   case 0: {
     // Daca nu vedem niciun vector, probabil e in intersectie cu 4 cai, mergem
     // inainte
-    angle = 0.0f;
-    speed = Speed::_4_WAY_CROSSWAY_SPEED;
+    outAngle = 0.0f;
+    outSpeed = Speed::_4_WAY_CROSSWAY_SPEED;
     break;
   }
   case 1: {
     // Pentru un vector, calculam unghiul intre el si vectorul nord, si scalam
     // viteza
-    angle = Vector2<float>::AngleBetween(infoVectors[0], Vectors::NORTH);
-    speed = Speed::scale(Speed::MAX, angle);
+    outAngle = Vector2<float>::AngleBetween(inInfoVectors[0], Vectors::NORTH);
+    outSpeed = Speed::scale(Speed::MAX, outAngle);
     break;
   }
   case 2: {
@@ -43,22 +63,21 @@ OnTrackState::computeCommand(const ls::SensorDataDTO &sensorData) {
     // 1. se calculeaza un vector mediu M intre ei
     // 2. se calculeaza unghiul dintre vectorul mediu M si vectorul NORD
     // 3. se scaleaza viteza in functie de unghi
-    FVector2 medi = Vector2<float>::Avg(infoVectors[0], infoVectors[1]);
-    angle = Vector2<float>::AngleBetween(medi, Vectors::NORTH);
-    speed = Speed::scale(Speed::MAX, angle);
+    FVector2 medi = Vector2<float>::Avg(inInfoVectors[0], inInfoVectors[1]);
+    outAngle = Vector2<float>::AngleBetween(medi, Vectors::NORTH);
+    outSpeed = Speed::scale(Speed::MAX, outAngle);
     break;
   }
   default: {
     // Pentru 3 sau mai multi vectori:
     // Ii luam doar pe primi 2 si aplicam acelasi algoritm ca in cazul cu 2
     // vectori
-    FVector2 medi = Vector2<float>::Avg(infoVectors[0], infoVectors[1]);
-    angle = Vector2<float>::AngleBetween(infoVectors[0], infoVectors[1]);
-    speed = Speed::scale(Speed::MAX, angle);
+    FVector2 medi = Vector2<float>::Avg(inInfoVectors[0], inInfoVectors[1]);
+    outAngle = Vector2<float>::AngleBetween(inInfoVectors[0], inInfoVectors[1]);
+    outSpeed = Speed::scale(Speed::MAX, outAngle);
     break;
   }
   }
-  return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
 }
 
 void OnTrackState::updateNextState(const ls::SensorDataDTO &sensorData,
