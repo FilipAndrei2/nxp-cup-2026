@@ -3,7 +3,7 @@
 namespace ls {
     class ICar {
     public: // Destructor virtual
-        virtual ~ICar() = default;
+        virtual ~ICar() { }
     public:
         virtual int run() = 0;
     };

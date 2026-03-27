@@ -4,6 +4,6 @@ namespace ls {
     
     class IClock {
     public:
-        virtual ~IClock() = default;
+        virtual ~IClock() { }
     };
 }

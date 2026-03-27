@@ -140,7 +140,6 @@ SECTIONS
     {
         . = ALIGN(4);
         KEEP(*(.int_results))
-        . += 0x100;
     } > int_sram_results
 
     __Stack_end_c0           = ORIGIN(int_sram_stack_c0);

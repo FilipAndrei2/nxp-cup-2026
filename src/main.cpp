@@ -1,5 +1,6 @@
+#include <utils/funcs.hpp>
 #include "utils/lifesource.hpp"
-#include "utils/main_functions.hpp"
+#include "main_functions.h"
 
 /**
  * Program entry point

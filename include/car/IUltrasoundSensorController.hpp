@@ -7,6 +7,6 @@ namespace ls {
     public:
         // range: [0, 100]
         virtual uint8_t cubeProximity()        = 0;
-        virtual ~IUltrasoundSensorController() = default;
+        virtual ~IUltrasoundSensorController() {}
     };
 }

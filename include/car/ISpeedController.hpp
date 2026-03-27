@@ -9,6 +9,6 @@ public:
   // -100 -> reverse
   // 100 viteza maxima
   virtual void changeSpeed(ls::speed_t speed) = 0;
-  virtual ~ISpeedController() = default;
+  virtual ~ISpeedController() { }
 };
 } // namespace ls

@@ -3,6 +3,7 @@
 #include "params/speed.hpp"
 #include "track_states/ATrackStateContext.hpp"
 #include "track_states/SeeingFinishFirstTimeState.hpp"
+#include "dto/DrivingCommandDTO.hpp"
 
 namespace ls {
 const ls::DrivingCommandDTO StartingBeforeFinishLineState::computeCommand(

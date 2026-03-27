@@ -7,7 +7,7 @@ PixyCamControllerImpl::PixyCamControllerImpl() {
   Pixy2Init(Params::PIXY2_I2C_ADDRESS, Params::PIXY2_I2C_CHANNEL);
 }
 
-std::shared_ptr<std::vector<FVector2>> getVectors() {
+std::shared_ptr<std::vector<Vector2<float>>> PixyCamControllerImpl::getVectors() {
   using namespace std;
 
   DetectedVectors dv;

@@ -6,16 +6,21 @@
 CPP_SRCS += \
 ../src/AlgorithmStrategyImpl.cpp \
 ../src/Car.cpp \
+../src/CarBuilder.cpp \
+../src/ITrackState.cpp \
 ../src/OnTrackState.cpp \
+../src/PixyCamControllerImpl.cpp \
 ../src/SeeingFinishFirstTimeState.cpp \
 ../src/SeeingFinishLineSecondTimeState.cpp \
+../src/ServoControllerImpl.cpp \
 ../src/SpeedControllerImpl.cpp \
 ../src/StartingBeforeFinishLineState.cpp \
 ../src/StoppedState.cpp \
+../src/UltrasoundSensorController.cpp \
 ../src/Vectors.cpp \
 ../src/WaitingToApproachCubeState.cpp \
-../src/main.cpp \
-../src/syscalls.cpp 
+../src/funcs.cpp \
+../src/main.cpp 
 
 C_SRCS += \
 ../src/display.c \
@@ -30,24 +35,29 @@ C_SRCS += \
 OBJS += \
 ./src/AlgorithmStrategyImpl.o \
 ./src/Car.o \
+./src/CarBuilder.o \
+./src/ITrackState.o \
 ./src/OnTrackState.o \
+./src/PixyCamControllerImpl.o \
 ./src/SeeingFinishFirstTimeState.o \
 ./src/SeeingFinishLineSecondTimeState.o \
+./src/ServoControllerImpl.o \
 ./src/SpeedControllerImpl.o \
 ./src/StartingBeforeFinishLineState.o \
 ./src/StoppedState.o \
+./src/UltrasoundSensorController.o \
 ./src/Vectors.o \
 ./src/WaitingToApproachCubeState.o \
 ./src/display.o \
 ./src/esc.o \
+./src/funcs.o \
 ./src/hbridge.o \
 ./src/linear_camera.o \
 ./src/main.o \
 ./src/main_functions.o \
 ./src/pixy2.o \
 ./src/receiver.o \
-./src/servo.o \
-./src/syscalls.o 
+./src/servo.o 
 
 C_DEPS += \
 ./src/display.d \
@@ -62,16 +72,21 @@ C_DEPS += \
 CPP_DEPS += \
 ./src/AlgorithmStrategyImpl.d \
 ./src/Car.d \
+./src/CarBuilder.d \
+./src/ITrackState.d \
 ./src/OnTrackState.d \
+./src/PixyCamControllerImpl.d \
 ./src/SeeingFinishFirstTimeState.d \
 ./src/SeeingFinishLineSecondTimeState.d \
+./src/ServoControllerImpl.d \
 ./src/SpeedControllerImpl.d \
 ./src/StartingBeforeFinishLineState.d \
 ./src/StoppedState.d \
+./src/UltrasoundSensorController.d \
 ./src/Vectors.d \
 ./src/WaitingToApproachCubeState.d \
-./src/main.d \
-./src/syscalls.d 
+./src/funcs.d \
+./src/main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

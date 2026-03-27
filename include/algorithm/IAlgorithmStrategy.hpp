@@ -6,7 +6,7 @@
 namespace ls {
 class IAlgorithmStrategy {
 public:
-  virtual ~IAlgorithmStrategy() = default;
+  virtual ~IAlgorithmStrategy() { }
   virtual const ls::DrivingCommandDTO
   computeParameters(const SensorDataDTO &sensorData) = 0;
 };

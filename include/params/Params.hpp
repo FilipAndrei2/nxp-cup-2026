@@ -1,6 +1,8 @@
 #pragma once
 #include "pwm.h"
 #include "utils/lifesource.hpp"
+#include "I2c_Types.h"
+
 namespace ls {
 
 class Params {

@@ -1,6 +1,6 @@
 generate/src/Ftm_Pwm_Ip_VS_0_PBcfg.o: \
  ../generate/src/Ftm_Pwm_Ip_VS_0_PBcfg.c \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
@@ -10,26 +10,26 @@ generate/src/Ftm_Pwm_Ip_VS_0_PBcfg.o: \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Devassert.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Soc_Ips.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_ArchCfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SIM.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_VS_0_PBcfg.h \
  ../RTD/include/Ftm_Pwm_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Pwm_MemMap.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
@@ -39,22 +39,22 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Devassert.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Soc_Ips.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_ArchCfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SIM.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_VS_0_PBcfg.h:
 ../RTD/include/Ftm_Pwm_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Pwm_MemMap.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Ftm_Pwm_Ip_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Pwm_Ip_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h:

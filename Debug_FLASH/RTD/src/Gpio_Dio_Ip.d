@@ -7,7 +7,7 @@ RTD/src/Gpio_Dio_Ip.o: ../RTD/src/Gpio_Dio_Ip.c \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Gpio_Dio_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Gpio_Dio_Ip_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_GPIO.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
@@ -22,7 +22,7 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/Gpio_Dio_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Gpio_Dio_Ip_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_GPIO.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:

@@ -1,8 +1,8 @@
 RTD/src/OsIf_Timer_System_Internal_Systick.o: \
  ../RTD/src/OsIf_Timer_System_Internal_Systick.c \
  ../RTD/include/OsIf_DeviceRegisters.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_ArchCfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
@@ -15,8 +15,8 @@ RTD/src/OsIf_Timer_System_Internal_Systick.o: \
  ../RTD/include/OsIf_Timer_System_Internal_Systick.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BaseNXP_MemMap.h
 ../RTD/include/OsIf_DeviceRegisters.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/Nxp_Cup_Pixy2_S32K144/generate/include/OsIf_ArchCfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:

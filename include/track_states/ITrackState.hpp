@@ -9,7 +9,7 @@ namespace ls {
 class ATrackStateContext;
 class ITrackState {
 public:
-  virtual ~ITrackState() = 0;
+  virtual ~ITrackState();
 
   virtual const ls::DrivingCommandDTO
   computeCommand(const ls::SensorDataDTO &sensorData) = 0;

@@ -253,7 +253,7 @@ void DisplayValue(uint16 DisplayLine, int Number, uint16 TextLength, uint16 Text
     uint16 StartIndex;
     uint16 StopIndex;
     unsigned char AsciiCharacter;
-    unsigned char AsciiNumberString[16]={"                "};
+    unsigned char AsciiNumberString[32]={"                "};
     int AuxNumber = Number;
     uint8 DigitCount = 0U;
     unsigned char AsciiDigitIndex = 0U;

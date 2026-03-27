@@ -12,10 +12,13 @@
    <preferences>
       <validate_boot_init_only>true</validate_boot_init_only>
       <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+      <custom_copyright>
+         <text></text>
+         <enabled>true</enabled>
+      </custom_copyright>
       <update_include_paths>true</update_include_paths>
       <enable_parallel_routing>true</enable_parallel_routing>
       <generate_registers_defines>false</generate_registers_defines>
-      <enable_code_preview>true</enable_code_preview>
    </preferences>
    <tools>
       <pins name="Pins" version="17.0" enabled="true" update_project_code="true">

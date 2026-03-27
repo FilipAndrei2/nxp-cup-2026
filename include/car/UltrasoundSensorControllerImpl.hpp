@@ -14,6 +14,6 @@ public:
   virtual ~UltrasoundSensorController() = default;
 
 private: // Ctor
-  UltrasoundSensorController() = default;
+  UltrasoundSensorController();
 };
 } // namespace ls

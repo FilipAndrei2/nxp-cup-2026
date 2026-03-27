@@ -4,6 +4,7 @@
 #include "track_states/ATrackStateContext.hpp"
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
 #include <array>
+#include "utils/lifesource.hpp"
 
 #include "OnTrackStateImplFunctions.hpp"
 
