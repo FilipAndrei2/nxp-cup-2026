@@ -26,7 +26,7 @@ public: // Constructori
    * Creates the object by translating the segment with said endpoints to
    * origin.
    */
-  Vector2(T x1, T y1, T x2, T y2) {}
+  Vector2(T x1, T y1, T x2, T y2) : x(x2 - x1), y(y2 - y1) {}
 
   Vector2(const Vector2 &other) : x(other.x), y(other.y) {}
 
@@ -77,11 +77,28 @@ public: // Metode statice
     // NOTE: Optimizare -> pentru vectori normalizati se simplifica niste norme
     // NOTE: A dot B = A.len * B.len * cos(alph)
     // alph = acos(A dot B/ (A.len* B.len))
+    float dot;
     if (lhs.isNormalized() && rhs.isNormalized()) {
-      return std::acos(Vector2::Dot(lhs, rhs));
+      dot = Vector2::Dot(lhs, rhs);
     } else {
-      return std::acos(Vector2::Dot(lhs, rhs) / (lhs.len() * rhs.len()));
+      float lenProduct = lhs.len() * rhs.len();
+      if (Floats::eq(lenProduct, 0.0f)) {
+        return 0.0f; // degenerate: zero-length vector -> no rotation
+      }
+      dot = Vector2::Dot(lhs, rhs) / lenProduct;
     }
+    // Clamp to [-1, 1] to guard against floating-point rounding errors in acos
+    if (dot > 1.0f) dot = 1.0f;
+    if (dot < -1.0f) dot = -1.0f;
+
+    float angle = std::acos(dot);
+    // Use the cross product sign to determine turn direction:
+    // Cross(lhs, rhs) > 0 means lhs is to the right of rhs → positive angle (right turn)
+    // Cross(lhs, rhs) < 0 means lhs is to the left of rhs → negative angle (left turn)
+    if (Vector2::Cross(lhs, rhs) < 0.0f) {
+      angle = -angle;
+    }
+    return angle;
   }
 
 public: // Membri statici

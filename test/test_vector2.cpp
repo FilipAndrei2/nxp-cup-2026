@@ -208,6 +208,73 @@ TEST_CASE("Vector2::AngleBetween – perpendicular unit vectors (angle = PI/2)",
   CHECK(FVector2::AngleBetween(a, b) == Approx(PI / 2.0f).epsilon(1e-5f));
 }
 
+// ── Signed angle (BUG-4 regression: was always non-negative) ─────────────────
+
+TEST_CASE("Vector2::AngleBetween – right-of-reference gives positive angle",
+          "[vector2][angle]") {
+  // Track vector pointing right-forward; NORTH is reference.
+  // Cross((1,0), (0,1)) = 1 > 0 → positive angle (right turn needed).
+  FVector2 east(1.0f, 0.0f), north(0.0f, 1.0f);
+  CHECK(FVector2::AngleBetween(east, north) == Approx(PI / 2.0f).epsilon(1e-5f));
+}
+
+TEST_CASE("Vector2::AngleBetween – left-of-reference gives negative angle",
+          "[vector2][angle]") {
+  // Track vector pointing left-forward; NORTH is reference.
+  // Cross((-1,0), (0,1)) = -1 < 0 → negative angle (left turn needed).
+  FVector2 west(-1.0f, 0.0f), north(0.0f, 1.0f);
+  CHECK(FVector2::AngleBetween(west, north) == Approx(-PI / 2.0f).epsilon(1e-5f));
+}
+
+TEST_CASE("Vector2::AngleBetween – diagonal right gives positive angle",
+          "[vector2][angle]") {
+  // Vector at 45° right of north should give ~PI/4 (positive).
+  float s = 1.0f / std::sqrt(2.0f);
+  FVector2 diag(s, s), north(0.0f, 1.0f);
+  CHECK(FVector2::AngleBetween(diag, north) == Approx(PI / 4.0f).epsilon(1e-4f));
+}
+
+TEST_CASE("Vector2::AngleBetween – diagonal left gives negative angle",
+          "[vector2][angle]") {
+  // Vector at 45° left of north should give ~-PI/4 (negative).
+  float s = 1.0f / std::sqrt(2.0f);
+  FVector2 diag(-s, s), north(0.0f, 1.0f);
+  CHECK(FVector2::AngleBetween(diag, north) == Approx(-PI / 4.0f).epsilon(1e-4f));
+}
+
+// ── NaN guard – zero-length vector (BUG-7 regression) ────────────────────────
+
+TEST_CASE("Vector2::AngleBetween – zero-length lhs returns 0 (no NaN)",
+          "[vector2][angle]") {
+  FVector2 zero(0.0f, 0.0f), north(0.0f, 1.0f);
+  float result = FVector2::AngleBetween(zero, north);
+  CHECK(result == Approx(0.0f).margin(1e-5f));
+}
+
+TEST_CASE("Vector2::AngleBetween – anti-parallel unit vectors return PI (no NaN)",
+          "[vector2][angle]") {
+  // Dot product = -1; acos(-1) = PI. Cross = 0 → sign stays positive.
+  FVector2 a(0.0f, 1.0f), b(0.0f, -1.0f);
+  CHECK(FVector2::AngleBetween(a, b) == Approx(PI).epsilon(1e-4f));
+}
+
+// ── 4-argument constructor (BUG-6 regression: body was empty) ────────────────
+
+TEST_CASE("Vector2 – 4-argument constructor creates direction vector from two endpoints",
+          "[vector2]") {
+  // From (1, 2) to (4, 6): direction vector = (4-1, 6-2) = (3, 4)
+  FVector2 v(1.0f, 2.0f, 4.0f, 6.0f);
+  CHECK(v.getX() == Approx(3.0f));
+  CHECK(v.getY() == Approx(4.0f));
+}
+
+TEST_CASE("Vector2 – 4-argument constructor with coincident points gives zero vector",
+          "[vector2]") {
+  FVector2 v(3.0f, 3.0f, 3.0f, 3.0f);
+  CHECK(v.getX() == Approx(0.0f));
+  CHECK(v.getY() == Approx(0.0f));
+}
+
 // ── Operators
 // ─────────────────────────────────────────────────────────────────
 
@@ -309,18 +376,4 @@ TEST_CASE("Vector2::operator= – move assignment does NOT zero the source", "[v
     CHECK(a.getY() == Approx(4.0f));
 }
 
-
-// ── 4-argument constructor ────────────────────────────────────────────────────
-
-TEST_CASE("Vector2 – 4-argument constructor (endpoint-to-endpoint) compiles and constructs",
-          "[vector2]") {
-    // The 4-arg constructor body is currently empty; x and y are left at
-    // their default-initialised values.  This test documents the current
-    // (placeholder) behaviour so that any future implementation change is
-    // immediately visible.
-    FVector2 v(1.0f, 2.0f, 3.0f, 4.0f);
-    // Object must be constructible; exact component values are implementation-defined
-    // until the constructor body is filled in.
-    (void)v; // suppress unused-variable warning
-}
 

@@ -429,6 +429,44 @@ TEST_CASE("WaitingToApproachCubeState::computeCommand – 2 identical NORTH vect
     CHECK(cmd.shouldStop == false);
 }
 
+// ── BUG-8 regression: finish-line and zero vectors must be filtered ───────────
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – finish-line vector is filtered out",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    // (1,0) is a finish-line vector (|y| = 0 <= 0.1); (0,1) is NORTH.
+    // After filtering only the NORTH vector remains -> angle = 0.
+    SensorFixture sf({FVector2(1.0f, 0.0f), FVector2(0.0f, 1.0f)}, 100);
+    auto cmd = state.computeCommand(sf.dto);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – zero vector is filtered out",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    // {0,0} equals Vectors::ZERO and must be skipped; {0,1} is kept.
+    SensorFixture sf({FVector2(0.0f, 0.0f), FVector2(0.0f, 1.0f)}, 100);
+    auto cmd = state.computeCommand(sf.dto);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
+    CHECK(cmd.shouldStop == false);
+}
+
+TEST_CASE("WaitingToApproachCubeState::computeCommand – only finish-line vectors gives straight ahead",
+          "[states][waiting]") {
+    auto &state = WaitingToApproachCubeState::getInstance();
+    // All vectors are finish-line vectors -> filtered -> 0 info vectors -> angle = 0.
+    SensorFixture sf({FVector2(1.0f, 0.0f), FVector2(-1.0f, 0.0f)}, 100);
+    auto cmd = state.computeCommand(sf.dto);
+
+    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
+    CHECK(cmd.shouldStop == false);
+}
+
 // ═════════════════════════════════════════════════════════════════════════════
 //  OnTrackState – additional computeCommand cases
 // ═════════════════════════════════════════════════════════════════════════════

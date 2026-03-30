@@ -20,23 +20,18 @@ std::shared_ptr<std::vector<Vector2<float>>> PixyCamControllerImpl::getVectors()
 
   for (auto i = 0; i < dv.NumberOfVectors; ++i) {
     Vector v = dv.Vectors[i];
-    uint16_t x, y;
-    if (v.y0 < v.y1) {
-      y = v.y1 - v.y0;
-      if (v.x0 < v.x1) {
-        x = v.x1 - v.x0;
-      } else {
-        x = v.x0 - v.x1;
-      }
-    } else { // v.y1 < v.y0
-      y = v.y0 - v.y1;
-      if (v.x0 < v.x1) {
-        x = v.x1 - v.x0;
-      } else {
-        x = v.x0 - v.x1;
-      }
+    int16_t dx, dy;
+    if (v.y0 >= v.y1) {
+      // (x1,y1) is the head (top of image = forward); y decreases upward in
+      // image coords, so dy = y0 - y1 gives a positive forward component.
+      dy = (int16_t)v.y0 - (int16_t)v.y1;
+      dx = (int16_t)v.x1 - (int16_t)v.x0;
+    } else {
+      // Flip so that the forward (y) component is always positive.
+      dy = (int16_t)v.y1 - (int16_t)v.y0;
+      dx = (int16_t)v.x0 - (int16_t)v.x1;
     }
-    res->emplace_back((float)x, (float)y);
+    res->emplace_back((float)dx, (float)dy);
     (*res)[i].normalize();
   }
 

@@ -2,7 +2,6 @@
 #include "car/IServoController.hpp"
 #include "utils/lifesource.hpp"
 #include <dp/TSingleton.hpp>
-#include "utils/lifesource.hpp"
 
 namespace ls {
 class ServoControllerImpl : public IServoController,

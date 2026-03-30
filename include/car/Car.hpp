@@ -21,14 +21,15 @@ public:
 public:           // Constructori
   Car() = delete; // Fara construcor de baza, parametri trebuiesc injectati
                   // pentru DI
-  Car(ls::Car::Context &ctx);
+  Car(ls::Car::Context ctx);
 
 public:
   virtual int run(void) override;
   virtual ~Car() = default;
 
 private:
-  Car::Context &ctx;
+  Car::Context ctx;
+  std::shared_ptr<std::vector<FVector2>> vectors;
   bool isRunning;
 
 private:
