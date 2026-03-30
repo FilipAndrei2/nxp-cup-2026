@@ -25,12 +25,15 @@ var hierarchy =
       [ "ls::SpeedControllerImpl", "classls_1_1SpeedControllerImpl.html", null ]
     ] ],
     [ "ls::ITrackState", "classls_1_1ITrackState.html", [
-      [ "ls::OnTrackState", "classls_1_1OnTrackState.html", null ],
-      [ "ls::SeeingFinishFirstState", "classls_1_1SeeingFinishFirstState.html", null ],
-      [ "ls::SeeingFinishLineSecondTimeState", "classls_1_1SeeingFinishLineSecondTimeState.html", null ],
-      [ "ls::StartingBeforeFinishLineState", "classls_1_1StartingBeforeFinishLineState.html", null ],
-      [ "ls::StoppedState", "classls_1_1StoppedState.html", null ],
-      [ "ls::WaitingToApproachCubeState", "classls_1_1WaitingToApproachCubeState.html", null ]
+      [ "ls::ATrackState", "classls_1_1ATrackState.html", [
+        [ "ls::BreakingState", "classls_1_1BreakingState.html", null ],
+        [ "ls::FinishedState", "classls_1_1FinishedState.html", null ],
+        [ "ls::OnTrackState", "classls_1_1OnTrackState.html", null ],
+        [ "ls::SeeingFirstFinishState", "classls_1_1SeeingFirstFinishState.html", null ],
+        [ "ls::SeeingSecondFinishState", "classls_1_1SeeingSecondFinishState.html", null ],
+        [ "ls::StartingState", "classls_1_1StartingState.html", null ],
+        [ "ls::WaitingCubeState", "classls_1_1WaitingCubeState.html", null ]
+      ] ]
     ] ],
     [ "ls::IUltrasoundSensorController", "classls_1_1IUltrasoundSensorController.html", [
       [ "ls::UltrasoundSensorController", "classls_1_1UltrasoundSensorController.html", null ]
@@ -41,17 +44,23 @@ var hierarchy =
     [ "ls::Singleton&lt; AlgorithmStrategyImpl &gt;", "classls_1_1Singleton.html", [
       [ "ls::AlgorithmStrategyImpl", "classls_1_1AlgorithmStrategyImpl.html", null ]
     ] ],
+    [ "ls::Singleton&lt; BreakingState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::BreakingState", "classls_1_1BreakingState.html", null ]
+    ] ],
+    [ "ls::Singleton&lt; FinishedState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::FinishedState", "classls_1_1FinishedState.html", null ]
+    ] ],
     [ "ls::Singleton&lt; OnTrackState &gt;", "classls_1_1Singleton.html", [
       [ "ls::OnTrackState", "classls_1_1OnTrackState.html", null ]
     ] ],
     [ "ls::Singleton&lt; PixyCamControllerImpl &gt;", "classls_1_1Singleton.html", [
       [ "ls::PixyCamControllerImpl", "classls_1_1PixyCamControllerImpl.html", null ]
     ] ],
-    [ "ls::Singleton&lt; SeeingFinishFirstState &gt;", "classls_1_1Singleton.html", [
-      [ "ls::SeeingFinishFirstState", "classls_1_1SeeingFinishFirstState.html", null ]
+    [ "ls::Singleton&lt; SeeingFirstFinishState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::SeeingFirstFinishState", "classls_1_1SeeingFirstFinishState.html", null ]
     ] ],
-    [ "ls::Singleton&lt; SeeingFinishLineSecondTimeState &gt;", "classls_1_1Singleton.html", [
-      [ "ls::SeeingFinishLineSecondTimeState", "classls_1_1SeeingFinishLineSecondTimeState.html", null ]
+    [ "ls::Singleton&lt; SeeingSecondFinishState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::SeeingSecondFinishState", "classls_1_1SeeingSecondFinishState.html", null ]
     ] ],
     [ "ls::Singleton&lt; ServoControllerImpl &gt;", "classls_1_1Singleton.html", [
       [ "ls::ServoControllerImpl", "classls_1_1ServoControllerImpl.html", null ]
@@ -59,17 +68,14 @@ var hierarchy =
     [ "ls::Singleton&lt; SpeedControllerImpl &gt;", "classls_1_1Singleton.html", [
       [ "ls::SpeedControllerImpl", "classls_1_1SpeedControllerImpl.html", null ]
     ] ],
-    [ "ls::Singleton&lt; StartingBeforeFinishLineState &gt;", "classls_1_1Singleton.html", [
-      [ "ls::StartingBeforeFinishLineState", "classls_1_1StartingBeforeFinishLineState.html", null ]
-    ] ],
-    [ "ls::Singleton&lt; StoppedState &gt;", "classls_1_1Singleton.html", [
-      [ "ls::StoppedState", "classls_1_1StoppedState.html", null ]
+    [ "ls::Singleton&lt; StartingState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::StartingState", "classls_1_1StartingState.html", null ]
     ] ],
     [ "ls::Singleton&lt; UltrasoundSensorController &gt;", "classls_1_1Singleton.html", [
       [ "ls::UltrasoundSensorController", "classls_1_1UltrasoundSensorController.html", null ]
     ] ],
-    [ "ls::Singleton&lt; WaitingToApproachCubeState &gt;", "classls_1_1Singleton.html", [
-      [ "ls::WaitingToApproachCubeState", "classls_1_1WaitingToApproachCubeState.html", null ]
+    [ "ls::Singleton&lt; WaitingCubeState &gt;", "classls_1_1Singleton.html", [
+      [ "ls::WaitingCubeState", "classls_1_1WaitingCubeState.html", null ]
     ] ],
     [ "ls::Speed", "classls_1_1Speed.html", null ],
     [ "ls::Vector2&lt; T &gt;", "classls_1_1Vector2.html", null ],

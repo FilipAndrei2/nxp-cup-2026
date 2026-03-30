@@ -19,7 +19,7 @@ public:
   };
 
 public:           // Constructori
-  Car() = delete; // Fara construcor de baza, parametri trebuiesc injectati
+  Car() = delete; // Fara constructor de baza, parametri trebuiesc injectati
                   // pentru DI
   Car(ls::Car::Context ctx);
 

@@ -5,7 +5,7 @@ namespace ls {
 const ls::DrivingCommandDTO
 AlgorithmStrategyImpl::computeParameters(const SensorDataDTO &sensorData) {
   auto res = this->getState().computeCommand(sensorData);
-  this->getState().updateNextState(sensorData, *this);
+  this->getState().updateNextState(*this);
 
   return res;
 }

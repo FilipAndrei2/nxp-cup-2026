@@ -20,9 +20,9 @@
 #include "track_states/ATrackStateContext.hpp"
 #include "track_states/ITrackState.hpp"
 #include "track_states/OnTrackState.hpp"
-#include "track_states/SeeingFinishFirstTimeState.hpp"
+#include "track_states/SeeingFirstFinishState.hpp"
 #include "track_states/SeeingFinishLineSecondTimeState.hpp"
-#include "track_states/StartingBeforeFinishLineState.hpp"
+#include "track_states/StartingState.hpp"
 #include "track_states/StoppedState.hpp"
 #include "track_states/WaitingToAproachCubeState.hpp"
 
@@ -56,12 +56,12 @@ struct SensorFixture {
 };
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  StartingBeforeFinishLineState
+//  StartingState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("StartingBeforeFinishLineState::computeCommand – always goes straight at max speed",
+TEST_CASE("StartingState::computeCommand – always goes straight at max speed",
           "[states][starting]") {
-    auto &state = StartingBeforeFinishLineState::getInstance();
+    auto &state = StartingState::getInstance();
     TestableContext ctx;
     SensorFixture sf({FVector2(1.0f, 0.5f)});
     auto &sensor = sf.dto;
@@ -73,40 +73,40 @@ TEST_CASE("StartingBeforeFinishLineState::computeCommand – always goes straigh
     CHECK(cmd.shouldStop == false);
 }
 
-TEST_CASE("StartingBeforeFinishLineState::updateNextState – transitions to SeeingFinishFirstState on finish line",
+TEST_CASE("StartingState::updateNextState – transitions to SeeingFirstFinishState on finish line",
           "[states][starting]") {
-    auto &state = StartingBeforeFinishLineState::getInstance();
+    auto &state = StartingState::getInstance();
     TestableContext ctx;
-    ctx.setState(&StartingBeforeFinishLineState::getInstance());
+    ctx.setState(&StartingState::getInstance());
 
     // A horizontal vector (y == 0) → finish line detected
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
     state.updateNextState(sensor, ctx);
 
-    CHECK(ctx.currentState() == &SeeingFinishFirstState::getInstance());
+    CHECK(ctx.currentState() == &SeeingFirstFinishState::getInstance());
 }
 
-TEST_CASE("StartingBeforeFinishLineState::updateNextState – stays put when no finish line",
+TEST_CASE("StartingState::updateNextState – stays put when no finish line",
           "[states][starting]") {
-    auto &state = StartingBeforeFinishLineState::getInstance();
+    auto &state = StartingState::getInstance();
     TestableContext ctx;
-    ctx.setState(&StartingBeforeFinishLineState::getInstance());
+    ctx.setState(&StartingState::getInstance());
 
     SensorFixture sf({FVector2(0.0f, 0.5f)});
     auto &sensor = sf.dto;
     state.updateNextState(sensor, ctx);
 
-    CHECK(ctx.currentState() == &StartingBeforeFinishLineState::getInstance());
+    CHECK(ctx.currentState() == &StartingState::getInstance());
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  SeeingFinishFirstState
+//  SeeingFirstFinishState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("SeeingFinishFirstState::computeCommand – straight at max speed",
+TEST_CASE("SeeingFirstFinishState::computeCommand – straight at max speed",
           "[states][seeinffirst]") {
-    auto &state = SeeingFinishFirstState::getInstance();
+    auto &state = SeeingFirstFinishState::getInstance();
     TestableContext ctx;
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
@@ -118,11 +118,11 @@ TEST_CASE("SeeingFinishFirstState::computeCommand – straight at max speed",
     CHECK(cmd.shouldStop == false);
 }
 
-TEST_CASE("SeeingFinishFirstState::updateNextState – transitions to OnTrackState when finish line gone",
+TEST_CASE("SeeingFirstFinishState::updateNextState – transitions to OnTrackState when finish line gone",
           "[states][seeinffirst]") {
-    auto &state = SeeingFinishFirstState::getInstance();
+    auto &state = SeeingFirstFinishState::getInstance();
     TestableContext ctx;
-    ctx.setState(&SeeingFinishFirstState::getInstance());
+    ctx.setState(&SeeingFirstFinishState::getInstance());
 
     // No horizontal vectors → not seeing finish line
     SensorFixture sf({FVector2(0.0f, 0.5f)});
@@ -132,17 +132,17 @@ TEST_CASE("SeeingFinishFirstState::updateNextState – transitions to OnTrackSta
     CHECK(ctx.currentState() == &OnTrackState::getInstance());
 }
 
-TEST_CASE("SeeingFinishFirstState::updateNextState – stays when finish line still visible",
+TEST_CASE("SeeingFirstFinishState::updateNextState – stays when finish line still visible",
           "[states][seeinffirst]") {
-    auto &state = SeeingFinishFirstState::getInstance();
+    auto &state = SeeingFirstFinishState::getInstance();
     TestableContext ctx;
-    ctx.setState(&SeeingFinishFirstState::getInstance());
+    ctx.setState(&SeeingFirstFinishState::getInstance());
 
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
     state.updateNextState(sensor, ctx);
 
-    CHECK(ctx.currentState() == &SeeingFinishFirstState::getInstance());
+    CHECK(ctx.currentState() == &SeeingFirstFinishState::getInstance());
 }
 
 // ═════════════════════════════════════════════════════════════════════════════

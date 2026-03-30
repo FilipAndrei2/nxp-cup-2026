@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cubeproximity_0',['cubeProximity',['../structls_1_1SensorDataDTO.html#a150ebd0ab3d8c5134d698526cf8f6bc0',1,'ls::SensorDataDTO']]]
+  ['break_0',['BREAK',['../classls_1_1Speed.html#ae70e9c0a4c44555d33ad06d7471a3132',1,'ls::Speed']]]
 ];

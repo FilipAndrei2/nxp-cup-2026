@@ -1,6 +1,6 @@
 #pragma once
 #include "track_states/ITrackState.hpp"
-#include "track_states/StartingBeforeFinishLineState.hpp"
+#include "track_states/StartingState.hpp"
 #include "utils/lifesource.hpp"
 
 namespace ls {
@@ -15,6 +15,6 @@ protected:
   ITrackState &getState() { return *state; }
 
 private:
-  ITrackState *state = &StartingBeforeFinishLineState::getInstance();
+  ITrackState *state = &StartingState::getInstance();
 };
 } // namespace ls
