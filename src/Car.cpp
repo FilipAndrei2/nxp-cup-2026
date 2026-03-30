@@ -16,7 +16,7 @@ int Car::run() {
   return 0;
 }
 
-Car::Car(ls::Car::Context &ctx) : ctx(ctx) { this->isRunning = true; }
+Car::Car(ls::Car::Context &ctx) : ctx(std::move(ctx)) { this->isRunning = true; }
 
 void Car::stopCar() { this->isRunning = false; }
 
