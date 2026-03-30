@@ -20,7 +20,7 @@ const ls::DrivingCommandDTO SeeingFinishLineSecondTimeState::computeCommand(
 
   computeSpeedAndAngle(infoVectors, numberInfoVectors, angle, speed);
 
-  speed = scaleSpeedByCubeProximity(sensorData.cubeProximity, speed);
+  speed = Speed::scale(speed, sensorData.cubeProximity);
 
   return DrivingCommandDTO{
       .angle = angle, .speed = speed, .shouldStop = false}; // todo: finish
@@ -72,13 +72,6 @@ static void computeSpeedAndAngle(const std::array<FVector2, 5> &inVectors,
   }
 }
 
-static speed_t scaleSpeedByCubeProximity(const proximity_t proximity,
-                                         const speed_t maxSpeed) {
-  if (proximity > 0) {
-    return maxSpeed * (proximity / 100);
-  }
-  return maxSpeed;
-}
 void SeeingFinishLineSecondTimeState::updateNextState(
     const ls::SensorDataDTO &sensorData, ATrackStateContext &ctx) const {
   // schimba stateul daca nu mai vezi fin, sau daca incepem sa percepem cubul

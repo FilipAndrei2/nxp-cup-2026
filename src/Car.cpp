@@ -21,7 +21,6 @@ Car::Car(ls::Car::Context &ctx) : ctx(std::move(ctx)) { this->isRunning = true; 
 void Car::stopCar() { this->isRunning = false; }
 
 SensorDataDTO Car::readSensors() {
-  static std::shared_ptr<std::vector<FVector2>> vectors;
   vectors = this->ctx.pixySensor.getVectors();
   auto cubeProximity = this->ctx.ultrasoundSensor.cubeProximity();
 
