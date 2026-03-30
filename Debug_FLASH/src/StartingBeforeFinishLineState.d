@@ -1,6 +1,6 @@
-src/StartingBeforeFinishLineState.o: \
- ../src/StartingBeforeFinishLineState.cpp \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp \
+src/StartingState.o: \
+ ../src/StartingState.cpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ITrackState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/utils/lifesource.hpp \
@@ -61,8 +61,8 @@ src/StartingBeforeFinishLineState.o: \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/params/speed.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/SeeingFinishFirstTimeState.hpp
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp:
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/SeeingFirstFinishState.hpp
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ITrackState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/utils/lifesource.hpp:
@@ -126,4 +126,4 @@ C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_I2c_CfgDefines.
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/params/speed.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/SeeingFinishFirstTimeState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/SeeingFirstFinishState.hpp:

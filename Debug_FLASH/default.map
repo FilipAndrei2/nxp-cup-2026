@@ -17823,453 +17823,453 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./src/PixyCamControllerImpl.o
  .debug_macro   0x00000000       0x6a ./src/PixyCamControllerImpl.o
  .debug_macro   0x00000000      0x22c ./src/PixyCamControllerImpl.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x2c ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x2c ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x14 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000       0x2c ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .group         0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
- .text          0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
- .data          0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
- .bss           0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0x8 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x2c ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x2c ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x14 ./src/SeeingFirstFinishState.o
+ .group         0x00000000       0x2c ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0x8 ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .group         0x00000000        0xc ./src/SeeingFirstFinishState.o
+ .text          0x00000000        0x0 ./src/SeeingFirstFinishState.o
+ .data          0x00000000        0x0 ./src/SeeingFirstFinishState.o
+ .bss           0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .text._ZL20__gthread_key_deletei
-                0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x16 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZL20__gthread_key_deletei
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZL20__gthread_key_deletei
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .rodata._ZN9__gnu_cxxL21__default_lock_policyE
-                0x00000000        0x1 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x1 ./src/SeeingFirstFinishState.o
  .rodata._ZN6__pstl9execution2v1L3seqE
-                0x00000000        0x1 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x1 ./src/SeeingFirstFinishState.o
  .rodata._ZN6__pstl9execution2v1L3parE
-                0x00000000        0x1 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x1 ./src/SeeingFirstFinishState.o
  .rodata._ZN6__pstl9execution2v1L9par_unseqE
-                0x00000000        0x1 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x1 ./src/SeeingFirstFinishState.o
  .rodata._ZN6__pstl9execution2v1L5unseqE
-                0x00000000        0x1 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x1 ./src/SeeingFirstFinishState.o
  .text._ZSt3absf
-                0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x20 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZSt3absf
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZSt3absf
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000       0x88 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x88 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0xc ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0xc ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x1c ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
- .ARM.extab.text._ZN2ls22SeeingFinishFirstState14computeCommandERKNS_13SensorDataDTOE
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
+ .ARM.extab.text._ZN2ls22SeeingFirstFinishState14computeCommandERKNS_13SensorDataDTOE
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x20 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x20 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000       0x22 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x22 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000       0x30 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x30 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000       0x22 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x22 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x18 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000       0x40 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x40 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x1c ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN2ls12OnTrackStateD2Ev
-                0x00000000       0x24 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x24 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls12OnTrackStateD2Ev
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls12OnTrackStateD2Ev
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN2ls12OnTrackStateD0Ev
-                0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x20 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls12OnTrackStateD0Ev
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls12OnTrackStateD0Ev
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x20 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x16 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000       0x1e ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x1e ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x18 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
  .text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
+                0x00000000       0x18 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x0 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000        0x8 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0xc0a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x1b2 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xc8 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x103 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x329 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x4f ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x6a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x20 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x28 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x2e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1f ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x88 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x19 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x22 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x8e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x51 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x103 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x6a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x1df ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x27 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x19 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x58 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x18 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x3c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x34 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x17b ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x43 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x34 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x71 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x12a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x3c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x356 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x33 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x173 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x22 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x2f ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x12 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x46 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1f ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x35 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x5e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x5e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x29 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xde ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x22 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x40 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xd5 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x1c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x3d ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x130 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x11d ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x241 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x2d ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x26 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x82 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x1a2 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x3d4 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x120 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x11 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x17 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x10 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x97b ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x3a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xcc ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x6e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x94 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xdd ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xb8 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x16 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x67 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x130 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x6a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x58 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x57 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x34 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000     0x1889 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x762 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xa6 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xf8 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x10a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x4c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x126 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x47 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x2e ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x6a ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0x22c ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000      0xdd9 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x34 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x52 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x35 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0xbb ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x34 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x3b ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
- .debug_macro   0x00000000       0x50 ./src/SeeingFinishFirstTimeState.o
+                0x00000000        0x8 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0xc0a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x1b2 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xc8 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x103 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x329 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x4f ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x6a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x20 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x28 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x2e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1f ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x88 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x19 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x22 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x8e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x51 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x103 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x6a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x1df ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x27 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x19 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x58 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x18 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x3c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x34 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x17b ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x43 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x34 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x71 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x12a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x3c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x356 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x33 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x173 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x22 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x2f ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x12 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x46 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1f ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x35 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x5e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x5e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x29 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xde ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x22 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x40 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xd5 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x1c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x3d ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x130 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x11d ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x241 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x2d ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x26 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x82 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x1a2 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x3d4 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x120 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x11 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x17 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x10 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x97b ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x3a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xcc ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x6e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x94 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xdd ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xb8 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x16 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x67 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x130 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x6a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x58 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x57 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x34 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000     0x1889 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x762 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xa6 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xf8 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x10a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x4c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x126 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x47 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x2e ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x6a ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0x22c ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000      0xdd9 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x34 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x52 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x35 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0xbb ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x34 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x3b ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
+ .debug_macro   0x00000000       0x50 ./src/SeeingFirstFinishState.o
  .group         0x00000000       0x14 ./src/SeeingFinishLineSecondTimeState.o
  .group         0x00000000       0x18 ./src/SeeingFinishLineSecondTimeState.o
  .group         0x00000000       0x18 ./src/SeeingFinishLineSecondTimeState.o
@@ -19435,459 +19435,459 @@ Discarded input sections
  .debug_macro   0x00000000       0x3b ./src/SpeedControllerImpl.o
  .debug_macro   0x00000000       0x50 ./src/SpeedControllerImpl.o
  .debug_macro   0x00000000       0x50 ./src/SpeedControllerImpl.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x2c ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x2c ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x2c ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000       0x14 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .group         0x00000000        0xc ./src/StartingBeforeFinishLineState.o
- .text          0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
- .data          0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
- .bss           0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x2c ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0x8 ./src/StartingState.o
+ .group         0x00000000       0x2c ./src/StartingState.o
+ .group         0x00000000       0x2c ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000       0x18 ./src/StartingState.o
+ .group         0x00000000       0x14 ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0x8 ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .group         0x00000000        0xc ./src/StartingState.o
+ .text          0x00000000        0x0 ./src/StartingState.o
+ .data          0x00000000        0x0 ./src/StartingState.o
+ .bss           0x00000000        0x0 ./src/StartingState.o
  .text._ZL20__gthread_key_deletei
-                0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x16 ./src/StartingState.o
  .ARM.extab.text._ZL20__gthread_key_deletei
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZL20__gthread_key_deletei
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .rodata._ZN9__gnu_cxxL21__default_lock_policyE
-                0x00000000        0x1 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x1 ./src/StartingState.o
  .rodata._ZN6__pstl9execution2v1L3seqE
-                0x00000000        0x1 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x1 ./src/StartingState.o
  .rodata._ZN6__pstl9execution2v1L3parE
-                0x00000000        0x1 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x1 ./src/StartingState.o
  .rodata._ZN6__pstl9execution2v1L9par_unseqE
-                0x00000000        0x1 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x1 ./src/StartingState.o
  .rodata._ZN6__pstl9execution2v1L5unseqE
-                0x00000000        0x1 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x1 ./src/StartingState.o
  .text._ZSt3absf
-                0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x20 ./src/StartingState.o
  .ARM.extab.text._ZSt3absf
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZSt3absf
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000       0x88 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x88 ./src/StartingState.o
  .ARM.extab.text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0xc ./src/StartingBeforeFinishLineState.o
+                0x00000000        0xc ./src/StartingState.o
  .ARM.exidx.text._ZN2ls7Vectors25numberOfFinishLineVectorsERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN2ls7Vectors16seeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x22 ./src/StartingState.o
  .ARM.extab.text._ZN2ls7Vectors16seeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0xc ./src/StartingBeforeFinishLineState.o
+                0x00000000        0xc ./src/StartingState.o
  .ARM.exidx.text._ZN2ls7Vectors16seeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x1c ./src/StartingState.o
  .ARM.extab.text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZN2ls18ATrackStateContext8setStateEPNS_11ITrackStateE
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls29StartingBeforeFinishLineState14computeCommandERKNS_13SensorDataDTOE
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
+ .ARM.extab.text._ZN2ls29StartingState14computeCommandERKNS_13SensorDataDTOE
+                0x00000000        0x0 ./src/StartingState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x20 ./src/StartingState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE4sizeEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x20 ./src/StartingState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE5beginEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x22 ./src/StartingState.o
  .ARM.extab.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt6vectorIN2ls7Vector2IfEESaIS2_EE3endEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000       0x30 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x30 ./src/StartingState.o
  .ARM.extab.text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZN9__gnu_cxxneIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x22 ./src/StartingState.o
  .ARM.extab.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEppEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x18 ./src/StartingState.o
  .ARM.extab.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEdeEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000       0x40 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x40 ./src/StartingState.o
  .ARM.extab.text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZN2ls7Vectors12isFinishLineIfEEbRKNS_7Vector2IT_EE
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x1c ./src/StartingState.o
  .ARM.extab.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EEdeEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x00000000       0x24 ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
- .ARM.exidx.text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
- .ARM.exidx.text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
+ .text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x00000000       0x24 ./src/StartingState.o
+ .ARM.extab.text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x00000000        0x0 ./src/StartingState.o
+ .ARM.exidx.text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x00000000        0x8 ./src/StartingState.o
+ .text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x00000000       0x20 ./src/StartingState.o
+ .ARM.extab.text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x00000000        0x0 ./src/StartingState.o
+ .ARM.exidx.text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x20 ./src/StartingState.o
  .ARM.extab.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZN9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x16 ./src/StartingState.o
  .ARM.extab.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNK9__gnu_cxx17__normal_iteratorIPKN2ls7Vector2IfEESt6vectorIS3_SaIS3_EEE4baseEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000       0x1e ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x1e ./src/StartingState.o
  .ARM.extab.text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNK2ls7Vector2IfE4getYEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x18 ./src/StartingState.o
  .ARM.extab.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt19__shared_ptr_accessISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0ELb0ELb0EE6_M_getEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
  .text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
+                0x00000000       0x18 ./src/StartingState.o
  .ARM.extab.text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000        0x0 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x0 ./src/StartingState.o
  .ARM.exidx.text._ZNKSt12__shared_ptrISt6vectorIN2ls7Vector2IfEESaIS3_EELN9__gnu_cxx12_Lock_policyE0EE3getEv
-                0x00000000        0x8 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0xc0a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x1b2 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xc8 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x103 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x329 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x4f ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x6a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x20 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x28 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x2e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1f ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x88 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x19 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x8e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x51 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x103 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x6a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x1df ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x27 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x19 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x58 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x18 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x3c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x34 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x17b ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x43 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x34 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x71 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x12a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x3c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x356 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x33 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x173 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x2f ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x12 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x46 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1f ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x35 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x5e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x5e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x29 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xde ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x22 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x40 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xd5 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x1c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x3d ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x130 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x11d ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x241 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x2d ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x26 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x82 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x1a2 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x3d4 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x120 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x11 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x17 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x10 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x97b ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x3a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xcc ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x6e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x94 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xdd ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xb8 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x16 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x67 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x130 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x6a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x58 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x57 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x34 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000     0x1889 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x762 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xa6 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xf8 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x10a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x4c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x126 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x47 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x2e ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x6a ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0x22c ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000      0xdd9 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x34 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x52 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x35 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0xbb ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x34 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x3b ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
- .debug_macro   0x00000000       0x50 ./src/StartingBeforeFinishLineState.o
+                0x00000000        0x8 ./src/StartingState.o
+ .debug_macro   0x00000000      0xc0a ./src/StartingState.o
+ .debug_macro   0x00000000      0x1b2 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0xc8 ./src/StartingState.o
+ .debug_macro   0x00000000      0x103 ./src/StartingState.o
+ .debug_macro   0x00000000      0x329 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x18 ./src/StartingState.o
+ .debug_macro   0x00000000       0x4f ./src/StartingState.o
+ .debug_macro   0x00000000       0x6a ./src/StartingState.o
+ .debug_macro   0x00000000       0x20 ./src/StartingState.o
+ .debug_macro   0x00000000       0x28 ./src/StartingState.o
+ .debug_macro   0x00000000       0x2e ./src/StartingState.o
+ .debug_macro   0x00000000       0x1f ./src/StartingState.o
+ .debug_macro   0x00000000       0x88 ./src/StartingState.o
+ .debug_macro   0x00000000       0x19 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x22 ./src/StartingState.o
+ .debug_macro   0x00000000       0x8e ./src/StartingState.o
+ .debug_macro   0x00000000       0x51 ./src/StartingState.o
+ .debug_macro   0x00000000      0x103 ./src/StartingState.o
+ .debug_macro   0x00000000       0x6a ./src/StartingState.o
+ .debug_macro   0x00000000      0x1df ./src/StartingState.o
+ .debug_macro   0x00000000       0x27 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x19 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x58 ./src/StartingState.o
+ .debug_macro   0x00000000       0x18 ./src/StartingState.o
+ .debug_macro   0x00000000       0x3c ./src/StartingState.o
+ .debug_macro   0x00000000       0x34 ./src/StartingState.o
+ .debug_macro   0x00000000      0x17b ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x43 ./src/StartingState.o
+ .debug_macro   0x00000000       0x34 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x71 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000      0x12a ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x3c ./src/StartingState.o
+ .debug_macro   0x00000000      0x356 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x33 ./src/StartingState.o
+ .debug_macro   0x00000000      0x173 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x22 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x2f ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x12 ./src/StartingState.o
+ .debug_macro   0x00000000       0x46 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1f ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x35 ./src/StartingState.o
+ .debug_macro   0x00000000       0x5e ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x5e ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x29 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0xde ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x22 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000       0x40 ./src/StartingState.o
+ .debug_macro   0x00000000       0xd5 ./src/StartingState.o
+ .debug_macro   0x00000000       0x1c ./src/StartingState.o
+ .debug_macro   0x00000000       0x3d ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000      0x130 ./src/StartingState.o
+ .debug_macro   0x00000000      0x11d ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000      0x241 ./src/StartingState.o
+ .debug_macro   0x00000000       0x2d ./src/StartingState.o
+ .debug_macro   0x00000000       0x26 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x82 ./src/StartingState.o
+ .debug_macro   0x00000000      0x1a2 ./src/StartingState.o
+ .debug_macro   0x00000000      0x3d4 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000      0x120 ./src/StartingState.o
+ .debug_macro   0x00000000       0x11 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x17 ./src/StartingState.o
+ .debug_macro   0x00000000       0x10 ./src/StartingState.o
+ .debug_macro   0x00000000      0x97b ./src/StartingState.o
+ .debug_macro   0x00000000       0x3a ./src/StartingState.o
+ .debug_macro   0x00000000       0xcc ./src/StartingState.o
+ .debug_macro   0x00000000       0x6e ./src/StartingState.o
+ .debug_macro   0x00000000       0x94 ./src/StartingState.o
+ .debug_macro   0x00000000       0xdd ./src/StartingState.o
+ .debug_macro   0x00000000       0xb8 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x16 ./src/StartingState.o
+ .debug_macro   0x00000000       0x67 ./src/StartingState.o
+ .debug_macro   0x00000000      0x130 ./src/StartingState.o
+ .debug_macro   0x00000000       0x6a ./src/StartingState.o
+ .debug_macro   0x00000000       0x58 ./src/StartingState.o
+ .debug_macro   0x00000000       0x57 ./src/StartingState.o
+ .debug_macro   0x00000000       0x34 ./src/StartingState.o
+ .debug_macro   0x00000000     0x1889 ./src/StartingState.o
+ .debug_macro   0x00000000      0x762 ./src/StartingState.o
+ .debug_macro   0x00000000       0xa6 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
+ .debug_macro   0x00000000       0xf8 ./src/StartingState.o
+ .debug_macro   0x00000000      0x10a ./src/StartingState.o
+ .debug_macro   0x00000000       0x4c ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
+ .debug_macro   0x00000000      0x126 ./src/StartingState.o
+ .debug_macro   0x00000000       0x47 ./src/StartingState.o
+ .debug_macro   0x00000000       0x2e ./src/StartingState.o
+ .debug_macro   0x00000000       0x6a ./src/StartingState.o
+ .debug_macro   0x00000000      0x22c ./src/StartingState.o
+ .debug_macro   0x00000000      0xdd9 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x34 ./src/StartingState.o
+ .debug_macro   0x00000000       0x52 ./src/StartingState.o
+ .debug_macro   0x00000000       0x35 ./src/StartingState.o
+ .debug_macro   0x00000000       0xbb ./src/StartingState.o
+ .debug_macro   0x00000000       0x34 ./src/StartingState.o
+ .debug_macro   0x00000000       0x3b ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
+ .debug_macro   0x00000000       0x50 ./src/StartingState.o
  .group         0x00000000       0x2c ./src/StoppedState.o
  .group         0x00000000        0xc ./src/StoppedState.o
  .group         0x00000000        0x8 ./src/StoppedState.o
@@ -21971,17 +21971,17 @@ Discarded input sections
                 0x00000000        0x0 ./src/funcs.o
  .ARM.exidx.text._ZN2ls27IUltrasoundSensorControllerD0Ev
                 0x00000000        0x8 ./src/funcs.o
- .text._ZN2ls29StartingBeforeFinishLineStateD2Ev
+ .text._ZN2ls29StartingStateD2Ev
                 0x00000000       0x24 ./src/funcs.o
- .ARM.extab.text._ZN2ls29StartingBeforeFinishLineStateD2Ev
+ .ARM.extab.text._ZN2ls29StartingStateD2Ev
                 0x00000000        0x0 ./src/funcs.o
- .ARM.exidx.text._ZN2ls29StartingBeforeFinishLineStateD2Ev
+ .ARM.exidx.text._ZN2ls29StartingStateD2Ev
                 0x00000000        0x8 ./src/funcs.o
- .text._ZN2ls29StartingBeforeFinishLineStateD0Ev
+ .text._ZN2ls29StartingStateD0Ev
                 0x00000000       0x20 ./src/funcs.o
- .ARM.extab.text._ZN2ls29StartingBeforeFinishLineStateD0Ev
+ .ARM.extab.text._ZN2ls29StartingStateD0Ev
                 0x00000000        0x0 ./src/funcs.o
- .ARM.exidx.text._ZN2ls29StartingBeforeFinishLineStateD0Ev
+ .ARM.exidx.text._ZN2ls29StartingStateD0Ev
                 0x00000000        0x8 ./src/funcs.o
  .text._ZN2ls21PixyCamControllerImplD2Ev
                 0x00000000       0x24 ./src/funcs.o
@@ -26654,11 +26654,11 @@ LOAD ./src/CarBuilder.o
 LOAD ./src/ITrackState.o
 LOAD ./src/OnTrackState.o
 LOAD ./src/PixyCamControllerImpl.o
-LOAD ./src/SeeingFinishFirstTimeState.o
+LOAD ./src/SeeingFirstFinishState.o
 LOAD ./src/SeeingFinishLineSecondTimeState.o
 LOAD ./src/ServoControllerImpl.o
 LOAD ./src/SpeedControllerImpl.o
-LOAD ./src/StartingBeforeFinishLineState.o
+LOAD ./src/StartingState.o
 LOAD ./src/StoppedState.o
 LOAD ./src/UltrasoundSensorController.o
 LOAD ./src/Vectors.o
@@ -27525,26 +27525,26 @@ END GROUP
                 0x00004e90                std::vector<ls::Vector2<float>, std::allocator<ls::Vector2<float> > >::~vector()
                 0x00004e90                std::vector<ls::Vector2<float>, std::allocator<ls::Vector2<float> > >::~vector()
  .text._ZN2ls7Vectors19notSeeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x00004ec6       0x22 ./src/SeeingFinishFirstTimeState.o
+                0x00004ec6       0x22 ./src/SeeingFirstFinishState.o
                 0x00004ec6                ls::Vectors::notSeeingFinishLine(std::vector<ls::Vector2<float>, std::allocator<ls::Vector2<float> > > const&)
- .text._ZN2ls22SeeingFinishFirstState14computeCommandERKNS_13SensorDataDTOE
-                0x00004ee8       0x2c ./src/SeeingFinishFirstTimeState.o
-                0x00004ee8                ls::SeeingFinishFirstState::computeCommand(ls::SensorDataDTO const&)
- .text._ZNK2ls22SeeingFinishFirstState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x00004f14       0x3a ./src/SeeingFinishFirstTimeState.o
-                0x00004f14                ls::SeeingFinishFirstState::updateNextState(ls::SensorDataDTO const&, ls::ATrackStateContext&) const
+ .text._ZN2ls22SeeingFirstFinishState14computeCommandERKNS_13SensorDataDTOE
+                0x00004ee8       0x2c ./src/SeeingFirstFinishState.o
+                0x00004ee8                ls::SeeingFirstFinishState::computeCommand(ls::SensorDataDTO const&)
+ .text._ZNK2ls22SeeingFirstFinishState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x00004f14       0x3a ./src/SeeingFirstFinishState.o
+                0x00004f14                ls::SeeingFirstFinishState::updateNextState(ls::SensorDataDTO const&, ls::ATrackStateContext&) const
  *fill*         0x00004f4e        0x2 
- .text.__tcf_1  0x00004f50       0x10 ./src/SeeingFinishFirstTimeState.o
+ .text.__tcf_1  0x00004f50       0x10 ./src/SeeingFirstFinishState.o
  .text._ZN2ls9SingletonINS_12OnTrackStateEE11getInstanceEv
-                0x00004f60       0x54 ./src/SeeingFinishFirstTimeState.o
+                0x00004f60       0x54 ./src/SeeingFirstFinishState.o
                 0x00004f60                ls::Singleton<ls::OnTrackState>::getInstance()
- .text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x00004fb4       0x24 ./src/SeeingFinishFirstTimeState.o
-                0x00004fb4                ls::SeeingFinishFirstState::~SeeingFinishFirstState()
-                0x00004fb4                ls::SeeingFinishFirstState::~SeeingFinishFirstState()
- .text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x00004fd8       0x20 ./src/SeeingFinishFirstTimeState.o
-                0x00004fd8                ls::SeeingFinishFirstState::~SeeingFinishFirstState()
+ .text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x00004fb4       0x24 ./src/SeeingFirstFinishState.o
+                0x00004fb4                ls::SeeingFirstFinishState::~SeeingFirstFinishState()
+                0x00004fb4                ls::SeeingFirstFinishState::~SeeingFirstFinishState()
+ .text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x00004fd8       0x20 ./src/SeeingFirstFinishState.o
+                0x00004fd8                ls::SeeingFirstFinishState::~SeeingFirstFinishState()
  .text._ZNSt5arrayIN2ls7Vector2IfEELj5EEC2Ev
                 0x00004ff8       0x34 ./src/SeeingFinishLineSecondTimeState.o
                 0x00004ff8                std::array<ls::Vector2<float>, 5u>::array()
@@ -27635,24 +27635,24 @@ END GROUP
  .text._ZN2ls19SpeedControllerImplD0Ev
                 0x000055e4       0x20 ./src/SpeedControllerImpl.o
                 0x000055e4                ls::SpeedControllerImpl::~SpeedControllerImpl()
- .text._ZN2ls29StartingBeforeFinishLineState14computeCommandERKNS_13SensorDataDTOE
-                0x00005604       0x2c ./src/StartingBeforeFinishLineState.o
-                0x00005604                ls::StartingBeforeFinishLineState::computeCommand(ls::SensorDataDTO const&)
- .text._ZNK2ls29StartingBeforeFinishLineState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x00005630       0x3a ./src/StartingBeforeFinishLineState.o
-                0x00005630                ls::StartingBeforeFinishLineState::updateNextState(ls::SensorDataDTO const&, ls::ATrackStateContext&) const
+ .text._ZN2ls29StartingState14computeCommandERKNS_13SensorDataDTOE
+                0x00005604       0x2c ./src/StartingState.o
+                0x00005604                ls::StartingState::computeCommand(ls::SensorDataDTO const&)
+ .text._ZNK2ls29StartingState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x00005630       0x3a ./src/StartingState.o
+                0x00005630                ls::StartingState::updateNextState(ls::SensorDataDTO const&, ls::ATrackStateContext&) const
  *fill*         0x0000566a        0x2 
- .text._ZN2ls29StartingBeforeFinishLineStateD2Ev
-                0x0000566c       0x24 ./src/StartingBeforeFinishLineState.o
-                0x0000566c                ls::StartingBeforeFinishLineState::~StartingBeforeFinishLineState()
-                0x0000566c                ls::StartingBeforeFinishLineState::~StartingBeforeFinishLineState()
- .text._ZN2ls29StartingBeforeFinishLineStateD0Ev
-                0x00005690       0x20 ./src/StartingBeforeFinishLineState.o
-                0x00005690                ls::StartingBeforeFinishLineState::~StartingBeforeFinishLineState()
- .text.__tcf_1  0x000056b0       0x10 ./src/StartingBeforeFinishLineState.o
- .text._ZN2ls9SingletonINS_22SeeingFinishFirstStateEE11getInstanceEv
-                0x000056c0       0x54 ./src/StartingBeforeFinishLineState.o
-                0x000056c0                ls::Singleton<ls::SeeingFinishFirstState>::getInstance()
+ .text._ZN2ls29StartingStateD2Ev
+                0x0000566c       0x24 ./src/StartingState.o
+                0x0000566c                ls::StartingState::~StartingState()
+                0x0000566c                ls::StartingState::~StartingState()
+ .text._ZN2ls29StartingStateD0Ev
+                0x00005690       0x20 ./src/StartingState.o
+                0x00005690                ls::StartingState::~StartingState()
+ .text.__tcf_1  0x000056b0       0x10 ./src/StartingState.o
+ .text._ZN2ls9SingletonINS_22SeeingFirstFinishStateEE11getInstanceEv
+                0x000056c0       0x54 ./src/StartingState.o
+                0x000056c0                ls::Singleton<ls::SeeingFirstFinishState>::getInstance()
  .text._ZN2ls12StoppedState14computeCommandERKNS_13SensorDataDTOE
                 0x00005714       0x2c ./src/StoppedState.o
                 0x00005714                ls::StoppedState::computeCommand(ls::SensorDataDTO const&)
@@ -27715,9 +27715,9 @@ END GROUP
                 0x00005a4c                ls::buildCar()
  *fill*         0x00005ad6        0x2 
  .text.__tcf_0  0x00005ad8       0x10 ./src/funcs.o
- .text._ZN2ls9SingletonINS_29StartingBeforeFinishLineStateEE11getInstanceEv
+ .text._ZN2ls9SingletonINS_29StartingStateEE11getInstanceEv
                 0x00005ae8       0x54 ./src/funcs.o
-                0x00005ae8                ls::Singleton<ls::StartingBeforeFinishLineState>::getInstance()
+                0x00005ae8                ls::Singleton<ls::StartingState>::getInstance()
  .text.__tcf_1  0x00005b3c       0x10 ./src/funcs.o
  .text._ZN2ls9SingletonINS_21PixyCamControllerImplEE11getInstanceEv
                 0x00005b4c       0x6c ./src/funcs.o
@@ -29513,22 +29513,22 @@ END GROUP
                 0x0001ac54       0x2d ./src/PixyCamControllerImpl.o
                 0x0001ac54                typeinfo name for ls::Singleton<ls::PixyCamControllerImpl>
  *fill*         0x0001ac81        0x3 
- .rodata._ZTVN2ls22SeeingFinishFirstStateE
-                0x0001ac84       0x18 ./src/SeeingFinishFirstTimeState.o
-                0x0001ac84                vtable for ls::SeeingFinishFirstState
- .rodata._ZTIN2ls22SeeingFinishFirstStateE
-                0x0001ac9c       0x20 ./src/SeeingFinishFirstTimeState.o
-                0x0001ac9c                typeinfo for ls::SeeingFinishFirstState
- .rodata._ZTSN2ls22SeeingFinishFirstStateE
-                0x0001acbc       0x1e ./src/SeeingFinishFirstTimeState.o
-                0x0001acbc                typeinfo name for ls::SeeingFinishFirstState
+ .rodata._ZTVN2ls22SeeingFirstFinishStateE
+                0x0001ac84       0x18 ./src/SeeingFirstFinishState.o
+                0x0001ac84                vtable for ls::SeeingFirstFinishState
+ .rodata._ZTIN2ls22SeeingFirstFinishStateE
+                0x0001ac9c       0x20 ./src/SeeingFirstFinishState.o
+                0x0001ac9c                typeinfo for ls::SeeingFirstFinishState
+ .rodata._ZTSN2ls22SeeingFirstFinishStateE
+                0x0001acbc       0x1e ./src/SeeingFirstFinishState.o
+                0x0001acbc                typeinfo name for ls::SeeingFirstFinishState
  *fill*         0x0001acda        0x2 
- .rodata._ZTIN2ls9SingletonINS_22SeeingFinishFirstStateEEE
-                0x0001acdc        0x8 ./src/SeeingFinishFirstTimeState.o
-                0x0001acdc                typeinfo for ls::Singleton<ls::SeeingFinishFirstState>
- .rodata._ZTSN2ls9SingletonINS_22SeeingFinishFirstStateEEE
-                0x0001ace4       0x2e ./src/SeeingFinishFirstTimeState.o
-                0x0001ace4                typeinfo name for ls::Singleton<ls::SeeingFinishFirstState>
+ .rodata._ZTIN2ls9SingletonINS_22SeeingFirstFinishStateEEE
+                0x0001acdc        0x8 ./src/SeeingFirstFinishState.o
+                0x0001acdc                typeinfo for ls::Singleton<ls::SeeingFirstFinishState>
+ .rodata._ZTSN2ls9SingletonINS_22SeeingFirstFinishStateEEE
+                0x0001ace4       0x2e ./src/SeeingFirstFinishState.o
+                0x0001ace4                typeinfo name for ls::Singleton<ls::SeeingFirstFinishState>
  *fill*         0x0001ad12        0x2 
  .rodata._ZTVN2ls31SeeingFinishLineSecondTimeStateE
                 0x0001ad14       0x18 ./src/SeeingFinishLineSecondTimeState.o
@@ -29599,22 +29599,22 @@ END GROUP
                 0x0001aef8       0x2b ./src/SpeedControllerImpl.o
                 0x0001aef8                typeinfo name for ls::Singleton<ls::SpeedControllerImpl>
  *fill*         0x0001af23        0x1 
- .rodata._ZTVN2ls29StartingBeforeFinishLineStateE
-                0x0001af24       0x18 ./src/StartingBeforeFinishLineState.o
-                0x0001af24                vtable for ls::StartingBeforeFinishLineState
- .rodata._ZTIN2ls29StartingBeforeFinishLineStateE
-                0x0001af3c       0x20 ./src/StartingBeforeFinishLineState.o
-                0x0001af3c                typeinfo for ls::StartingBeforeFinishLineState
- .rodata._ZTSN2ls29StartingBeforeFinishLineStateE
-                0x0001af5c       0x25 ./src/StartingBeforeFinishLineState.o
-                0x0001af5c                typeinfo name for ls::StartingBeforeFinishLineState
+ .rodata._ZTVN2ls29StartingStateE
+                0x0001af24       0x18 ./src/StartingState.o
+                0x0001af24                vtable for ls::StartingState
+ .rodata._ZTIN2ls29StartingStateE
+                0x0001af3c       0x20 ./src/StartingState.o
+                0x0001af3c                typeinfo for ls::StartingState
+ .rodata._ZTSN2ls29StartingStateE
+                0x0001af5c       0x25 ./src/StartingState.o
+                0x0001af5c                typeinfo name for ls::StartingState
  *fill*         0x0001af81        0x3 
- .rodata._ZTIN2ls9SingletonINS_29StartingBeforeFinishLineStateEEE
-                0x0001af84        0x8 ./src/StartingBeforeFinishLineState.o
-                0x0001af84                typeinfo for ls::Singleton<ls::StartingBeforeFinishLineState>
- .rodata._ZTSN2ls9SingletonINS_29StartingBeforeFinishLineStateEEE
-                0x0001af8c       0x35 ./src/StartingBeforeFinishLineState.o
-                0x0001af8c                typeinfo name for ls::Singleton<ls::StartingBeforeFinishLineState>
+ .rodata._ZTIN2ls9SingletonINS_29StartingStateEEE
+                0x0001af84        0x8 ./src/StartingState.o
+                0x0001af84                typeinfo for ls::Singleton<ls::StartingState>
+ .rodata._ZTSN2ls9SingletonINS_29StartingStateEEE
+                0x0001af8c       0x35 ./src/StartingState.o
+                0x0001af8c                typeinfo name for ls::Singleton<ls::StartingState>
  *fill*         0x0001afc1        0x3 
  .rodata._ZTVN2ls12StoppedStateE
                 0x0001afc4       0x18 ./src/StoppedState.o
@@ -30578,21 +30578,21 @@ END GROUP
  .ARM.exidx.text._ZNSt6vectorIN2ls7Vector2IfEESaIS2_EED2Ev
                 0x1fff83c8        0x8 ./src/PixyCamControllerImpl.o
  .ARM.exidx.text._ZN2ls7Vectors19notSeeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x1fff83d0        0x8 ./src/SeeingFinishFirstTimeState.o
- .ARM.exidx.text._ZN2ls22SeeingFinishFirstState14computeCommandERKNS_13SensorDataDTOE
-                0x1fff83d8        0x8 ./src/SeeingFinishFirstTimeState.o
- .ARM.exidx.text._ZNK2ls22SeeingFinishFirstState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x1fff83e0        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x1fff83d0        0x8 ./src/SeeingFirstFinishState.o
+ .ARM.exidx.text._ZN2ls22SeeingFirstFinishState14computeCommandERKNS_13SensorDataDTOE
+                0x1fff83d8        0x8 ./src/SeeingFirstFinishState.o
+ .ARM.exidx.text._ZNK2ls22SeeingFirstFinishState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x1fff83e0        0x8 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text.__tcf_1
-                0x1fff83e8        0x8 ./src/SeeingFinishFirstTimeState.o
+                0x1fff83e8        0x8 ./src/SeeingFirstFinishState.o
  .ARM.exidx.text._ZN2ls9SingletonINS_12OnTrackStateEE11getInstanceEv
-                0x1fff83f0        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x1fff83f0        0x0 ./src/SeeingFirstFinishState.o
                                   0x8 (size before relaxing)
- .ARM.exidx.text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x1fff83f0        0x0 ./src/SeeingFinishFirstTimeState.o
+ .ARM.exidx.text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x1fff83f0        0x0 ./src/SeeingFirstFinishState.o
                                   0x8 (size before relaxing)
- .ARM.exidx.text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x1fff83f0        0x0 ./src/SeeingFinishFirstTimeState.o
+ .ARM.exidx.text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x1fff83f0        0x0 ./src/SeeingFirstFinishState.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt5arrayIN2ls7Vector2IfEELj5EEC2Ev
                 0x1fff83f0        0x0 ./src/SeeingFinishLineSecondTimeState.o
@@ -30666,21 +30666,21 @@ END GROUP
  .ARM.exidx.text._ZN2ls19SpeedControllerImplD0Ev
                 0x1fff8450        0x0 ./src/SpeedControllerImpl.o
                                   0x8 (size before relaxing)
- .ARM.exidx.text._ZN2ls29StartingBeforeFinishLineState14computeCommandERKNS_13SensorDataDTOE
-                0x1fff8450        0x0 ./src/StartingBeforeFinishLineState.o
+ .ARM.exidx.text._ZN2ls29StartingState14computeCommandERKNS_13SensorDataDTOE
+                0x1fff8450        0x0 ./src/StartingState.o
                                   0x8 (size before relaxing)
- .ARM.exidx.text._ZNK2ls29StartingBeforeFinishLineState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x1fff8450        0x8 ./src/StartingBeforeFinishLineState.o
- .ARM.exidx.text._ZN2ls29StartingBeforeFinishLineStateD2Ev
-                0x1fff8458        0x8 ./src/StartingBeforeFinishLineState.o
- .ARM.exidx.text._ZN2ls29StartingBeforeFinishLineStateD0Ev
-                0x1fff8460        0x0 ./src/StartingBeforeFinishLineState.o
+ .ARM.exidx.text._ZNK2ls29StartingState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x1fff8450        0x8 ./src/StartingState.o
+ .ARM.exidx.text._ZN2ls29StartingStateD2Ev
+                0x1fff8458        0x8 ./src/StartingState.o
+ .ARM.exidx.text._ZN2ls29StartingStateD0Ev
+                0x1fff8460        0x0 ./src/StartingState.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__tcf_1
-                0x1fff8460        0x0 ./src/StartingBeforeFinishLineState.o
+                0x1fff8460        0x0 ./src/StartingState.o
                                   0x8 (size before relaxing)
- .ARM.exidx.text._ZN2ls9SingletonINS_22SeeingFinishFirstStateEE11getInstanceEv
-                0x1fff8460        0x0 ./src/StartingBeforeFinishLineState.o
+ .ARM.exidx.text._ZN2ls9SingletonINS_22SeeingFirstFinishStateEE11getInstanceEv
+                0x1fff8460        0x0 ./src/StartingState.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN2ls12StoppedState14computeCommandERKNS_13SensorDataDTOE
                 0x1fff8460        0x0 ./src/StoppedState.o
@@ -30735,7 +30735,7 @@ END GROUP
                 0x1fff8470        0x8 ./src/funcs.o
  .ARM.exidx.text.__tcf_0
                 0x1fff8478        0x8 ./src/funcs.o
- .ARM.exidx.text._ZN2ls9SingletonINS_29StartingBeforeFinishLineStateEE11getInstanceEv
+ .ARM.exidx.text._ZN2ls9SingletonINS_29StartingStateEE11getInstanceEv
                 0x1fff8480        0x0 ./src/funcs.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__tcf_1
@@ -31173,17 +31173,17 @@ END GROUP
  .ARM.extab.text._ZNSt6vectorIN2ls7Vector2IfEESaIS2_EED2Ev
                 0x1fff871c       0x10 ./src/PixyCamControllerImpl.o
  .ARM.extab.text._ZN2ls7Vectors19notSeeingFinishLineERKSt6vectorINS_7Vector2IfEESaIS3_EE
-                0x1fff872c        0xc ./src/SeeingFinishFirstTimeState.o
- .ARM.extab.text._ZNK2ls22SeeingFinishFirstState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x1fff8738        0xc ./src/SeeingFinishFirstTimeState.o
+                0x1fff872c        0xc ./src/SeeingFirstFinishState.o
+ .ARM.extab.text._ZNK2ls22SeeingFirstFinishState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x1fff8738        0xc ./src/SeeingFirstFinishState.o
  .ARM.extab.text.__tcf_1
-                0x1fff8744        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x1fff8744        0x0 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZN2ls9SingletonINS_12OnTrackStateEE11getInstanceEv
-                0x1fff8744        0x0 ./src/SeeingFinishFirstTimeState.o
- .ARM.extab.text._ZN2ls22SeeingFinishFirstStateD2Ev
-                0x1fff8744        0x0 ./src/SeeingFinishFirstTimeState.o
- .ARM.extab.text._ZN2ls22SeeingFinishFirstStateD0Ev
-                0x1fff8744        0x0 ./src/SeeingFinishFirstTimeState.o
+                0x1fff8744        0x0 ./src/SeeingFirstFinishState.o
+ .ARM.extab.text._ZN2ls22SeeingFirstFinishStateD2Ev
+                0x1fff8744        0x0 ./src/SeeingFirstFinishState.o
+ .ARM.extab.text._ZN2ls22SeeingFirstFinishStateD0Ev
+                0x1fff8744        0x0 ./src/SeeingFirstFinishState.o
  .ARM.extab.text._ZNSt5arrayIN2ls7Vector2IfEELj5EEC2Ev
                 0x1fff8744        0x0 ./src/SeeingFinishLineSecondTimeState.o
  .ARM.extab.text._ZN2ls31SeeingFinishLineSecondTimeState14computeCommandERKNS_13SensorDataDTOE
@@ -31238,16 +31238,16 @@ END GROUP
                 0x1fff87bc        0x0 ./src/SpeedControllerImpl.o
  .ARM.extab.text._ZN2ls19SpeedControllerImplD0Ev
                 0x1fff87bc        0x0 ./src/SpeedControllerImpl.o
- .ARM.extab.text._ZNK2ls29StartingBeforeFinishLineState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
-                0x1fff87bc        0xc ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls29StartingBeforeFinishLineStateD2Ev
-                0x1fff87c8        0x0 ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls29StartingBeforeFinishLineStateD0Ev
-                0x1fff87c8        0x0 ./src/StartingBeforeFinishLineState.o
+ .ARM.extab.text._ZNK2ls29StartingState15updateNextStateERKNS_13SensorDataDTOERNS_18ATrackStateContextE
+                0x1fff87bc        0xc ./src/StartingState.o
+ .ARM.extab.text._ZN2ls29StartingStateD2Ev
+                0x1fff87c8        0x0 ./src/StartingState.o
+ .ARM.extab.text._ZN2ls29StartingStateD0Ev
+                0x1fff87c8        0x0 ./src/StartingState.o
  .ARM.extab.text.__tcf_1
-                0x1fff87c8        0x0 ./src/StartingBeforeFinishLineState.o
- .ARM.extab.text._ZN2ls9SingletonINS_22SeeingFinishFirstStateEE11getInstanceEv
-                0x1fff87c8        0x0 ./src/StartingBeforeFinishLineState.o
+                0x1fff87c8        0x0 ./src/StartingState.o
+ .ARM.extab.text._ZN2ls9SingletonINS_22SeeingFirstFinishStateEE11getInstanceEv
+                0x1fff87c8        0x0 ./src/StartingState.o
  .ARM.extab.text._ZN2ls12StoppedStateD2Ev
                 0x1fff87c8        0x0 ./src/StoppedState.o
  .ARM.extab.text._ZN2ls12StoppedStateD0Ev
@@ -31276,7 +31276,7 @@ END GROUP
                 0x1fff87d4        0xc ./src/funcs.o
  .ARM.extab.text.__tcf_0
                 0x1fff87e0        0x0 ./src/funcs.o
- .ARM.extab.text._ZN2ls9SingletonINS_29StartingBeforeFinishLineStateEE11getInstanceEv
+ .ARM.extab.text._ZN2ls9SingletonINS_29StartingStateEE11getInstanceEv
                 0x1fff87e0        0x0 ./src/funcs.o
  .ARM.extab.text.__tcf_1
                 0x1fff87e0        0x0 ./src/funcs.o
@@ -31354,20 +31354,20 @@ END GROUP
                 0x1fff99fc        0x4 ./src/OnTrackState.o
                 0x1fff99fc                ls::Singleton<ls::SeeingFinishLineSecondTimeState>::getInstance()::instance
  .data._ZZN2ls9SingletonINS_12OnTrackStateEE11getInstanceEvE8instance
-                0x1fff9a00        0x4 ./src/SeeingFinishFirstTimeState.o
+                0x1fff9a00        0x4 ./src/SeeingFirstFinishState.o
                 0x1fff9a00                ls::Singleton<ls::OnTrackState>::getInstance()::instance
  .data._ZZN2ls9SingletonINS_26WaitingToApproachCubeStateEE11getInstanceEvE8instance
                 0x1fff9a04        0x4 ./src/SeeingFinishLineSecondTimeState.o
                 0x1fff9a04                ls::Singleton<ls::WaitingToApproachCubeState>::getInstance()::instance
- .data._ZZN2ls9SingletonINS_22SeeingFinishFirstStateEE11getInstanceEvE8instance
-                0x1fff9a08        0x4 ./src/StartingBeforeFinishLineState.o
-                0x1fff9a08                ls::Singleton<ls::SeeingFinishFirstState>::getInstance()::instance
+ .data._ZZN2ls9SingletonINS_22SeeingFirstFinishStateEE11getInstanceEvE8instance
+                0x1fff9a08        0x4 ./src/StartingState.o
+                0x1fff9a08                ls::Singleton<ls::SeeingFirstFinishState>::getInstance()::instance
  .data._ZZN2ls9SingletonINS_12StoppedStateEE11getInstanceEvE8instance
                 0x1fff9a0c        0x4 ./src/WaitingToApproachCubeState.o
                 0x1fff9a0c                ls::Singleton<ls::StoppedState>::getInstance()::instance
- .data._ZZN2ls9SingletonINS_29StartingBeforeFinishLineStateEE11getInstanceEvE8instance
+ .data._ZZN2ls9SingletonINS_29StartingStateEE11getInstanceEvE8instance
                 0x1fff9a10        0x4 ./src/funcs.o
-                0x1fff9a10                ls::Singleton<ls::StartingBeforeFinishLineState>::getInstance()::instance
+                0x1fff9a10                ls::Singleton<ls::StartingState>::getInstance()::instance
  .data._ZN10__cxxabiv120__unexpected_handlerE
                 0x1fff9a14        0x4 c:/nxp/s32ds.3.6.6/s32ds/build_tools/gcc_v11.4/gcc-11.4-arm32-eabi/bin/../lib/gcc/arm-none-eabi/11.4.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(eh_unex_handler.o)
                 0x1fff9a14                __cxxabiv1::__unexpected_handler
@@ -31437,14 +31437,14 @@ END GROUP
                 0x1fff9c28        0x4 ./src/OnTrackState.o
                 0x1fff9c28                guard variable for ls::Singleton<ls::SeeingFinishLineSecondTimeState>::getInstance()::instance
  .bss._ZGVZN2ls9SingletonINS_12OnTrackStateEE11getInstanceEvE8instance
-                0x1fff9c2c        0x4 ./src/SeeingFinishFirstTimeState.o
+                0x1fff9c2c        0x4 ./src/SeeingFirstFinishState.o
                 0x1fff9c2c                guard variable for ls::Singleton<ls::OnTrackState>::getInstance()::instance
  .bss._ZGVZN2ls9SingletonINS_26WaitingToApproachCubeStateEE11getInstanceEvE8instance
                 0x1fff9c30        0x4 ./src/SeeingFinishLineSecondTimeState.o
                 0x1fff9c30                guard variable for ls::Singleton<ls::WaitingToApproachCubeState>::getInstance()::instance
- .bss._ZGVZN2ls9SingletonINS_22SeeingFinishFirstStateEE11getInstanceEvE8instance
-                0x1fff9c34        0x4 ./src/StartingBeforeFinishLineState.o
-                0x1fff9c34                guard variable for ls::Singleton<ls::SeeingFinishFirstState>::getInstance()::instance
+ .bss._ZGVZN2ls9SingletonINS_22SeeingFirstFinishStateEE11getInstanceEvE8instance
+                0x1fff9c34        0x4 ./src/StartingState.o
+                0x1fff9c34                guard variable for ls::Singleton<ls::SeeingFirstFinishState>::getInstance()::instance
  .bss._ZN2ls7Vectors4ZEROE
                 0x1fff9c38        0x8 ./src/Vectors.o
                 0x1fff9c38                ls::Vectors::ZERO
@@ -31454,9 +31454,9 @@ END GROUP
  .bss._ZGVZN2ls9SingletonINS_12StoppedStateEE11getInstanceEvE8instance
                 0x1fff9c48        0x4 ./src/WaitingToApproachCubeState.o
                 0x1fff9c48                guard variable for ls::Singleton<ls::StoppedState>::getInstance()::instance
- .bss._ZGVZN2ls9SingletonINS_29StartingBeforeFinishLineStateEE11getInstanceEvE8instance
+ .bss._ZGVZN2ls9SingletonINS_29StartingStateEE11getInstanceEvE8instance
                 0x1fff9c4c        0x4 ./src/funcs.o
-                0x1fff9c4c                guard variable for ls::Singleton<ls::StartingBeforeFinishLineState>::getInstance()::instance
+                0x1fff9c4c                guard variable for ls::Singleton<ls::StartingState>::getInstance()::instance
  .bss._ZZN2ls9SingletonINS_21PixyCamControllerImplEE11getInstanceEvE8instance
                 0x1fff9c50        0x4 ./src/funcs.o
                 0x1fff9c50                ls::Singleton<ls::PixyCamControllerImpl>::getInstance()::instance
@@ -31905,7 +31905,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000179b       0x34 ./src/PixyCamControllerImpl.o
  .ARM.attributes
-                0x000017cf       0x34 ./src/SeeingFinishFirstTimeState.o
+                0x000017cf       0x34 ./src/SeeingFirstFinishState.o
  .ARM.attributes
                 0x00001803       0x34 ./src/SeeingFinishLineSecondTimeState.o
  .ARM.attributes
@@ -31913,7 +31913,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000186b       0x34 ./src/SpeedControllerImpl.o
  .ARM.attributes
-                0x0000189f       0x34 ./src/StartingBeforeFinishLineState.o
+                0x0000189f       0x34 ./src/StartingState.o
  .ARM.attributes
                 0x000018d3       0x34 ./src/StoppedState.o
  .ARM.attributes
@@ -32197,11 +32197,11 @@ LOAD linker stubs
  .comment       0x00000088       0x89 ./src/ITrackState.o
  .comment       0x00000088       0x89 ./src/OnTrackState.o
  .comment       0x00000088       0x89 ./src/PixyCamControllerImpl.o
- .comment       0x00000088       0x89 ./src/SeeingFinishFirstTimeState.o
+ .comment       0x00000088       0x89 ./src/SeeingFirstFinishState.o
  .comment       0x00000088       0x89 ./src/SeeingFinishLineSecondTimeState.o
  .comment       0x00000088       0x89 ./src/ServoControllerImpl.o
  .comment       0x00000088       0x89 ./src/SpeedControllerImpl.o
- .comment       0x00000088       0x89 ./src/StartingBeforeFinishLineState.o
+ .comment       0x00000088       0x89 ./src/StartingState.o
  .comment       0x00000088       0x89 ./src/StoppedState.o
  .comment       0x00000088       0x89 ./src/UltrasoundSensorController.o
  .comment       0x00000088       0x89 ./src/Vectors.o
@@ -32398,11 +32398,11 @@ LOAD linker stubs
  .debug_info    0x00060684     0x25bb ./src/ITrackState.o
  .debug_info    0x00062c3f     0x5e27 ./src/OnTrackState.o
  .debug_info    0x00068a66     0x863d ./src/PixyCamControllerImpl.o
- .debug_info    0x000710a3     0x534d ./src/SeeingFinishFirstTimeState.o
+ .debug_info    0x000710a3     0x534d ./src/SeeingFirstFinishState.o
  .debug_info    0x000763f0     0x5e55 ./src/SeeingFinishLineSecondTimeState.o
  .debug_info    0x0007c245     0x28d9 ./src/ServoControllerImpl.o
  .debug_info    0x0007eb1e     0x2827 ./src/SpeedControllerImpl.o
- .debug_info    0x00081345     0x539f ./src/StartingBeforeFinishLineState.o
+ .debug_info    0x00081345     0x539f ./src/StartingState.o
  .debug_info    0x000866e4     0x2811 ./src/StoppedState.o
  .debug_info    0x00088ef5     0x27b4 ./src/UltrasoundSensorController.o
  .debug_info    0x0008b6a9     0x410f ./src/Vectors.o
@@ -32539,11 +32539,11 @@ LOAD linker stubs
  .debug_abbrev  0x0000ddd8      0x550 ./src/ITrackState.o
  .debug_abbrev  0x0000e328      0xb21 ./src/OnTrackState.o
  .debug_abbrev  0x0000ee49      0xdf1 ./src/PixyCamControllerImpl.o
- .debug_abbrev  0x0000fc3a      0xa0e ./src/SeeingFinishFirstTimeState.o
+ .debug_abbrev  0x0000fc3a      0xa0e ./src/SeeingFirstFinishState.o
  .debug_abbrev  0x00010648      0xb29 ./src/SeeingFinishLineSecondTimeState.o
  .debug_abbrev  0x00011171      0x67e ./src/ServoControllerImpl.o
  .debug_abbrev  0x000117ef      0x62c ./src/SpeedControllerImpl.o
- .debug_abbrev  0x00011e1b      0xa73 ./src/StartingBeforeFinishLineState.o
+ .debug_abbrev  0x00011e1b      0xa73 ./src/StartingState.o
  .debug_abbrev  0x0001288e      0x5c2 ./src/StoppedState.o
  .debug_abbrev  0x00012e50      0x62d ./src/UltrasoundSensorController.o
  .debug_abbrev  0x0001347d      0x7b4 ./src/Vectors.o
@@ -32798,7 +32798,7 @@ LOAD linker stubs
  .debug_aranges
                 0x00003600      0x460 ./src/PixyCamControllerImpl.o
  .debug_aranges
-                0x00003a60       0xe8 ./src/SeeingFinishFirstTimeState.o
+                0x00003a60       0xe8 ./src/SeeingFirstFinishState.o
  .debug_aranges
                 0x00003b48      0x188 ./src/SeeingFinishLineSecondTimeState.o
  .debug_aranges
@@ -32806,7 +32806,7 @@ LOAD linker stubs
  .debug_aranges
                 0x00003d30       0x58 ./src/SpeedControllerImpl.o
  .debug_aranges
-                0x00003d88       0xe8 ./src/StartingBeforeFinishLineState.o
+                0x00003d88       0xe8 ./src/StartingState.o
  .debug_aranges
                 0x00003e70       0x40 ./src/StoppedState.o
  .debug_aranges
@@ -33007,7 +33007,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x00003663      0x356 ./src/PixyCamControllerImpl.o
  .debug_rnglists
-                0x000039b9       0xaa ./src/SeeingFinishFirstTimeState.o
+                0x000039b9       0xaa ./src/SeeingFirstFinishState.o
  .debug_rnglists
                 0x00003a63      0x125 ./src/SeeingFinishLineSecondTimeState.o
  .debug_rnglists
@@ -33015,7 +33015,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x00003bcb       0x3d ./src/SpeedControllerImpl.o
  .debug_rnglists
-                0x00003c08       0xaa ./src/StartingBeforeFinishLineState.o
+                0x00003c08       0xaa ./src/StartingState.o
  .debug_rnglists
                 0x00003cb2       0x2b ./src/StoppedState.o
  .debug_rnglists
@@ -33709,11 +33709,11 @@ LOAD linker stubs
  .debug_macro   0x0002aa0c      0xb01 ./src/ITrackState.o
  .debug_macro   0x0002b50d      0xb2d ./src/OnTrackState.o
  .debug_macro   0x0002c03a      0xf0b ./src/PixyCamControllerImpl.o
- .debug_macro   0x0002cf45      0xb28 ./src/SeeingFinishFirstTimeState.o
+ .debug_macro   0x0002cf45      0xb28 ./src/SeeingFirstFinishState.o
  .debug_macro   0x0002da6d      0xb2d ./src/SeeingFinishLineSecondTimeState.o
  .debug_macro   0x0002e59a      0xae3 ./src/ServoControllerImpl.o
  .debug_macro   0x0002f07d      0xa1d ./src/SpeedControllerImpl.o
- .debug_macro   0x0002fa9a      0xb23 ./src/StartingBeforeFinishLineState.o
+ .debug_macro   0x0002fa9a      0xb23 ./src/StartingState.o
  .debug_macro   0x000305bd      0xb15 ./src/StoppedState.o
  .debug_macro   0x000310d2      0x710 ./src/UltrasoundSensorController.o
  .debug_macro   0x000317e2      0xae6 ./src/Vectors.o
@@ -33859,11 +33859,11 @@ LOAD linker stubs
  .debug_line    0x00048ed8     0x1578 ./src/ITrackState.o
  .debug_line    0x0004a450     0x1ca3 ./src/OnTrackState.o
  .debug_line    0x0004c0f3     0x296c ./src/PixyCamControllerImpl.o
- .debug_line    0x0004ea5f     0x190b ./src/SeeingFinishFirstTimeState.o
+ .debug_line    0x0004ea5f     0x190b ./src/SeeingFirstFinishState.o
  .debug_line    0x0005036a     0x1d06 ./src/SeeingFinishLineSecondTimeState.o
  .debug_line    0x00052070     0x15f8 ./src/ServoControllerImpl.o
  .debug_line    0x00053668     0x13e7 ./src/SpeedControllerImpl.o
- .debug_line    0x00054a4f     0x18fe ./src/StartingBeforeFinishLineState.o
+ .debug_line    0x00054a4f     0x18fe ./src/StartingState.o
  .debug_line    0x0005634d     0x1642 ./src/StoppedState.o
  .debug_line    0x0005798f     0x1018 ./src/UltrasoundSensorController.o
  .debug_line    0x000589a7     0x14e6 ./src/Vectors.o
@@ -34117,7 +34117,7 @@ LOAD linker stubs
                               0x31f9b (size before relaxing)
  .debug_str     0x000cc0cc     0x50a6 ./src/PixyCamControllerImpl.o
                               0x3ce85 (size before relaxing)
- .debug_str     0x000d1172      0x32f ./src/SeeingFinishFirstTimeState.o
+ .debug_str     0x000d1172      0x32f ./src/SeeingFirstFinishState.o
                               0x31730 (size before relaxing)
  .debug_str     0x000d14a1      0x93d ./src/SeeingFinishLineSecondTimeState.o
                               0x320a4 (size before relaxing)
@@ -34125,7 +34125,7 @@ LOAD linker stubs
                               0x2cd21 (size before relaxing)
  .debug_str     0x000d2196      0x374 ./src/SpeedControllerImpl.o
                               0x2a752 (size before relaxing)
- .debug_str     0x000d250a      0x3f6 ./src/StartingBeforeFinishLineState.o
+ .debug_str     0x000d250a      0x3f6 ./src/StartingState.o
                               0x31880 (size before relaxing)
  .debug_str     0x000d2900      0x256 ./src/StoppedState.o
                               0x2cd03 (size before relaxing)
@@ -34248,11 +34248,11 @@ LOAD linker stubs
  .debug_frame   0x00008774       0x84 ./src/ITrackState.o
  .debug_frame   0x000087f8      0x6b8 ./src/OnTrackState.o
  .debug_frame   0x00008eb0     0x1448 ./src/PixyCamControllerImpl.o
- .debug_frame   0x0000a2f8      0x3d8 ./src/SeeingFinishFirstTimeState.o
+ .debug_frame   0x0000a2f8      0x3d8 ./src/SeeingFirstFinishState.o
  .debug_frame   0x0000a6d0      0x6e0 ./src/SeeingFinishLineSecondTimeState.o
  .debug_frame   0x0000adb0      0x164 ./src/ServoControllerImpl.o
  .debug_frame   0x0000af14      0x13c ./src/SpeedControllerImpl.o
- .debug_frame   0x0000b050      0x3d8 ./src/StartingBeforeFinishLineState.o
+ .debug_frame   0x0000b050      0x3d8 ./src/StartingState.o
  .debug_frame   0x0000b428       0xd0 ./src/StoppedState.o
  .debug_frame   0x0000b4f8      0x140 ./src/UltrasoundSensorController.o
  .debug_frame   0x0000b638       0xa0 ./src/Vectors.o

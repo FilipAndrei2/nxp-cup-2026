@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['floats_0',['Floats',['../classls_1_1Floats.html',1,'ls']]]
+  ['drivingcommanddto_0',['DrivingCommandDTO',['../structls_1_1DrivingCommandDTO.html',1,'ls']]]
 ];

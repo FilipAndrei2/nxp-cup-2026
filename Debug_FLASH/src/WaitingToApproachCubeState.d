@@ -58,7 +58,7 @@ src/WaitingToApproachCubeState.o: ../src/WaitingToApproachCubeState.cpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/dto/DrivingCommandDTO.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/dto/SensorDataDTO.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/math/Vectors.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StoppedState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/WaitingToAproachCubeState.hpp
@@ -124,7 +124,7 @@ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ITrackState.hpp
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dto/DrivingCommandDTO.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dto/SensorDataDTO.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/math/Vectors.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StoppedState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/WaitingToAproachCubeState.hpp:

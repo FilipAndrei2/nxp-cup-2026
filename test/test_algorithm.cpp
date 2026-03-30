@@ -3,8 +3,8 @@
  * state machine.
  *
  * AlgorithmStrategyImpl::computeParameters:
- *   1. Calls getState().computeCommand(sensorData, *this)
- *   2. Calls getState().updateNextState(sensorData, *this)
+ *   1. Calls getState().computeCommand(sensorData)
+ *   2. Calls getState().updateNextState(*this)
  *   3. Returns the DrivingCommandDTO produced by computeCommand
  *
  * FakeIt is used to inject a mock ITrackState so we can verify the two calls
@@ -90,18 +90,12 @@ TEST_CASE("AlgorithmStrategyImpl::computeParameters – shouldStop propagated co
     CHECK(result.angle == Approx(0.0f));
 }
 
-TEST_CASE("AlgorithmStrategyImpl::computeParameters – updateNextState receives same sensor data",
+TEST_CASE("AlgorithmStrategyImpl::computeParameters – updateNextState called with context",
           "[algorithm][fakeit]") {
     Mock<ITrackState> mockState;
     DrivingCommandDTO cmd{.angle = 0.0f, .speed = 100, .shouldStop = false};
     When(Method(mockState, computeCommand)).Return(cmd);
-
-    // Capture the SensorDataDTO passed to updateNextState via a lambda
-    proximity_t capturedProx = 999;
-    When(Method(mockState, updateNextState))
-        .Do([&](const SensorDataDTO &sd, ATrackStateContext &) {
-            capturedProx = sd.cubeProximity;
-        });
+    Fake(Method(mockState, updateNextState));
 
     auto &algo = AlgorithmStrategyImpl::getInstance();
     algo.setState(&mockState.get());
@@ -110,5 +104,5 @@ TEST_CASE("AlgorithmStrategyImpl::computeParameters – updateNextState receives
     auto &sensor = sf.dto;
     algo.computeParameters(sensor);
 
-    CHECK(capturedProx == 42u);
+    Verify(Method(mockState, updateNextState)).Once();
 }

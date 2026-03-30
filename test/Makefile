@@ -16,13 +16,15 @@ CXXFLAGS := -std=c++20 -Wall -Wextra -O1 \
 SRC_UNDER_TEST := \
     ../src/Vectors.cpp \
     ../src/ITrackState.cpp \
+    ../src/ATrackState.cpp \
     ../src/AlgorithmStrategyImpl.cpp \
-    ../src/StartingBeforeFinishLineState.cpp \
-    ../src/SeeingFinishFirstTimeState.cpp \
+    ../src/StartingState.cpp \
+    ../src/SeeingFirstFinishState.cpp \
     ../src/OnTrackState.cpp \
-    ../src/SeeingFinishLineSecondTimeState.cpp \
-    ../src/WaitingToApproachCubeState.cpp \
-    ../src/StoppedState.cpp
+    ../src/SeeingSecondFinishState.cpp \
+    ../src/WaitingCubeState.cpp \
+    ../src/BreakingState.cpp \
+    ../src/FinishedState.cpp
 
 # Test sources
 TEST_SRCS := \

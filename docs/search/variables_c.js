@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['waiting_5fcube_5fspeed_0',['WAITING_CUBE_SPEED',['../classls_1_1Speed.html#aa8a3612593997779e796e6b74a6f262d',1,'ls::Speed']]],
-  ['west_1',['WEST',['../classls_1_1Vector2.html#a0244079b011abda5ed9dc8345590f4f1',1,'ls::Vector2']]]
+  ['ultrasoundsensor_0',['ultrasoundSensor',['../structls_1_1Car_1_1Context.html#a1edf9874251e110bd3e99a494925a028',1,'ls::Car::Context']]]
 ];

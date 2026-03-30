@@ -13,7 +13,7 @@ var searchData=
   ['_7eservocontrollerimpl_10',['~ServoControllerImpl',['../classls_1_1ServoControllerImpl.html#a8d8cc892fa7df7c27242e92e405c0d81',1,'ls::ServoControllerImpl']]],
   ['_7esingleton_11',['~Singleton',['../classls_1_1Singleton.html#a2fd2628dc5d55a7cef9b7e55d9b524e5',1,'ls::Singleton']]],
   ['_7espeedcontrollerimpl_12',['~SpeedControllerImpl',['../classls_1_1SpeedControllerImpl.html#aeab0c248ac9423486601b23db632a869',1,'ls::SpeedControllerImpl']]],
-  ['_7estartingbeforefinishlinestate_13',['~StartingBeforeFinishLineState',['../classls_1_1StartingBeforeFinishLineState.html#aa2cb4cb4257354571a90d86d8f9ce250',1,'ls::StartingBeforeFinishLineState']]],
+  ['_7estartingstate_13',['~StartingState',['../classls_1_1StartingState.html#a920d8b73fe246100ce97b6e6e9ff3766',1,'ls::StartingState']]],
   ['_7eultrasoundsensorcontroller_14',['~UltrasoundSensorController',['../classls_1_1UltrasoundSensorController.html#a11c3b98840137bb1145d1c190cb3cd06',1,'ls::UltrasoundSensorController']]],
   ['_7evector2_15',['~Vector2',['../classls_1_1Vector2.html#a3c1073a23113e437713405e85c4f2728',1,'ls::Vector2']]]
 ];

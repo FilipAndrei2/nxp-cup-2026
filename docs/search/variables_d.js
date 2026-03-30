@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_0',['ZERO',['../classls_1_1Vectors.html#ab92deeef8fec1c989561ea761dc00b14',1,'ls::Vectors']]]
+  ['vectors_0',['vectors',['../structls_1_1SensorDataDTO.html#a322cc16cd712c3f130867d1094112ee9',1,'ls::SensorDataDTO']]]
 ];

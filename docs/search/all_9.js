@@ -11,12 +11,13 @@ var searchData=
   ['iservocontroller_8',['IServoController',['../classls_1_1IServoController.html',1,'ls']]],
   ['iservocontroller_2ehpp_9',['IServoController.hpp',['../IServoController_8hpp.html',1,'']]],
   ['isfinishline_10',['isFinishLine',['../classls_1_1Vectors.html#a483acfdf14f545740fbbca79c2200cf9',1,'ls::Vectors']]],
-  ['isnormalized_11',['isNormalized',['../classls_1_1Vector2.html#aa82fdd7058f7f66b34243cc0ca14cdf5',1,'ls::Vector2']]],
-  ['ispeedcontroller_12',['ISpeedController',['../classls_1_1ISpeedController.html',1,'ls']]],
-  ['ispeedcontroller_2ehpp_13',['ISpeedController.hpp',['../ISpeedController_8hpp.html',1,'']]],
-  ['itrackstate_14',['ITrackState',['../classls_1_1ITrackState.html',1,'ls']]],
-  ['itrackstate_2ecpp_15',['ITrackState.cpp',['../ITrackState_8cpp.html',1,'']]],
-  ['itrackstate_2ehpp_16',['ITrackState.hpp',['../ITrackState_8hpp.html',1,'']]],
-  ['iultrasoundsensorcontroller_17',['IUltrasoundSensorController',['../classls_1_1IUltrasoundSensorController.html',1,'ls']]],
-  ['iultrasoundsensorcontroller_2ehpp_18',['IUltrasoundSensorController.hpp',['../IUltrasoundSensorController_8hpp.html',1,'']]]
+  ['isincrossway_11',['isInCrossway',['../classls_1_1ATrackState.html#ab89fa00ccb713bdbb6a7627247f9d0c1',1,'ls::ATrackState']]],
+  ['isnormalized_12',['isNormalized',['../classls_1_1Vector2.html#aa82fdd7058f7f66b34243cc0ca14cdf5',1,'ls::Vector2']]],
+  ['ispeedcontroller_13',['ISpeedController',['../classls_1_1ISpeedController.html',1,'ls']]],
+  ['ispeedcontroller_2ehpp_14',['ISpeedController.hpp',['../ISpeedController_8hpp.html',1,'']]],
+  ['itrackstate_15',['ITrackState',['../classls_1_1ITrackState.html',1,'ls']]],
+  ['itrackstate_2ecpp_16',['ITrackState.cpp',['../ITrackState_8cpp.html',1,'']]],
+  ['itrackstate_2ehpp_17',['ITrackState.hpp',['../ITrackState_8hpp.html',1,'']]],
+  ['iultrasoundsensorcontroller_18',['IUltrasoundSensorController',['../classls_1_1IUltrasoundSensorController.html',1,'ls']]],
+  ['iultrasoundsensorcontroller_2ehpp_19',['IUltrasoundSensorController.hpp',['../IUltrasoundSensorController_8hpp.html',1,'']]]
 ];

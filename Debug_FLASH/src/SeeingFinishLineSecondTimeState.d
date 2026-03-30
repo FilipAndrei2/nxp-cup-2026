@@ -62,7 +62,7 @@ src/SeeingFinishLineSecondTimeState.o: \
  ../src/SeeingFinishLineSecondTimeImplFunctions.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/params/speed.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/WaitingToAproachCubeState.hpp
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/SeeingFinishLineSecondTimeState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp:
@@ -129,5 +129,5 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 ../src/SeeingFinishLineSecondTimeImplFunctions.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/params/speed.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/WaitingToAproachCubeState.hpp:
