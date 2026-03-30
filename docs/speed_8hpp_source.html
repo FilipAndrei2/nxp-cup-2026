@@ -116,7 +116,7 @@ $(function(){initNavTree('speed_8hpp_source.html','',''); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classls_1_1Speed.html#ae5b42f350ce00b3b55cb87d4bfaba276">   21</a></span>  <span class="keyword">static</span> <a class="code hl_typedef" href="namespacels.html#a93267c1d8fda642958fd55cb58d74682">speed_t</a> <a class="code hl_function" href="classls_1_1Speed.html#ae5b42f350ce00b3b55cb87d4bfaba276">scale</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="namespacels.html#a93267c1d8fda642958fd55cb58d74682">speed_t</a> maxSpeed, <span class="keyword">const</span> <a class="code hl_typedef" href="namespacels.html#a13cffeb7db239a25deaca26d93b92719">proximity_t</a> cubeProxi) {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span> maxSpeed * cubeProxi;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="namespacels.html#a93267c1d8fda642958fd55cb58d74682">speed_t</a>)((float)maxSpeed * ((float)cubeProxi / 100.0f));</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  }</div>
 </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>

@@ -14,7 +14,6 @@ var hierarchy =
     [ "ls::ICar", "classls_1_1ICar.html", [
       [ "ls::Car", "classls_1_1Car.html", null ]
     ] ],
-    [ "ls::IClock", "classls_1_1IClock.html", null ],
     [ "ls::IPixyCamController", "classls_1_1IPixyCamController.html", [
       [ "ls::PixyCamControllerImpl", "classls_1_1PixyCamControllerImpl.html", null ]
     ] ],

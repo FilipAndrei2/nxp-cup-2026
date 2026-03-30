@@ -5,7 +5,6 @@ var namespacels =
     [ "Car", "classls_1_1Car.html", "classls_1_1Car" ],
     [ "CarBuilder", "classls_1_1CarBuilder.html", "classls_1_1CarBuilder" ],
     [ "ICar", "classls_1_1ICar.html", "classls_1_1ICar" ],
-    [ "IClock", "classls_1_1IClock.html", "classls_1_1IClock" ],
     [ "IPixyCamController", "classls_1_1IPixyCamController.html", "classls_1_1IPixyCamController" ],
     [ "IServoController", "classls_1_1IServoController.html", "classls_1_1IServoController" ],
     [ "ISpeedController", "classls_1_1ISpeedController.html", "classls_1_1ISpeedController" ],
