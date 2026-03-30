@@ -324,3 +324,53 @@ TEST_CASE("Vector2 – 4-argument constructor (endpoint-to-endpoint) compiles an
     (void)v; // suppress unused-variable warning
 }
 
+// ── AngleBetween – non-normalised vectors (else branch) ───────────────────────
+
+TEST_CASE("Vector2::AngleBetween – non-normalised vectors, parallel (angle = 0)",
+          "[vector2][angle]") {
+    // Neither (3,4) nor (6,8) is normalised.  The else branch divides by
+    // the product of their lengths: acos(Dot / (len_a * len_b)).
+    // Dot = 3*6 + 4*8 = 50, len_a = 5, len_b = 10 → acos(50/50) = acos(1) = 0.
+    FVector2 a(3.0f, 4.0f);
+    FVector2 b(6.0f, 8.0f);
+    CHECK(FVector2::AngleBetween(a, b) == Approx(0.0f).margin(1e-5f));
+}
+
+TEST_CASE("Vector2::AngleBetween – non-normalised perpendicular vectors (angle = PI/2)",
+          "[vector2][angle]") {
+    // (3,0) and (0,4) are not unit vectors but are perpendicular.
+    // Dot = 0 → acos(0) = PI/2.
+    FVector2 a(3.0f, 0.0f);
+    FVector2 b(0.0f, 4.0f);
+    CHECK(FVector2::AngleBetween(a, b) == Approx(PI / 2.0f).epsilon(1e-5f));
+}
+
+TEST_CASE("Vector2::AngleBetween – one normalised, one non-normalised",
+          "[vector2][angle]") {
+    // NORTH is normalised (len=1).  (0,5) is not.
+    // Dot = 0*0 + 1*5 = 5, len_a = 1, len_b = 5 → acos(5/5) = acos(1) = 0.
+    FVector2 north(0.0f, 1.0f); // normalised
+    FVector2 scaled(0.0f, 5.0f); // same direction, len=5
+    CHECK(FVector2::AngleBetween(north, scaled) == Approx(0.0f).margin(1e-5f));
+}
+
+// ── DVector2 (double specialisation) ─────────────────────────────────────────
+
+TEST_CASE("DVector2 – construction and component access", "[vector2][double]") {
+    DVector2 v(3.0, 4.0);
+    CHECK(v.getX() == Approx(3.0));
+    CHECK(v.getY() == Approx(4.0));
+}
+
+TEST_CASE("DVector2 – len returns correct magnitude", "[vector2][double]") {
+    DVector2 v(3.0, 4.0);
+    CHECK(v.len() == Approx(5.0));
+}
+
+TEST_CASE("DVector2 – Add static method", "[vector2][double]") {
+    DVector2 a(1.0, 2.0), b(3.0, 4.0);
+    DVector2 r = DVector2::Add(a, b);
+    CHECK(r.getX() == Approx(4.0));
+    CHECK(r.getY() == Approx(6.0));
+}
+
