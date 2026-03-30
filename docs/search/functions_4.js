@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dot_0',['Dot',['../classls_1_1Vector2.html#ac9dc008b0ca20360af32cdae4cfc0da0',1,'ls::Vector2']]]
+  ['eq_0',['eq',['../classls_1_1Floats.html#ac75c984233a7e65d268b25633591d6a0',1,'ls::Floats']]]
 ];

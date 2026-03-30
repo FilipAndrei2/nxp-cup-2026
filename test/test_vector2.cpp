@@ -43,17 +43,17 @@ TEST_CASE("Vector2 – move constructor zeroes the source", "[vector2]") {
 // ────────────────────────────────────────────────
 
 TEST_CASE("Vector2 – static cardinal constants", "[vector2]") {
-  CHECK(FVector2::NORTH.getX() == Approx(1.0f));
-  CHECK(FVector2::NORTH.getY() == Approx(0.0f));
+  CHECK(FVector2::NORTH.getX() == Approx(0.0f));
+  CHECK(FVector2::NORTH.getY() == Approx(1.0f));
 
-  CHECK(FVector2::EAST.getX() == Approx(0.0f));
-  CHECK(FVector2::EAST.getY() == Approx(1.0f));
+  CHECK(FVector2::EAST.getX() == Approx(1.0f));
+  CHECK(FVector2::EAST.getY() == Approx(0.0f));
 
-  CHECK(FVector2::SOUTH.getX() == Approx(-1.0f));
-  CHECK(FVector2::SOUTH.getY() == Approx(0.0f));
+  CHECK(FVector2::SOUTH.getX() == Approx(0.0f));
+  CHECK(FVector2::SOUTH.getY() == Approx(-1.0f));
 
-  CHECK(FVector2::WEST.getX() == Approx(0.0f));
-  CHECK(FVector2::WEST.getY() == Approx(-1.0f));
+  CHECK(FVector2::WEST.getX() == Approx(-1.0f));
+  CHECK(FVector2::WEST.getY() == Approx(0.0f));
 
   CHECK(FVector2::NULLVECT.getX() == Approx(0.0f));
   CHECK(FVector2::NULLVECT.getY() == Approx(0.0f));

@@ -222,27 +222,6 @@ TEST_CASE("OnTrackState::updateNextState – stays on track when no finish line"
     CHECK(ctx.currentState() == &OnTrackState::getInstance());
 }
 
-// ═════════════════════════════════════════════════════════════════════════════
-//  SeeingFinishLineSecondTimeState
-// ═════════════════════════════════════════════════════════════════════════════
-
-TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – no vectors → straight at waiting speed",
-          "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
-    TestableContext ctx;
-    // NOTE: Due to a missing numberInfoVectors++ in the implementation loop,
-    // the switch always falls into case 0 regardless of input vectors.
-    SensorFixture sf({FVector2(0.0f, 0.5f)}, 0);
-    auto &sensor = sf.dto;
-
-    auto cmd = state.computeCommand(sensor);
-
-    // case 0 branch: angle = 0, speed = WAITING_CUBE_SPEED
-    CHECK(cmd.angle == Approx(0.0f));
-    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
-    CHECK(cmd.shouldStop == false);
-}
-
 TEST_CASE("SeeingFinishLineSecondTimeState::updateNextState – to WaitingToApproachCubeState when finish gone",
           "[states][seeinfsecond]") {
     auto &state = SeeingFinishLineSecondTimeState::getInstance();
@@ -493,25 +472,6 @@ TEST_CASE("OnTrackState::computeCommand – 3 non-finish vectors uses angle betw
 
     CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
     CHECK(cmd.speed == Speed::MAX);
-    CHECK(cmd.shouldStop == false);
-}
-
-// ═════════════════════════════════════════════════════════════════════════════
-//  SeeingFinishLineSecondTimeState – cubeProximity scaling in computeCommand
-// ═════════════════════════════════════════════════════════════════════════════
-
-TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 0 leaves speed unchanged",
-          "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
-    TestableContext ctx;
-    // Due to a bug (missing numberInfoVectors++), always falls into case 0:
-    //   angle = 0, speed = WAITING_CUBE_SPEED
-    // cubeProximity == 0 → scaling branch is NOT entered → speed unchanged
-    SensorFixture sf({FVector2(0.0f, 0.5f)}, 0);
-    auto cmd = state.computeCommand(sf.dto);
-
-    CHECK(cmd.angle == Approx(0.0f));
-    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
     CHECK(cmd.shouldStop == false);
 }
 

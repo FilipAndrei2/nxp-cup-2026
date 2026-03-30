@@ -5,5 +5,7 @@ var searchData=
   ['float_5fpi_2',['FLOAT_PI',['../classls_1_1Angles.html#a7b6215cb60d3de48f3a1c4fb1ed8434d',1,'ls::Angles']]],
   ['floats_3',['Floats',['../classls_1_1Floats.html',1,'ls']]],
   ['floats_2ehpp_4',['Floats.hpp',['../Floats_8hpp.html',1,'']]],
-  ['fvector2_5',['FVector2',['../namespacels.html#a1d2241bdbcad3a97ff64a7b6379e542f',1,'ls']]]
+  ['funcs_2ecpp_5',['funcs.cpp',['../funcs_8cpp.html',1,'']]],
+  ['funcs_2ehpp_6',['funcs.hpp',['../funcs_8hpp.html',1,'']]],
+  ['fvector2_7',['FVector2',['../namespacels.html#a1d2241bdbcad3a97ff64a7b6379e542f',1,'ls']]]
 ];

@@ -95,22 +95,23 @@ $(function(){initNavTree('ServoControllerImpl_8hpp_source.html','',''); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="IServoController_8hpp.html">car/IServoController.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="lifesource_8hpp.html">utils/lifesource.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="TSingleton_8hpp.html">dp/TSingleton.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacels.html">ls</a> {</div>
-<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="classls_1_1ServoControllerImpl.html">    7</a></span><span class="keyword">class </span>ServoControllerImpl : <span class="keyword">public</span> <a class="code hl_class" href="classls_1_1IServoController.html">IServoController</a>,</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>                            <span class="keyword">public</span> <a class="code hl_function" href="classls_1_1Singleton.html#ac9493d8664c2685af43a5109aaff9516">Singleton</a>&lt;ServoControllerImpl&gt; {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>  <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_function" href="classls_1_1Singleton.html#ac9493d8664c2685af43a5109aaff9516">Singleton</a>&lt;ServoControllerImpl&gt;;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classls_1_1ServoControllerImpl.html#a8d8cc892fa7df7c27242e92e405c0d81">   12</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classls_1_1ServoControllerImpl.html#a8d8cc892fa7df7c27242e92e405c0d81">~ServoControllerImpl</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classls_1_1ServoControllerImpl.html#a1fc82f2134cfce12810174c32fabef18">steer</a>(<a class="code hl_typedef" href="namespacels.html#a161796fde03d28cc460cb7052136ab28">ls::angle_t</a> angle) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  ServoControllerImpl();</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="lifesource_8hpp.html">utils/lifesource.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacels.html">ls</a> {</div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="classls_1_1ServoControllerImpl.html">    8</a></span><span class="keyword">class </span>ServoControllerImpl : <span class="keyword">public</span> <a class="code hl_class" href="classls_1_1IServoController.html">IServoController</a>,</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>                            <span class="keyword">public</span> <a class="code hl_function" href="classls_1_1Singleton.html#ac9493d8664c2685af43a5109aaff9516">Singleton</a>&lt;ServoControllerImpl&gt; {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_function" href="classls_1_1Singleton.html#ac9493d8664c2685af43a5109aaff9516">Singleton</a>&lt;ServoControllerImpl&gt;;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classls_1_1ServoControllerImpl.html#a8d8cc892fa7df7c27242e92e405c0d81">   13</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classls_1_1ServoControllerImpl.html#a8d8cc892fa7df7c27242e92e405c0d81">~ServoControllerImpl</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classls_1_1ServoControllerImpl.html#a1fc82f2134cfce12810174c32fabef18">steer</a>(<a class="code hl_typedef" href="namespacels.html#a161796fde03d28cc460cb7052136ab28">ls::angle_t</a> angle) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  ServoControllerImpl();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
 </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>} <span class="comment">// namespace ls</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>} <span class="comment">// namespace ls</span></div>
 <div class="ttc" id="aIServoController_8hpp_html"><div class="ttname"><a href="IServoController_8hpp.html">IServoController.hpp</a></div></div>
 <div class="ttc" id="aTSingleton_8hpp_html"><div class="ttname"><a href="TSingleton_8hpp.html">TSingleton.hpp</a></div></div>
 <div class="ttc" id="aclassls_1_1IServoController_html"><div class="ttname"><a href="classls_1_1IServoController.html">ls::IServoController</a></div><div class="ttdef"><b>Definition</b> IServoController.hpp:6</div></div>

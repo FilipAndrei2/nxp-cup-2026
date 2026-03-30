@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['_5fclose_0',['_close',['../syscalls_8cpp.html#a5aab5e2acfd600e3667dc915a2bbc7cb',1,'syscalls.cpp']]],
-  ['_5fexit_1',['_exit',['../syscalls_8cpp.html#abc96bd69b58b2deaddb484478d911c1b',1,'syscalls.cpp']]],
-  ['_5ffstat_2',['_fstat',['../syscalls_8cpp.html#a8ea65c8a9d348cf95705b0acd40bcb61',1,'syscalls.cpp']]],
-  ['_5fgetpid_3',['_getpid',['../syscalls_8cpp.html#a0ebe0c689c80a2bca135fd157da50fbf',1,'syscalls.cpp']]],
-  ['_5fisatty_4',['_isatty',['../syscalls_8cpp.html#ad3134a3dc296622b8d1c5456e481505b',1,'syscalls.cpp']]],
-  ['_5fkill_5',['_kill',['../syscalls_8cpp.html#a062a5101199c3128edd5170f2575bb10',1,'syscalls.cpp']]],
-  ['_5flseek_6',['_lseek',['../syscalls_8cpp.html#a3e28d843a3d5f709ba07d3b59528a57f',1,'syscalls.cpp']]],
-  ['_5fread_7',['_read',['../syscalls_8cpp.html#a4f9bf1e1602f2828e0a54e70c3b2dccb',1,'syscalls.cpp']]],
-  ['_5fsbrk_8',['_sbrk',['../syscalls_8cpp.html#abdd2e37417a822d29dfe5eed09935bef',1,'syscalls.cpp']]],
-  ['_5fwrite_9',['_write',['../syscalls_8cpp.html#aa025a12d45f60c7d0eae249e61f0c7f9',1,'syscalls.cpp']]]
+  ['add_0',['Add',['../classls_1_1Vector2.html#a808c4999aab14f1b3c9eb95fe748e5f0',1,'ls::Vector2']]],
+  ['add_1',['add',['../classls_1_1Vector2.html#ae9382fe3cba3ff644ff9002c62c8d85a',1,'ls::Vector2']]],
+  ['anglebetween_2',['AngleBetween',['../classls_1_1Vector2.html#a7956497f67877a095e349995b76f5f8d',1,'ls::Vector2']]],
+  ['angletodir_3',['angleToDir',['../classls_1_1Angles.html#a4ca7ca48616718b89dadef6e96360441',1,'ls::Angles']]],
+  ['atrackstatecontext_4',['ATrackStateContext',['../classls_1_1ATrackStateContext.html#a0e053c43f56a03941445f88a8662f624',1,'ls::ATrackStateContext']]],
+  ['avg_5',['Avg',['../classls_1_1Vector2.html#a40abe23e0b7c772f8fdd2f90f8eb4b9e',1,'ls::Vector2']]],
+  ['avg_6',['avg',['../classls_1_1Vector2.html#a86507fb042aca0640e27612fe797db17',1,'ls::Vector2']]]
 ];

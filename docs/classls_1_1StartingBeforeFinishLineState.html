@@ -107,10 +107,10 @@ Inheritance diagram for ls::StartingBeforeFinishLineState:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa2cb4cb4257354571a90d86d8f9ce250" id="r_aa2cb4cb4257354571a90d86d8f9ce250"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa2cb4cb4257354571a90d86d8f9ce250">~StartingBeforeFinishLineState</a> ()=default</td></tr>
-<tr class="memitem:a39958725a48b3e10cef2788f3c559f22" id="r_a39958725a48b3e10cef2788f3c559f22"><td class="memItemLeft">virtual const <a class="el" href="structls_1_1DrivingCommandDTO.html">ls::DrivingCommandDTO</a>&#160;</td><td class="memItemRight"><a class="el" href="#a39958725a48b3e10cef2788f3c559f22">computeCommand</a> (const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;sensorData, <a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;ctx) override</td></tr>
+<tr class="memitem:a23ac89ca293745e6eef08cff1cb6cdba" id="r_a23ac89ca293745e6eef08cff1cb6cdba"><td class="memItemLeft">virtual const <a class="el" href="structls_1_1DrivingCommandDTO.html">ls::DrivingCommandDTO</a>&#160;</td><td class="memItemRight"><a class="el" href="#a23ac89ca293745e6eef08cff1cb6cdba">computeCommand</a> (const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;sensorData) override</td></tr>
 <tr class="memitem:a64d3d9ecbb6a7ede9ed5b37e12b01b45" id="r_a64d3d9ecbb6a7ede9ed5b37e12b01b45"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a64d3d9ecbb6a7ede9ed5b37e12b01b45">updateNextState</a> (const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;, <a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;) const override</td></tr>
 <tr class="inherit_header pub_methods_classls_1_1ITrackState"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classls_1_1ITrackState')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classls_1_1ITrackState.html">ls::ITrackState</a></td></tr>
-<tr class="memitem:af3892f3370e2ca05a010e30c2d5d60fa inherit pub_methods_classls_1_1ITrackState" id="r_af3892f3370e2ca05a010e30c2d5d60fa"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="classls_1_1ITrackState.html#af3892f3370e2ca05a010e30c2d5d60fa">~ITrackState</a> ()=0</td></tr>
+<tr class="memitem:a470461752a3c01f99f1ecf3dfb432d19 inherit pub_methods_classls_1_1ITrackState" id="r_a470461752a3c01f99f1ecf3dfb432d19"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="classls_1_1ITrackState.html#a470461752a3c01f99f1ecf3dfb432d19">~ITrackState</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -152,8 +152,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a39958725a48b3e10cef2788f3c559f22" name="a39958725a48b3e10cef2788f3c559f22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39958725a48b3e10cef2788f3c559f22">&#9670;&#160;</a></span>computeCommand()</h2>
+<a id="a23ac89ca293745e6eef08cff1cb6cdba" name="a23ac89ca293745e6eef08cff1cb6cdba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ac89ca293745e6eef08cff1cb6cdba">&#9670;&#160;</a></span>computeCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,12 +164,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">const <a class="el" href="structls_1_1DrivingCommandDTO.html">ls::DrivingCommandDTO</a> ls::StartingBeforeFinishLineState::computeCommand </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sensorData</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sensorData</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classls_1_1ATrackStateContext.html">ls::ATrackStateContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -179,7 +175,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classls_1_1ITrackState.html#a003278b663e59b075d45368c8f2b1538">ls::ITrackState</a>.</p>
+<p>Implements <a class="el" href="classls_1_1ITrackState.html#aeb6ad14eb0317c161b50851bad96360a">ls::ITrackState</a>.</p>
 
 </div>
 </div>

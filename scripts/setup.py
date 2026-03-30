@@ -46,7 +46,7 @@ def command_exists(cmd):
     return shutil.which(cmd) is not None
 
 # --- Pas 4: Instalarea clang-format și doxygen dacă nu există ---
-packages = ["clang-format", "doxygen"]
+packages = ["clang", "doxygen"]
 
 if distro == "mint":  # Mint folosește apt-get
     installer = "sudo apt-get install -y"
