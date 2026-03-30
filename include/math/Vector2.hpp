@@ -85,13 +85,13 @@ public: // Metode statice
   }
 
 public: // Membri statici
-  inline static const Vector2 NORTH{1, 0};
+  inline static const Vector2 NORTH{0, 1};
 
-  inline static const Vector2 EAST{0, 1};
+  inline static const Vector2 EAST{1, 0};
 
-  inline static const Vector2 SOUTH{-1, 0};
+  inline static const Vector2 SOUTH{0, -1};
 
-  inline static const Vector2 WEST{0, -1};
+  inline static const Vector2 WEST{-1, 0};
 
   inline static const Vector2 NULLVECT{0, 0};
 
