@@ -21,10 +21,11 @@
 #include "track_states/ITrackState.hpp"
 #include "track_states/OnTrackState.hpp"
 #include "track_states/SeeingFirstFinishState.hpp"
-#include "track_states/SeeingFinishLineSecondTimeState.hpp"
+#include "track_states/SeeingSecondFinishState.hpp"
 #include "track_states/StartingState.hpp"
-#include "track_states/StoppedState.hpp"
-#include "track_states/WaitingToAproachCubeState.hpp"
+#include "track_states/BreakingState.hpp"
+#include "track_states/FinishedState.hpp"
+#include "track_states/WaitingCubeState.hpp"
 
 #include <memory>
 #include <vector>
@@ -59,11 +60,11 @@ struct SensorFixture {
 //  StartingState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("StartingState::computeCommand – always goes straight at max speed",
+TEST_CASE("StartingState::computeCommand – NORTH vector gives zero angle at max speed",
           "[states][starting]") {
     auto &state = StartingState::getInstance();
     TestableContext ctx;
-    SensorFixture sf({FVector2(1.0f, 0.5f)});
+    SensorFixture sf({FVector2(0.0f, 1.0f)});
     auto &sensor = sf.dto;
 
     auto cmd = state.computeCommand(sensor);
@@ -82,7 +83,8 @@ TEST_CASE("StartingState::updateNextState – transitions to SeeingFirstFinishSt
     // A horizontal vector (y == 0) → finish line detected
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
     CHECK(ctx.currentState() == &SeeingFirstFinishState::getInstance());
 }
@@ -95,7 +97,8 @@ TEST_CASE("StartingState::updateNextState – stays put when no finish line",
 
     SensorFixture sf({FVector2(0.0f, 0.5f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
     CHECK(ctx.currentState() == &StartingState::getInstance());
 }
@@ -104,7 +107,7 @@ TEST_CASE("StartingState::updateNextState – stays put when no finish line",
 //  SeeingFirstFinishState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("SeeingFirstFinishState::computeCommand – straight at max speed",
+TEST_CASE("SeeingFirstFinishState::computeCommand – with finish-line vector, straight at waiting cube speed",
           "[states][seeinffirst]") {
     auto &state = SeeingFirstFinishState::getInstance();
     TestableContext ctx;
@@ -114,7 +117,7 @@ TEST_CASE("SeeingFirstFinishState::computeCommand – straight at max speed",
     auto cmd = state.computeCommand(sensor);
 
     CHECK(cmd.angle == Approx(0.0f));
-    CHECK(cmd.speed == Speed::MAX);
+    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
     CHECK(cmd.shouldStop == false);
 }
 
@@ -127,7 +130,8 @@ TEST_CASE("SeeingFirstFinishState::updateNextState – transitions to OnTrackSta
     // No horizontal vectors → not seeing finish line
     SensorFixture sf({FVector2(0.0f, 0.5f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
     CHECK(ctx.currentState() == &OnTrackState::getInstance());
 }
@@ -140,7 +144,8 @@ TEST_CASE("SeeingFirstFinishState::updateNextState – stays when finish line st
 
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
     CHECK(ctx.currentState() == &SeeingFirstFinishState::getInstance());
 }
@@ -196,7 +201,7 @@ TEST_CASE("OnTrackState::computeCommand – two non-finish vectors → average a
     CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
 }
 
-TEST_CASE("OnTrackState::updateNextState – transitions to SeeingFinishLineSecondTimeState",
+TEST_CASE("OnTrackState::updateNextState – transitions to SeeingSecondFinishState",
           "[states][ontrack]") {
     auto &state = OnTrackState::getInstance();
     TestableContext ctx;
@@ -204,9 +209,10 @@ TEST_CASE("OnTrackState::updateNextState – transitions to SeeingFinishLineSeco
 
     SensorFixture sf({FVector2(1.0f, 0.0f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
-    CHECK(ctx.currentState() == &SeeingFinishLineSecondTimeState::getInstance());
+    CHECK(ctx.currentState() == &SeeingSecondFinishState::getInstance());
 }
 
 TEST_CASE("OnTrackState::updateNextState – stays on track when no finish line",
@@ -217,60 +223,52 @@ TEST_CASE("OnTrackState::updateNextState – stays on track when no finish line"
 
     SensorFixture sf({FVector2(0.0f, 0.5f)});
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
     CHECK(ctx.currentState() == &OnTrackState::getInstance());
 }
 
-TEST_CASE("SeeingFinishLineSecondTimeState::updateNextState – to WaitingToApproachCubeState when finish gone",
+// ═════════════════════════════════════════════════════════════════════════════
+//  SeeingSecondFinishState
+// ═════════════════════════════════════════════════════════════════════════════
+
+TEST_CASE("SeeingSecondFinishState::updateNextState – to WaitingCubeState when finish gone",
           "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    auto &state = SeeingSecondFinishState::getInstance();
     TestableContext ctx;
-    ctx.setState(&SeeingFinishLineSecondTimeState::getInstance());
+    ctx.setState(&SeeingSecondFinishState::getInstance());
 
     SensorFixture sf({FVector2(0.0f, 0.5f)}, 0);
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
-    CHECK(ctx.currentState() == &WaitingToApproachCubeState::getInstance());
+    CHECK(ctx.currentState() == &WaitingCubeState::getInstance());
 }
 
-TEST_CASE("SeeingFinishLineSecondTimeState::updateNextState – to WaitingToApproachCubeState when cube detected",
+TEST_CASE("SeeingSecondFinishState::updateNextState – stays when finish line still visible",
           "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    auto &state = SeeingSecondFinishState::getInstance();
     TestableContext ctx;
-    ctx.setState(&SeeingFinishLineSecondTimeState::getInstance());
+    ctx.setState(&SeeingSecondFinishState::getInstance());
 
-    // cube proximity above threshold and still seeing finish line
-    SensorFixture sf({FVector2(1.0f, 0.0f)},
-                     Params::APPROACHING_CUBE_PERC_TSH + 1);
-    auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
-
-    CHECK(ctx.currentState() == &WaitingToApproachCubeState::getInstance());
-}
-
-TEST_CASE("SeeingFinishLineSecondTimeState::updateNextState – stays when seeing finish, cube far",
-          "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
-    TestableContext ctx;
-    ctx.setState(&SeeingFinishLineSecondTimeState::getInstance());
-
-    // Still seeing finish line, cube not close enough
+    // Still seeing finish line
     SensorFixture sf({FVector2(1.0f, 0.0f)}, 0);
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
-    CHECK(ctx.currentState() == &SeeingFinishLineSecondTimeState::getInstance());
+    CHECK(ctx.currentState() == &SeeingSecondFinishState::getInstance());
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  StoppedState
+//  FinishedState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("StoppedState::computeCommand – always returns full stop",
-          "[states][stopped]") {
-    auto &state = StoppedState::getInstance();
+TEST_CASE("FinishedState::computeCommand – always returns full stop",
+          "[states][finished]") {
+    auto &state = FinishedState::getInstance();
     TestableContext ctx;
     SensorFixture sf({FVector2(0.0f, 0.5f)}, 50);
     auto &sensor = sf.dto;
@@ -282,47 +280,96 @@ TEST_CASE("StoppedState::computeCommand – always returns full stop",
     CHECK(cmd.shouldStop == true);
 }
 
-TEST_CASE("StoppedState::updateNextState – terminal: state never changes",
-          "[states][stopped]") {
-    auto &state = StoppedState::getInstance();
+TEST_CASE("FinishedState::updateNextState – terminal: state never changes",
+          "[states][finished]") {
+    auto &state = FinishedState::getInstance();
     TestableContext ctx;
-    ctx.setState(&StoppedState::getInstance());
+    ctx.setState(&FinishedState::getInstance());
 
     SensorFixture sf({FVector2(1.0f, 0.0f)}, 100);
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
-    CHECK(ctx.currentState() == &StoppedState::getInstance());
+    CHECK(ctx.currentState() == &FinishedState::getInstance());
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  WaitingToApproachCubeState – transition to StoppedState
+//  BreakingState
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("WaitingToApproachCubeState::updateNextState – stops when cube too close",
-          "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
+TEST_CASE("BreakingState::computeCommand – always brakes (angle 0, negative speed, no stop)",
+          "[states][breaking]") {
+    auto &state = BreakingState::getInstance();
     TestableContext ctx;
-    ctx.setState(&WaitingToApproachCubeState::getInstance());
-
-    SensorFixture sf({}, Params::STOP_CUBE_IS_TOO_CLOSE_TSH);
+    SensorFixture sf({FVector2(0.0f, 0.5f)}, 50);
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
 
-    CHECK(ctx.currentState() == &StoppedState::getInstance());
+    auto cmd = state.computeCommand(sensor);
+
+    CHECK(cmd.angle == Approx(0.0f));
+    CHECK(cmd.speed == Speed::BREAK);
+    CHECK(cmd.shouldStop == false);
 }
 
-TEST_CASE("WaitingToApproachCubeState::updateNextState – stays when cube not yet too close",
-          "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
+TEST_CASE("BreakingState::updateNextState – transitions to FinishedState when cube very close",
+          "[states][breaking]") {
+    auto &state = BreakingState::getInstance();
     TestableContext ctx;
-    ctx.setState(&WaitingToApproachCubeState::getInstance());
+    ctx.setState(&BreakingState::getInstance());
 
-    SensorFixture sf({}, Params::STOP_CUBE_IS_TOO_CLOSE_TSH - 1);
+    SensorFixture sf({}, Params::SHOULD_END_BREAK + 1);
     auto &sensor = sf.dto;
-    state.updateNextState(sensor, ctx);
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
 
-    CHECK(ctx.currentState() == &WaitingToApproachCubeState::getInstance());
+    CHECK(ctx.currentState() == &FinishedState::getInstance());
+}
+
+TEST_CASE("BreakingState::updateNextState – stays when cube not yet at end-break threshold",
+          "[states][breaking]") {
+    auto &state = BreakingState::getInstance();
+    TestableContext ctx;
+    ctx.setState(&BreakingState::getInstance());
+
+    SensorFixture sf({}, Params::SHOULD_END_BREAK);
+    auto &sensor = sf.dto;
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
+
+    CHECK(ctx.currentState() == &BreakingState::getInstance());
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+//  WaitingCubeState – transition to BreakingState
+// ═════════════════════════════════════════════════════════════════════════════
+
+TEST_CASE("WaitingCubeState::updateNextState – transitions to BreakingState when cube detected",
+          "[states][waiting]") {
+    auto &state = WaitingCubeState::getInstance();
+    TestableContext ctx;
+    ctx.setState(&WaitingCubeState::getInstance());
+
+    SensorFixture sf({}, Params::APPROACHING_CUBE_PERC_TSH + 1);
+    auto &sensor = sf.dto;
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
+
+    CHECK(ctx.currentState() == &BreakingState::getInstance());
+}
+
+TEST_CASE("WaitingCubeState::updateNextState – stays when cube not yet detected",
+          "[states][waiting]") {
+    auto &state = WaitingCubeState::getInstance();
+    TestableContext ctx;
+    ctx.setState(&WaitingCubeState::getInstance());
+
+    SensorFixture sf({}, Params::APPROACHING_CUBE_PERC_TSH);
+    auto &sensor = sf.dto;
+    state.computeCommand(sensor);
+    state.updateNextState(ctx);
+
+    CHECK(ctx.currentState() == &WaitingCubeState::getInstance());
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -347,7 +394,7 @@ TEST_CASE("ATrackStateContext – delegates to the injected ITrackState mock",
 
     // Simulate what AlgorithmStrategyImpl::computeParameters does
     auto result = ctx.currentState()->computeCommand(sensor);
-    ctx.currentState()->updateNextState(sensor, ctx);
+    ctx.currentState()->updateNextState(ctx);
 
     CHECK(result.angle == Approx(expectedCmd.angle));
     CHECK(result.speed == expectedCmd.speed);
@@ -358,30 +405,14 @@ TEST_CASE("ATrackStateContext – delegates to the injected ITrackState mock",
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  WaitingToApproachCubeState – computeCommand (previously untested)
+//  WaitingCubeState – computeCommand
 // ═════════════════════════════════════════════════════════════════════════════
 
-TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 0 → speed 0",
+TEST_CASE("WaitingCubeState::computeCommand – 0 vectors → straight at waiting cube speed",
           "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
+    auto &state = WaitingCubeState::getInstance();
     TestableContext ctx;
-    // 0 vectors → angle = 0, speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
-    // then speed = scale(speed, 0) = speed * (0/100) = 0  (integer division)
     SensorFixture sf({}, 0);
-    auto cmd = state.computeCommand(sf.dto);
-
-    CHECK(cmd.angle == Approx(0.0f));
-    CHECK(cmd.speed == 0);
-    CHECK(cmd.shouldStop == false);
-}
-
-TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 100 → full waiting speed",
-          "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
-    TestableContext ctx;
-    // 0 vectors → angle = 0, speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
-    // then speed = scale(speed, 100) = speed * (100/100) = speed  (integer division)
-    SensorFixture sf({}, 100);
     auto cmd = state.computeCommand(sf.dto);
 
     CHECK(cmd.angle == Approx(0.0f));
@@ -389,14 +420,11 @@ TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 1
     CHECK(cmd.shouldStop == false);
 }
 
-
-TEST_CASE("WaitingToApproachCubeState::computeCommand – 1 NORTH vector, proximity 100 → zero angle",
+TEST_CASE("WaitingCubeState::computeCommand – NORTH vector → zero angle, waiting cube speed",
           "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
+    auto &state = WaitingCubeState::getInstance();
     TestableContext ctx;
     // Vector (0,1) == Vectors::NORTH; AngleBetween(NORTH, Vectors::NORTH) = 0
-    // speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
-    // then scale(speed, 100) = WAITING_CUBE_SPEED
     SensorFixture sf({FVector2(0.0f, 1.0f)}, 100);
     auto cmd = state.computeCommand(sf.dto);
 
@@ -451,11 +479,10 @@ TEST_CASE("OnTrackState::computeCommand – 3 non-finish vectors uses angle betw
     CHECK(cmd.shouldStop == false);
 }
 
-TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 100 preserves speed",
+TEST_CASE("SeeingSecondFinishState::computeCommand – non-finish vector at waiting cube speed",
           "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
+    auto &state = SeeingSecondFinishState::getInstance();
     TestableContext ctx;
-    // cubeProximity = 100 > 0 → speed = speed * (100/100) = speed * 1 = WAITING_CUBE_SPEED
     SensorFixture sf({FVector2(0.0f, 0.5f)}, 100);
     auto cmd = state.computeCommand(sf.dto);
 

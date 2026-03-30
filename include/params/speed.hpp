@@ -19,7 +19,7 @@ public:
   }
 
   static speed_t scale(const speed_t maxSpeed, const proximity_t cubeProxi) {
-    return maxSpeed * cubeProxi;
+    return (speed_t)((float)maxSpeed * ((float)cubeProxi / 100.0f));
   }
 };
 } // namespace ls
