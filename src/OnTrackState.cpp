@@ -72,7 +72,7 @@ static void computeSpeedAndAngle(const std::array<FVector2, 4> &inInfoVectors,
     // Ii luam doar pe primi 2 si aplicam acelasi algoritm ca in cazul cu 2
     // vectori
     FVector2 medi = Vector2<float>::Avg(inInfoVectors[0], inInfoVectors[1]);
-    outAngle = Vector2<float>::AngleBetween(inInfoVectors[0], inInfoVectors[1]);
+    outAngle = Vector2<float>::AngleBetween(medi, Vectors::NORTH);
     outSpeed = Speed::scale(Speed::MAX, outAngle);
     break;
   }

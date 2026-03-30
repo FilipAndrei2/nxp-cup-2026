@@ -8,6 +8,7 @@ describes the problem, the affected files and line numbers, and a suggested fix.
 ## Bug 1 — Dangling Reference: `Car::ctx` refers to a destroyed stack-local object
 
 **Severity:** 🔴 Critical — undefined behaviour on every run  
+**Status:** ❌ Open  
 **Affected files:**
 - `include/car/Car.hpp` line 31
 - `src/CarBuilder.cpp` lines 38–43
@@ -55,6 +56,7 @@ Car::Car(ls::Car::Context ctx) : ctx(std::move(ctx)) {}
 ## Bug 2 — `throw new std::runtime_error` — exception thrown as pointer, never caught
 
 **Severity:** 🔴 Critical — unhandled exception terminates the program  
+**Status:** ❌ Open  
 **Affected file:** `src/CarBuilder.cpp` line 35
 
 ### Description
@@ -83,6 +85,8 @@ throw std::runtime_error("Can't build car.");       // ✅ throw by value
 ## Bug 3 — Null pointer dereference: `getVectors()` returns `nullptr`, callers never check
 
 **Severity:** 🔴 Critical — crash every time the camera sees no lines  
+**Status:** ✅ Fixed — `PixyCamControllerImpl::getVectors()` now returns an empty shared
+vector instead of `nullptr` when no vectors are detected.  
 **Affected files:**
 - `src/PixyCamControllerImpl.cpp` lines 17–19
 - `src/OnTrackState.cpp` line 17
@@ -129,6 +133,8 @@ if (dv.NumberOfVectors == 0) {
 ## Bug 4 — Wrong steering angle in `OnTrackState` default case: `medi` is computed but not used
 
 **Severity:** 🔴 Critical — incorrect steering whenever ≥ 3 track vectors are visible  
+**Status:** ✅ Fixed — default case now uses `AngleBetween(medi, Vectors::NORTH)` consistently
+with case 2.  
 **Affected file:** `src/OnTrackState.cpp` lines 74–75
 
 ### Description
@@ -171,6 +177,8 @@ default: {
 ## Bug 5 — Integer division in `Speed::scale(speed, proximity)` always produces zero
 
 **Severity:** 🔴 Critical — cube-proximity speed scaling is completely non-functional  
+**Status:** ✅ Fixed — cast to `float` before dividing by 100 so intermediate proximity
+values (1–99) produce correct proportional results.  
 **Affected files:**
 - `include/params/speed.hpp` line 21
 - `src/SeeingFinishLineSecondTimeState.cpp` line 78
@@ -208,3 +216,40 @@ static speed_t scale(const speed_t maxSpeed, const proximity_t cubeProxi) {
 // src/SeeingFinishLineSecondTimeState.cpp
 return static_cast<speed_t>(maxSpeed * (proximity / 100.0f));       // ✅
 ```
+
+---
+
+## Bug 6 — Swapped cartesian coordinates for `NORTH`/`EAST`/`SOUTH`/`WEST` in `Vector2`
+
+**Severity:** 🔴 Critical — all angle calculations were wrong  
+**Status:** ✅ Fixed (commit 7293958) — coordinates corrected to standard cartesian convention.  
+**Affected file:** `include/math/Vector2.hpp` static members
+
+### Description
+
+The four cardinal direction constants had their X and Y components swapped:
+
+```cpp
+// BEFORE (wrong)
+inline static const Vector2 NORTH{1, 0};  // ❌ was pointing East (+X)
+inline static const Vector2 EAST{0, 1};   // ❌ was pointing North (+Y)
+inline static const Vector2 SOUTH{-1, 0}; // ❌ was pointing West (-X)
+inline static const Vector2 WEST{0, -1};  // ❌ was pointing South (-Y)
+```
+
+Because `Vectors::NORTH` (used as the reference direction in every
+`AngleBetween` call) was pointing along the X-axis instead of the Y-axis,
+every computed steering angle was measured from the wrong reference direction,
+producing incorrect servo commands on every frame.
+
+### Fix applied
+
+```cpp
+inline static const Vector2 NORTH{0, 1};  // ✅ positive Y
+inline static const Vector2 EAST{1, 0};   // ✅ positive X
+inline static const Vector2 SOUTH{0, -1}; // ✅ negative Y
+inline static const Vector2 WEST{-1, 0};  // ✅ negative X
+```
+
+The companion test in `test/test_vector2.cpp` was also updated to assert the
+new correct values.
