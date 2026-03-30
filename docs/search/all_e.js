@@ -2,7 +2,7 @@ var searchData=
 [
   ['params_0',['Params',['../classls_1_1Params.html',1,'ls']]],
   ['params_2ehpp_1',['Params.hpp',['../Params_8hpp.html',1,'']]],
-  ['pixy2_5fi2c_5faddress_2',['PIXY2_I2C_ADDRESS',['../classls_1_1Params.html#a4be0d4d86c6271d23a3eafae37654da8',1,'ls::Params']]],
+  ['pixy2_5fi2c_5faddress_2',['PIXY2_I2C_ADDRESS',['../classls_1_1Params.html#ab93755a5913403e88be82d233e8e7044',1,'ls::Params']]],
   ['pixy2_5fi2c_5fchannel_3',['PIXY2_I2C_CHANNEL',['../classls_1_1Params.html#a6f27f354a0fa1c3602c0032b95a68d34',1,'ls::Params']]],
   ['pixy2cam_5fframerate_4',['PIXY2CAM_FRAMERATE',['../classls_1_1Params.html#afede9473d1af52ee59033bfd9fb34ed6',1,'ls::Params']]],
   ['pixycamcontrollerimpl_5',['PixyCamControllerImpl',['../classls_1_1PixyCamControllerImpl.html',1,'ls']]],

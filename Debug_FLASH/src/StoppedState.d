@@ -59,7 +59,7 @@ src/StoppedState.o: ../src/StoppedState.cpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_I2c_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StoppedState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dp/TSingleton.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/dto/DrivingCommandDTO.hpp:
@@ -123,4 +123,4 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_I2c_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/ATrackStateContext.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp:

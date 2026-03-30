@@ -28,7 +28,7 @@ public:
   virtual ~Car() = default;
 
 private:
-  Car::Context ctx;
+  Car::Context &ctx;
   bool isRunning;
 
 private:

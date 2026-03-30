@@ -17,8 +17,8 @@ SRC_UNDER_TEST := \
     ../src/Vectors.cpp \
     ../src/ITrackState.cpp \
     ../src/AlgorithmStrategyImpl.cpp \
-    ../src/StartingBeforeFinishLineState.cpp \
-    ../src/SeeingFinishFirstTimeState.cpp \
+    ../src/StartingState.cpp \
+    ../src/SeeingFirstFinishState.cpp \
     ../src/OnTrackState.cpp \
     ../src/SeeingFinishLineSecondTimeState.cpp \
     ../src/WaitingToApproachCubeState.cpp \

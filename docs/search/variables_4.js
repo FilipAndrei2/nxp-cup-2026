@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['finish_5fline_5fnumber_5fof_5fvectors_5fthsh_0',['FINISH_LINE_NUMBER_OF_VECTORS_THSH',['../classls_1_1Params.html#a9e348da138efdb7b032c934eccbc6614',1,'ls::Params']]],
-  ['float_5feps_1',['FLOAT_EPS',['../classls_1_1Floats.html#a665d21312e86c4d3a083f7f401b3a238',1,'ls::Floats']]],
-  ['float_5fpi_2',['FLOAT_PI',['../classls_1_1Angles.html#a7b6215cb60d3de48f3a1c4fb1ed8434d',1,'ls::Angles']]]
+  ['east_0',['EAST',['../classls_1_1Vector2.html#a3a8fce225cb002cd2b7dd09735211ce5',1,'ls::Vector2']]],
+  ['enginecontroller_1',['engineController',['../structls_1_1Car_1_1Context.html#aa8a1bff4d24751168a707992c665c574',1,'ls::Car::Context']]],
+  ['esc_5fmax_5fduty_5fcycle_2',['ESC_MAX_DUTY_CYCLE',['../classls_1_1Params.html#a1583c55fbfd55c28ef999317eaedfa89',1,'ls::Params']]],
+  ['esc_5fmed_5fduty_5fcycle_3',['ESC_MED_DUTY_CYCLE',['../classls_1_1Params.html#a25fdac9a7baba2e2676d59722f82e0bf',1,'ls::Params']]],
+  ['esc_5fmin_5fduty_5fcycle_4',['ESC_MIN_DUTY_CYCLE',['../classls_1_1Params.html#a73e7f817867d312ebbff3c908dd67c86',1,'ls::Params']]],
+  ['esc_5fpwm_5fchannel_5',['ESC_PWM_CHANNEL',['../classls_1_1Params.html#a181624f7d558cbb11823353b27e99216',1,'ls::Params']]]
 ];

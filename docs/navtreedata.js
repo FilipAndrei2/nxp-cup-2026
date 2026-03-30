@@ -41,6 +41,7 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
         [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -49,6 +50,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -58,7 +60,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ATrackStateContext_8hpp.html",
-"classls_1_1StoppedState.html"
+"classls_1_1SeeingSecondFinishState.html#acac1d305737ee46018272d3c6d8b52a3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

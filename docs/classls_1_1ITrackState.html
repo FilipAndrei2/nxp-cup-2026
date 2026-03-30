@@ -99,12 +99,14 @@ Inheritance diagram for ls::ITrackState:</div>
  <div class="center">
   <img src="classls_1_1ITrackState.png" usemap="#ls_3A_3AITrackState_map" alt=""/>
   <map id="ls_3A_3AITrackState_map" name="ls_3A_3AITrackState_map">
-<area href="classls_1_1OnTrackState.html" alt="ls::OnTrackState" shape="rect" coords="0,56,221,80"/>
-<area href="classls_1_1SeeingFinishFirstState.html" alt="ls::SeeingFinishFirstState" shape="rect" coords="231,56,452,80"/>
-<area href="classls_1_1SeeingFinishLineSecondTimeState.html" alt="ls::SeeingFinishLineSecondTimeState" shape="rect" coords="462,56,683,80"/>
-<area href="classls_1_1StartingBeforeFinishLineState.html" alt="ls::StartingBeforeFinishLineState" shape="rect" coords="693,56,914,80"/>
-<area href="classls_1_1StoppedState.html" alt="ls::StoppedState" shape="rect" coords="924,56,1145,80"/>
-<area href="classls_1_1WaitingToApproachCubeState.html" alt="ls::WaitingToApproachCubeState" shape="rect" coords="1155,56,1376,80"/>
+<area href="classls_1_1ATrackState.html" alt="ls::ATrackState" shape="rect" coords="543,56,714,80"/>
+<area href="classls_1_1BreakingState.html" alt="ls::BreakingState" shape="rect" coords="0,112,171,136"/>
+<area href="classls_1_1FinishedState.html" alt="ls::FinishedState" shape="rect" coords="181,112,352,136"/>
+<area href="classls_1_1OnTrackState.html" alt="ls::OnTrackState" shape="rect" coords="362,112,533,136"/>
+<area href="classls_1_1SeeingFirstFinishState.html" alt="ls::SeeingFirstFinishState" shape="rect" coords="543,112,714,136"/>
+<area href="classls_1_1SeeingSecondFinishState.html" alt="ls::SeeingSecondFinishState" shape="rect" coords="724,112,895,136"/>
+<area href="classls_1_1StartingState.html" alt="ls::StartingState" shape="rect" coords="905,112,1076,136"/>
+<area href="classls_1_1WaitingCubeState.html" alt="ls::WaitingCubeState" shape="rect" coords="1086,112,1257,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -112,7 +114,7 @@ Inheritance diagram for ls::ITrackState:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a470461752a3c01f99f1ecf3dfb432d19" id="r_a470461752a3c01f99f1ecf3dfb432d19"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="#a470461752a3c01f99f1ecf3dfb432d19">~ITrackState</a> ()</td></tr>
 <tr class="memitem:aeb6ad14eb0317c161b50851bad96360a" id="r_aeb6ad14eb0317c161b50851bad96360a"><td class="memItemLeft">virtual const <a class="el" href="structls_1_1DrivingCommandDTO.html">ls::DrivingCommandDTO</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb6ad14eb0317c161b50851bad96360a">computeCommand</a> (const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;sensorData)=0</td></tr>
-<tr class="memitem:a6cadff634e31748b459744f9879e8509" id="r_a6cadff634e31748b459744f9879e8509"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a6cadff634e31748b459744f9879e8509">updateNextState</a> (const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;sensorData, <a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;ctx) const =0</td></tr>
+<tr class="memitem:ac70b94fcfeffc96a32b4ca02676c6ed3" id="r_ac70b94fcfeffc96a32b4ca02676c6ed3"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ac70b94fcfeffc96a32b4ca02676c6ed3">updateNextState</a> (<a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;ctx) const =0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a470461752a3c01f99f1ecf3dfb432d19" name="a470461752a3c01f99f1ecf3dfb432d19"></a>
@@ -164,12 +166,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classls_1_1OnTrackState.html#ab1bd62cd1a348fa52df8956d6e20b918">ls::OnTrackState</a>, <a class="el" href="classls_1_1SeeingFinishFirstState.html#ae862e50aad60c0ace98a245a2ee7c8c5">ls::SeeingFinishFirstState</a>, <a class="el" href="classls_1_1SeeingFinishLineSecondTimeState.html#abb4c6fc0b32406ab177bd8b391ec0abf">ls::SeeingFinishLineSecondTimeState</a>, <a class="el" href="classls_1_1StartingBeforeFinishLineState.html#a23ac89ca293745e6eef08cff1cb6cdba">ls::StartingBeforeFinishLineState</a>, <a class="el" href="classls_1_1StoppedState.html#a3921d7e18005b53f44b93f32667992e0">ls::StoppedState</a>, and <a class="el" href="classls_1_1WaitingToApproachCubeState.html#a398c935c8e4e5a7f9816da3cd90c4b90">ls::WaitingToApproachCubeState</a>.</p>
+<p>Implemented in <a class="el" href="classls_1_1ATrackState.html#a0cd4062b938ce9149843402639d65d03">ls::ATrackState</a>, and <a class="el" href="classls_1_1SeeingFirstFinishState.html#ad620b28a093fcbaaa77ebc872370b38a">ls::SeeingFirstFinishState</a>.</p>
 
 </div>
 </div>
-<a id="a6cadff634e31748b459744f9879e8509" name="a6cadff634e31748b459744f9879e8509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cadff634e31748b459744f9879e8509">&#9670;&#160;</a></span>updateNextState()</h2>
+<a id="ac70b94fcfeffc96a32b4ca02676c6ed3" name="ac70b94fcfeffc96a32b4ca02676c6ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70b94fcfeffc96a32b4ca02676c6ed3">&#9670;&#160;</a></span>updateNextState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,12 +182,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void ls::ITrackState::updateNextState </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structls_1_1SensorDataDTO.html">ls::SensorDataDTO</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sensorData</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="classls_1_1ATrackStateContext.html">ATrackStateContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -195,7 +193,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classls_1_1OnTrackState.html#adbbf24fea109061a8249ce02202ea4d0">ls::OnTrackState</a>, <a class="el" href="classls_1_1SeeingFinishFirstState.html#a5ddaf357a9cb2bc85afab610c7b5ce61">ls::SeeingFinishFirstState</a>, <a class="el" href="classls_1_1SeeingFinishLineSecondTimeState.html#aac3bce9040eeb0432e7e666927cf7197">ls::SeeingFinishLineSecondTimeState</a>, <a class="el" href="classls_1_1StartingBeforeFinishLineState.html#a64d3d9ecbb6a7ede9ed5b37e12b01b45">ls::StartingBeforeFinishLineState</a>, <a class="el" href="classls_1_1StoppedState.html#ab1e89d9f19e1529d5fcdaaef975b789d">ls::StoppedState</a>, and <a class="el" href="classls_1_1WaitingToApproachCubeState.html#a801f7b04b0b72d4fe6032e497b6f5aa8">ls::WaitingToApproachCubeState</a>.</p>
+<p>Implemented in <a class="el" href="classls_1_1BreakingState.html#aa2f6f7e2198375988495a3aa1169664d">ls::BreakingState</a>, <a class="el" href="classls_1_1FinishedState.html#aa2dab5baac64e450d0c17b4445ab3fd7">ls::FinishedState</a>, <a class="el" href="classls_1_1OnTrackState.html#aed7ab21266342e01c3cc0f3ba7479cff">ls::OnTrackState</a>, <a class="el" href="classls_1_1SeeingFirstFinishState.html#abd24eaa72a1a419d375ec699130aaa69">ls::SeeingFirstFinishState</a>, <a class="el" href="classls_1_1SeeingSecondFinishState.html#a29ebf2fc98f0bdf5997ed911d750f559">ls::SeeingSecondFinishState</a>, <a class="el" href="classls_1_1StartingState.html#aecf4f6c4052264c113ac56e9deed4e9a">ls::StartingState</a>, and <a class="el" href="classls_1_1WaitingCubeState.html#a789c82a4ff46a2617443e0f4ad0add22">ls::WaitingCubeState</a>.</p>
 
 </div>
 </div>

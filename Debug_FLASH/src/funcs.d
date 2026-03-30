@@ -60,7 +60,7 @@ src/funcs.o: ../src/funcs.cpp \
  ../RTD/include/Lpi2c_Ip_Callbacks.h ../RTD/include/Lpi2c_Ip_Features.h \
  C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_I2c_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/Car.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/ICar.hpp \
  C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/IPixyCamController.hpp \
@@ -171,7 +171,7 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 ../RTD/include/Lpi2c_Ip_Features.h:
 C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_I2c_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingBeforeFinishLineState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/default/include/track_states/StartingState.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/Car.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/ICar.hpp:
 C:/Users/andre/workspaceS32DS.3.6.6/default/include/car/IPixyCamController.hpp:
