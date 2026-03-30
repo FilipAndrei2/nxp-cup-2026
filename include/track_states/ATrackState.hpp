@@ -50,6 +50,7 @@ protected:
     for (const auto &v : inRawVector) {
       if (Vectors::isFinishLine(v)) {
         sawFinish = true;
+      } else {
         addFilteredVector(v);
       }
     }

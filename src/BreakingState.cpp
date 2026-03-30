@@ -11,9 +11,10 @@ void BreakingState::updateNextState(ATrackStateContext &ctx) const {
   }
 }
 
-angle_t computeAngle() { return (angle_t)0; }
+angle_t BreakingState::computeAngle() { return (angle_t)0; }
 
-speed_t computeSpeed(const angle_t inAngle, const proximity_t inCubeProxi) {
+speed_t BreakingState::computeSpeed(const angle_t inAngle,
+                                    const proximity_t inCubeProxi) {
   return Speed::BREAK;
 }
 } // namespace ls

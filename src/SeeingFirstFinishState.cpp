@@ -20,5 +20,8 @@ void SeeingFirstFinishState::updateNextState(ATrackStateContext &ctx) const {
   }
 }
 
-speed_t computeSpeed(const angle_t inAngle, const proximity_t inCubeProxi) {}
+speed_t SeeingFirstFinishState::computeSpeed(const angle_t inAngle,
+                                             const proximity_t inCubeProxi) {
+  return Speed::scale(Speed::WAITING_CUBE_SPEED, inAngle);
+}
 } // namespace  ls

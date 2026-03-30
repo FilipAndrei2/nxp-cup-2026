@@ -38,7 +38,5 @@ var namespacels =
     [ "FVector2", "namespacels.html#a1d2241bdbcad3a97ff64a7b6379e542f", null ],
     [ "proximity_t", "namespacels.html#a13cffeb7db239a25deaca26d93b92719", null ],
     [ "speed_t", "namespacels.html#a93267c1d8fda642958fd55cb58d74682", null ],
-    [ "buildCar", "namespacels.html#a93751a8a25900f328eef1c690549963c", null ],
-    [ "computeAngle", "namespacels.html#a81f35811e2ad28ec1ca823fae4b030be", null ],
-    [ "computeSpeed", "namespacels.html#af95ced86ab3ae6820018fab2d42d84a1", null ]
+    [ "buildCar", "namespacels.html#a93751a8a25900f328eef1c690549963c", null ]
 ];

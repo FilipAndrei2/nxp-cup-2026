@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classls_1_1SeeingSecondFinishState.html#acac1d305737ee46018272d3c6d8b52a3":[0,0,0,30,0],
 "classls_1_1SeeingSecondFinishState.html#acac1d305737ee46018272d3c6d8b52a3":[1,0,0,30,0],
 "classls_1_1ServoControllerImpl.html":[0,0,0,11],
 "classls_1_1ServoControllerImpl.html":[1,0,0,11],
@@ -132,9 +131,8 @@ var NAVTREEINDEX1 =
 "functions_type.html":[1,3,3],
 "functions_vars.html":[1,3,2],
 "globals.html":[2,1,0],
-"globals_defs.html":[2,1,3],
+"globals_defs.html":[2,1,2],
 "globals_func.html":[2,1,1],
-"globals_vars.html":[2,1,2],
 "hierarchy.html":[1,2],
 "index.html":[],
 "lifesource_8hpp.html":[2,0,0,7,1],
@@ -147,10 +145,8 @@ var NAVTREEINDEX1 =
 "namespacels.html#a161796fde03d28cc460cb7052136ab28":[0,0,0,33],
 "namespacels.html#a1d2241bdbcad3a97ff64a7b6379e542f":[0,0,0,35],
 "namespacels.html#a580b6a7515488e59e2aa1bc3be87c496":[0,0,0,34],
-"namespacels.html#a81f35811e2ad28ec1ca823fae4b030be":[0,0,0,39],
 "namespacels.html#a93267c1d8fda642958fd55cb58d74682":[0,0,0,37],
 "namespacels.html#a93751a8a25900f328eef1c690549963c":[0,0,0,38],
-"namespacels.html#af95ced86ab3ae6820018fab2d42d84a1":[0,0,0,40],
 "namespacemembers.html":[0,1,0],
 "namespacemembers_func.html":[0,1,1],
 "namespacemembers_type.html":[0,1,2],

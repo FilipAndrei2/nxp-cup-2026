@@ -10,7 +10,7 @@ void FinishedState::updateNextState(ATrackStateContext &ctx) const {
 
 angle_t FinishedState::computeAngle() { return (angle_t)0; }
 
-speed_t FinishedState::computeSpeed(angle_t angle, proximity_t proximity_t) {
+speed_t FinishedState::computeSpeed(angle_t angle, proximity_t cubeProximity) {
   return (speed_t)0;
 }
 
