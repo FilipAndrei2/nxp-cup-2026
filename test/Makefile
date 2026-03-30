@@ -34,6 +34,7 @@ TEST_SRCS := \
     test_states.cpp \
     test_algorithm.cpp \
     test_speed.cpp \
+    test_bugs.cpp \
     catch2/catch_amalgamated.cpp
 
 ALL_SRCS := $(TEST_SRCS) $(SRC_UNDER_TEST)
