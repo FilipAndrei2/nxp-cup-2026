@@ -15,7 +15,7 @@ std::shared_ptr<std::vector<Vector2<float>>> PixyCamControllerImpl::getVectors()
   auto res = make_shared<vector<FVector2>>();
 
   if (dv.NumberOfVectors == 0) {
-    return nullptr;
+    return res;
   }
 
   for (auto i = 0; i < dv.NumberOfVectors; ++i) {
