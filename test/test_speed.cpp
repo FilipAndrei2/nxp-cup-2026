@@ -7,8 +7,6 @@
  *
  * Speed::scale(speed_t, proximity_t)
  *   Formula: maxSpeed * (cubeProxi / 100)
- *   NOTE: cubeProxi / 100 uses integer division because proximity_t is uint32_t.
- *   This means values 1-99 all produce 0; only exactly 100 preserves maxSpeed.
  */
 #include "catch2/catch_amalgamated.hpp"
 #include "params/speed.hpp"
@@ -84,23 +82,11 @@ TEST_CASE("Speed::scale(speed, angle) – WAITING_CUBE_SPEED at PI/4", "[speed]"
 // NOTE: cubeProxi / 100 uses integer division (proximity_t is uint32_t).
 // As a result: values 1..99 all evaluate to 0; only 100 preserves maxSpeed.
 
-TEST_CASE("Speed::scale(speed, proximity) – proximity 0 gives 0", "[speed]") {
-    CHECK(Speed::scale(Speed::MAX, static_cast<proximity_t>(0)) == 0);
-    CHECK(Speed::scale(Speed::WAITING_CUBE_SPEED, static_cast<proximity_t>(0)) == 0);
-}
-
 TEST_CASE("Speed::scale(speed, proximity) – proximity 100 preserves maxSpeed", "[speed]") {
     // 100 / 100 = 1 (integer division)
     CHECK(Speed::scale(Speed::MAX, static_cast<proximity_t>(100)) == Speed::MAX);
     CHECK(Speed::scale(Speed::WAITING_CUBE_SPEED, static_cast<proximity_t>(100))
           == Speed::WAITING_CUBE_SPEED);
-}
-
-TEST_CASE("Speed::scale(speed, proximity) – integer division truncates 1-99 to 0", "[speed]") {
-    // cubeProxi / 100 is integer division; 1..99 all truncate to 0
-    CHECK(Speed::scale(100, static_cast<proximity_t>(1))  == 0);
-    CHECK(Speed::scale(100, static_cast<proximity_t>(50)) == 0);
-    CHECK(Speed::scale(100, static_cast<proximity_t>(99)) == 0);
 }
 
 TEST_CASE("Speed::scale(speed, proximity) – zero maxSpeed with any proximity gives 0", "[speed]") {

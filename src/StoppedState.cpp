@@ -1,7 +1,6 @@
 #include "track_states/StoppedState.hpp"
 #include "dto/SensorDataDTO.hpp"
 #include "track_states/ATrackStateContext.hpp"
-
 namespace ls {
 
 const DrivingCommandDTO
@@ -12,9 +11,7 @@ StoppedState::computeCommand(const SensorDataDTO &sensorData) {
 
 void StoppedState::updateNextState(const SensorDataDTO &sensorData,
                                    ATrackStateContext &ctx) const {
-  /* Nu mai iesim din stateul asta :)
-   * IDEA: Fa sa se aprinda un led pe pixy cand se termina, sau ceva
-   */
+  /* Nu mai iesim din stateul asta :) */
 }
 
 } // namespace ls

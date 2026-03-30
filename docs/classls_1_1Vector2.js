@@ -1,9 +1,9 @@
 var classls_1_1Vector2 =
 [
     [ "Vector2", "classls_1_1Vector2.html#a8271a889fd71acae81b201d9378fe031", null ],
-    [ "Vector2", "classls_1_1Vector2.html#a01622379c3a86414d059eeaa7371b7e6", null ],
     [ "Vector2", "classls_1_1Vector2.html#a37362c5fa62cf8b4e1ddf07173e720f3", null ],
     [ "Vector2", "classls_1_1Vector2.html#aa0626a5a2110a3f78a7b370864d1aa34", null ],
+    [ "Vector2", "classls_1_1Vector2.html#a4747194597e5f9f4f1e617c5f22bee27", null ],
     [ "~Vector2", "classls_1_1Vector2.html#a3c1073a23113e437713405e85c4f2728", null ],
     [ "add", "classls_1_1Vector2.html#ae9382fe3cba3ff644ff9002c62c8d85a", null ],
     [ "avg", "classls_1_1Vector2.html#a86507fb042aca0640e27612fe797db17", null ],

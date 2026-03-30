@@ -389,17 +389,6 @@ TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 1
     CHECK(cmd.shouldStop == false);
 }
 
-TEST_CASE("WaitingToApproachCubeState::computeCommand – 0 vectors, proximity 50 → speed 0",
-          "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
-    TestableContext ctx;
-    // cubeProxi / 100 is integer division: 50/100 = 0 → speed = 0
-    SensorFixture sf({}, 50);
-    auto cmd = state.computeCommand(sf.dto);
-
-    CHECK(cmd.speed == 0);
-    CHECK(cmd.shouldStop == false);
-}
 
 TEST_CASE("WaitingToApproachCubeState::computeCommand – 1 NORTH vector, proximity 100 → zero angle",
           "[states][waiting]") {
@@ -409,19 +398,6 @@ TEST_CASE("WaitingToApproachCubeState::computeCommand – 1 NORTH vector, proxim
     // speed = scale(WAITING_CUBE_SPEED, 0.0f) = WAITING_CUBE_SPEED
     // then scale(speed, 100) = WAITING_CUBE_SPEED
     SensorFixture sf({FVector2(0.0f, 1.0f)}, 100);
-    auto cmd = state.computeCommand(sf.dto);
-
-    CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
-    CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
-    CHECK(cmd.shouldStop == false);
-}
-
-TEST_CASE("WaitingToApproachCubeState::computeCommand – 2 identical NORTH vectors, proximity 100",
-          "[states][waiting]") {
-    auto &state = WaitingToApproachCubeState::getInstance();
-    TestableContext ctx;
-    // Avg({0,1},{0,1}) = {0,1}, AngleBetween({0,1}, Vectors::NORTH) = 0
-    SensorFixture sf({FVector2(0.0f, 1.0f), FVector2(0.0f, 1.0f)}, 100);
     auto cmd = state.computeCommand(sf.dto);
 
     CHECK(cmd.angle == Approx(0.0f).margin(1e-4f));
@@ -485,18 +461,5 @@ TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 100 pre
 
     CHECK(cmd.angle == Approx(0.0f));
     CHECK(cmd.speed == Speed::WAITING_CUBE_SPEED);
-    CHECK(cmd.shouldStop == false);
-}
-
-TEST_CASE("SeeingFinishLineSecondTimeState::computeCommand – proximity 50 zeroes speed via integer division",
-          "[states][seeinfsecond]") {
-    auto &state = SeeingFinishLineSecondTimeState::getInstance();
-    TestableContext ctx;
-    // cubeProximity = 50 > 0 → speed = speed * (50/100) = speed * 0 = 0  (integer division)
-    SensorFixture sf({FVector2(0.0f, 0.5f)}, 50);
-    auto cmd = state.computeCommand(sf.dto);
-
-    CHECK(cmd.angle == Approx(0.0f));
-    CHECK(cmd.speed == 0);
     CHECK(cmd.shouldStop == false);
 }

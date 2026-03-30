@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['car_0',['Car',['../classls_1_1Car.html#a0f9a599a4131343642c22ed2957eb12f',1,'ls::Car::Car()=delete'],['../classls_1_1Car.html#a33d25f6812a1dd3dad4d4aa88b6f4b16',1,'ls::Car::Car(ls::Car::Context &amp;ctx)']]],
+  ['car_0',['Car',['../classls_1_1Car.html#a0f9a599a4131343642c22ed2957eb12f',1,'ls::Car::Car()=delete'],['../classls_1_1Car.html#aee09961be516478ce7d7db727f97795f',1,'ls::Car::Car(ls::Car::Context ctx)']]],
   ['carbuilder_1',['CarBuilder',['../classls_1_1CarBuilder.html#a9e856ae670c8509b6eea7c1165bfc697',1,'ls::CarBuilder']]],
   ['changeledcolor_2',['changeLedColor',['../classls_1_1IPixyCamController.html#a2738a9113915f0472bc9a33da1667f19',1,'ls::IPixyCamController']]],
   ['changespeed_3',['changeSpeed',['../classls_1_1ISpeedController.html#aafd987f9a121cc730bc3e01cce9fa7f0',1,'ls::ISpeedController::changeSpeed()'],['../classls_1_1SpeedControllerImpl.html#a1dad9e1f0f731e6ba6ff361936493c14',1,'ls::SpeedControllerImpl::changeSpeed()']]],

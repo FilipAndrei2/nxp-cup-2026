@@ -16,15 +16,14 @@ int Car::run() {
   return 0;
 }
 
-Car::Car(ls::Car::Context &ctx) : ctx(std::move(ctx)) { this->isRunning = true; }
+Car::Car(ls::Car::Context ctx) : ctx(ctx) { this->isRunning = true; }
 
 void Car::stopCar() { this->isRunning = false; }
 
 SensorDataDTO Car::readSensors() {
-  vectors = this->ctx.pixySensor.getVectors();
-  auto cubeProximity = this->ctx.ultrasoundSensor.cubeProximity();
 
-  return {vectors, cubeProximity};
+  return {this->ctx.pixySensor.getVectors(),
+          this->ctx.ultrasoundSensor.cubeProximity()};
 }
 
 DrivingCommandDTO Car::computeDrivingCommand(const SensorDataDTO &sensorData) {

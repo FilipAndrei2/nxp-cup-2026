@@ -32,7 +32,7 @@ CarBuilder::setUltrasoundSensorController(IUltrasoundSensorController &us) {
 Car CarBuilder::buildCar() const {
   if (!this->algo || !this->pixyCamController || !this->servoController ||
       !this->speedController || !this->ultrasoundController) {
-    throw new std::runtime_error("Can't build car.");
+    throw std::runtime_error("Can't build car.");
   }
 
   auto ctx = Car::Context{.pixySensor = *this->pixyCamController,

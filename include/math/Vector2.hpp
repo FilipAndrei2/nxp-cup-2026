@@ -22,17 +22,17 @@ private: // Membri
 public: // Constructori
   Vector2(T x = 0, T y = 0) : x(x), y(y) {}
 
-  /**
-   * Creates the object by translating the segment with said endpoints to
-   * origin.
-   */
-  Vector2(T x1, T y1, T x2, T y2) {}
-
   Vector2(const Vector2 &other) : x(other.x), y(other.y) {}
 
   Vector2(Vector2 &&other) : x(other.x), y(other.y) {
     other.x = (T)0;
     other.y = (T)0;
+  }
+
+  // Creaza vectorul translatand segmentul in origine in cadranele 1 si 2
+  Vector2(T x0, T y0, T x1, T y1) {
+    this->x = x0 > x1 ? x0 - x1 : x1 - x0;
+    this->y = y0 > y1 ? y0 - y1 : y1 - y0;
   }
 
 public: // Destructor
@@ -77,9 +77,14 @@ public: // Metode statice
     // NOTE: Optimizare -> pentru vectori normalizati se simplifica niste norme
     // NOTE: A dot B = A.len * B.len * cos(alph)
     // alph = acos(A dot B/ (A.len* B.len))
+
     if (lhs.isNormalized() && rhs.isNormalized()) {
       return std::acos(Vector2::Dot(lhs, rhs));
     } else {
+      auto llen = lhs.len(), rlen = rhs.len();
+      if ((int32_t)(llen * 1000) == 0 || (int32_t)(rlen * 1000) == 0) {
+        return 0.0f;
+      }
       return std::acos(Vector2::Dot(lhs, rhs) / (lhs.len() * rhs.len()));
     }
   }
