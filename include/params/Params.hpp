@@ -18,6 +18,13 @@ public:
   static constexpr uint16_t ESC_MIN_DUTY_CYCLE = 1638U;
   static constexpr uint16_t ESC_MED_DUTY_CYCLE = 2457U;
   static constexpr uint16_t ESC_MAX_DUTY_CYCLE = 3276U;
+  /* Busy-wait iterations after sending neutral to arm the ESC.
+   * A volatile loop is used intentionally (consistent with the rest of the
+   * codebase; single-threaded init, no concurrent tasks to block).
+   * Actual duration varies with CPU clock and compiler optimisation level.
+   * At 80 MHz and typical -O1 code (~6 cycles/iter) 20 000 000 ≈ 2.5 s.
+   * Increase this value if the ESC still beeps on startup. */
+  static constexpr uint32_t ESC_ARM_DELAY_ITERATIONS = 20000000U;
 
   // PIXY
   static constexpr unsigned int PIXY2_I2C_ADDRESS = 0x54U; // Setata in Pixymon
