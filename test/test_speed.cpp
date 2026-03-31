@@ -79,11 +79,11 @@ TEST_CASE("Speed::scale(speed, angle) – WAITING_CUBE_SPEED at PI/4", "[speed]"
 }
 
 // ── Speed::scale(speed_t, proximity_t) ───────────────────────────────────────
-// NOTE: cubeProxi / 100 uses integer division (proximity_t is uint32_t).
-// As a result: values 1..99 all evaluate to 0; only 100 preserves maxSpeed.
+// NOTE: cubeProxi is cast to float before dividing by 100.0f, so the result
+// is proportional for all values in [0, 100].
 
 TEST_CASE("Speed::scale(speed, proximity) – proximity 100 preserves maxSpeed", "[speed]") {
-    // 100 / 100 = 1 (integer division)
+    // (float)100 / 100.0f = 1.0f → full speed
     CHECK(Speed::scale(Speed::MAX, static_cast<proximity_t>(100)) == Speed::MAX);
     CHECK(Speed::scale(Speed::WAITING_CUBE_SPEED, static_cast<proximity_t>(100))
           == Speed::WAITING_CUBE_SPEED);

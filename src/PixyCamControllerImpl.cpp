@@ -31,11 +31,20 @@ PixyCamControllerImpl::getVectors() {
           // este foarte mica, in general vede 2-3 maxim 5
   for (auto i = 0; i < dv.NumberOfVectors; ++i) {
     Vector v = dv.Vectors[i];
-    int16_t x = (v.y0 > v.y1) ? (int16_t)(v.x1 - v.x0) : (int16_t)(v.x0 - v.x1);
-    uint16_t y =
-        (v.y0 > v.y1) ? (int16_t)(v.y0 - v.y1) : (int16_t)(v.y1 - v.y0);
+    // Pixy2 uses screen coordinates where y increases downward, so y0
+    // (the tail/bottom of the segment) has a numerically larger value than
+    // y1 (the head/top). Translate to a direction vector pointing "up"
+    // (toward the horizon) with a signed x so the car can distinguish
+    // left from right.
+    int16_t  x = (v.y0 > v.y1) ? (int16_t)(v.x1 - v.x0) : (int16_t)(v.x0 - v.x1);
+    uint16_t y = (v.y0 > v.y1) ? (uint16_t)(v.y0 - v.y1) : (uint16_t)(v.y1 - v.y0);
+    
+    if (x == 0 && y == 0) {
+      continue; // skip degenerate zero-length segments
+    }
+    
     res->emplace_back((float)x, (float)y);
-    (*res)[i].normalize();
+    res->back().normalize();
   }
 
   return res;

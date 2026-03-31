@@ -74,19 +74,17 @@ public: // Metode statice
   }
 
   static float AngleBetween(const Vector2 &lhs, const Vector2 &rhs) {
-    // NOTE: Optimizare -> pentru vectori normalizati se simplifica niste norme
-    // NOTE: A dot B = A.len * B.len * cos(alph)
-    // alph = acos(A dot B/ (A.len* B.len))
-
-    if (lhs.isNormalized() && rhs.isNormalized()) {
-      return std::acos(Vector2::Dot(lhs, rhs));
-    } else {
-      auto llen = lhs.len(), rlen = rhs.len();
-      if ((int32_t)(llen * 1000) == 0 || (int32_t)(rlen * 1000) == 0) {
-        return 0.0f;
-      }
-      return std::acos(Vector2::Dot(lhs, rhs) / (lhs.len() * rhs.len()));
+    // Use atan2(cross, dot) to obtain the *signed* angle from rhs to lhs.
+    // Coordinate system: y-axis points up (math convention), so
+    //   positive result → lhs is clockwise from rhs  (right turn in screen space)
+    //   negative result → lhs is counter-clockwise   (left turn in screen space)
+    // atan2 works for both normalised and unnormalised inputs because the
+    // common |lhs|*|rhs| factor cancels between cross and dot.
+    auto llen = lhs.len(), rlen = rhs.len();
+    if ((int32_t)(llen * 1000) == 0 || (int32_t)(rlen * 1000) == 0) {
+      return 0.0f;
     }
+    return std::atan2(Vector2::Cross(lhs, rhs), Vector2::Dot(lhs, rhs));
   }
 
 public: // Membri statici
@@ -103,10 +101,15 @@ public: // Membri statici
 public: // Metode instanta
   float len() const { return std::sqrt(x * x + y * y); }
 
-  Vector2 normalized() const { return Vector2(x / len(), y / len()); }
+  Vector2 normalized() const {
+    auto l = len();
+    if (l == 0.0f) return *this;
+    return Vector2(x / l, y / l);
+  }
 
   void normalize() {
     auto l = len();
+    if (l == 0.0f) return;
     x /= l;
     y /= l;
   }
