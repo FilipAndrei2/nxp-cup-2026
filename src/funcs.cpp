@@ -17,4 +17,14 @@ ls::Car buildCar() {
       .setAlgorithmStrat(ls::AlgorithmStrategyTest::getInstance())
       .buildCar();
 }
+
+void delay(size_t ticks) {
+    if (ticks == 0) {
+        return;
+    }
+    volatile size_t i = ticks;
+    while (i > 0) {
+        i--;
+    }
+}
 }

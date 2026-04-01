@@ -57,7 +57,7 @@ default.siz \
 all: default.elf secondary-outputs
 
 # Tool invocations
-default.elf: $(OBJS) C:\Users\andre\workspaceS32DS.3.6.6\nxp_2.0\nxp-cup-2026\Project_Settings\Linker_Files\linker_flash_s32k144.ld $(USER_OBJS)
+default.elf: $(OBJS) /home/ubuntu/nxp-cup-2026/Project_Settings/Linker_Files/linker_flash_s32k144.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Standard S32DS C++ Linker'
 	arm-none-eabi-g++ -o "default.elf" "@default.args"  $(USER_OBJS)

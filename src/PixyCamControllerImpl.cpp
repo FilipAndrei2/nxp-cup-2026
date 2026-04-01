@@ -4,7 +4,7 @@
 
 namespace ls {
 PixyCamControllerImpl::PixyCamControllerImpl() {
-
+ Pixy2Init(Params::PIXY2_I2C_ADDRESS, Params::PIXY2_I2C_CHANNEL);
 }
 
 /**

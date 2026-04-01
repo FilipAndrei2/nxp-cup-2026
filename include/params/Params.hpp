@@ -14,6 +14,7 @@ public:
   static constexpr proximity_t SHOULD_END_BREAK = 69;
 
   // ESC
+  static constexpr size_t   ESC_INIT_DELAY      = 400'000U;
   static constexpr unsigned int ESC_PWM_CHANNEL = 0U;
   static constexpr uint16_t ESC_MIN_DUTY_CYCLE = 1638U;
   static constexpr uint16_t ESC_MED_DUTY_CYCLE = 2457U;
