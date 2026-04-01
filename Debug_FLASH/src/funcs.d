@@ -1,25 +1,25 @@
 src/funcs.o: ../src/funcs.cpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/AlgorithmStrategyImpl.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/IAlgorithmStrategy.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dto/DrivingCommandDTO.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/utils/lifesource.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dto/SensorDataDTO.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Vector2.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Floats.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dp/TSingleton.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ATrackStateContext.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ITrackState.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/StartingState.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ATrackState.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Vectors.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/params/Params.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/AlgorithmStrategyTest.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/TestState.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/OnTrackState.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/Car.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ICar.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IPixyCamController.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/pixy2.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/AlgorithmStrategyImpl.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/IAlgorithmStrategy.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dto/DrivingCommandDTO.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/utils/lifesource.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dto/SensorDataDTO.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Vector2.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Floats.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dp/TSingleton.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ATrackStateContext.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ITrackState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/StartingState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ATrackState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Vectors.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/params/Params.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/TestState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/OnTrackState.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/AlgorithmStrategyTest.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/Car.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ICar.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IPixyCamController.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/pixy2.h \
  ../RTD/include/CDD_I2c.h ../RTD/include/I2c_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler.h \
@@ -28,37 +28,37 @@ src/funcs.o: ../src/funcs.cpp \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Soc_Ips.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/OsIf_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/OsIf_ArchCfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  ../RTD/include/I2c_Ipw_Types.h ../RTD/include/Lpi2c_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lpi2c_Ip_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lpi2c_Ip_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPI2C.h \
  ../RTD/include/Lpi2c_Ip_Callbacks.h ../RTD/include/Lpi2c_Ip_Features.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_VS_0_PBcfg.h \
  ../RTD/include/I2c_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/main_types.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/main_types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
  ../RTD/include/Gpt.h ../RTD/include/Gpt_Ipw_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Gpt_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Gpt_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Gpt_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Gpt_VS_0_PBcfg.h \
  ../RTD/include/Ftm_Gpt_Ip.h ../RTD/include/Ftm_Gpt_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_VS_0_PBcfg.h \
  ../RTD/include/Ftm_Gpt_Ip_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Gpt_MemMap.h \
  ../RTD/include/OsIf.h ../RTD/include/OsIf_Internal.h \
@@ -68,52 +68,52 @@ src/funcs.o: ../src/funcs.cpp \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Devassert.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h \
  ../RTD/include/SRtc_Ip.h ../RTD/include/SRtc_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_RTC.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_VS_0_PBcfg.h \
  ../RTD/include/SRtc_Ip_Types.h ../RTD/include/Lptmr_Gpt_Ip.h \
  ../RTD/include/Lptmr_Gpt_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPTMR.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_VS_0_PBcfg.h \
  ../RTD/include/Lptmr_Gpt_Ip_Types.h ../RTD/include/LPit_Gpt_Ip.h \
  ../RTD/include/LPit_Gpt_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPIT.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_VS_0_PBcfg.h \
  ../RTD/include/LPit_Gpt_Ip_Types.h ../RTD/include/Gpt_EnvCfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IServoController.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ISpeedController.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IUltrasoundSensorController.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/CarBuilder.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/PixyCamControllerImpl.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ServoControllerImpl.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/SpeedControllerImpl.hpp \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/UltrasoundSensorControllerImpl.hpp
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/AlgorithmStrategyImpl.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/IAlgorithmStrategy.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dto/DrivingCommandDTO.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/utils/lifesource.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dto/SensorDataDTO.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Vector2.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Floats.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/dp/TSingleton.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ATrackStateContext.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ITrackState.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/StartingState.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/ATrackState.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/math/Vectors.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/params/Params.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/algorithm/AlgorithmStrategyTest.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/TestState.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/track_states/OnTrackState.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/Car.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ICar.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IPixyCamController.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/pixy2.h:
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IServoController.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ISpeedController.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IUltrasoundSensorController.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/CarBuilder.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/PixyCamControllerImpl.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ServoControllerImpl.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/SpeedControllerImpl.hpp \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/UltrasoundSensorControllerImpl.hpp
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/AlgorithmStrategyImpl.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/IAlgorithmStrategy.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dto/DrivingCommandDTO.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/utils/lifesource.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dto/SensorDataDTO.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Vector2.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Floats.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/dp/TSingleton.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ATrackStateContext.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ITrackState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/StartingState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/ATrackState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/math/Vectors.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/params/Params.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/TestState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/track_states/OnTrackState.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/algorithm/AlgorithmStrategyTest.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/Car.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ICar.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IPixyCamController.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/pixy2.h:
 ../RTD/include/CDD_I2c.h:
 ../RTD/include/I2c_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h:
@@ -123,41 +123,41 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Soc_Ips.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/OsIf_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/OsIf_ArchCfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:
 ../RTD/include/I2c_Ipw_Types.h:
 ../RTD/include/Lpi2c_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lpi2c_Ip_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lpi2c_Ip_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPI2C.h:
 ../RTD/include/Lpi2c_Ip_Callbacks.h:
 ../RTD/include/Lpi2c_Ip_Features.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_I2c_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/CDD_I2c_VS_0_PBcfg.h:
 ../RTD/include/I2c_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/main_types.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/main_types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:
 ../RTD/include/Gpt.h:
 ../RTD/include/Gpt_Ipw_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Gpt_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Gpt_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Gpt_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Gpt_VS_0_PBcfg.h:
 ../RTD/include/Ftm_Gpt_Ip.h:
 ../RTD/include/Ftm_Gpt_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Gpt_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Gpt_Ip_VS_0_PBcfg.h:
 ../RTD/include/Ftm_Gpt_Ip_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Gpt_MemMap.h:
 ../RTD/include/OsIf.h:
@@ -169,31 +169,31 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h:
 ../RTD/include/SRtc_Ip.h:
 ../RTD/include/SRtc_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_RTC.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/SRtc_Ip_VS_0_PBcfg.h:
 ../RTD/include/SRtc_Ip_Types.h:
 ../RTD/include/Lptmr_Gpt_Ip.h:
 ../RTD/include/Lptmr_Gpt_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPTMR.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Gpt_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Lptmr_Gpt_Ip_VS_0_PBcfg.h:
 ../RTD/include/Lptmr_Gpt_Ip_Types.h:
 ../RTD/include/LPit_Gpt_Ip.h:
 ../RTD/include/LPit_Gpt_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPIT.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/LPit_Gpt_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/LPit_Gpt_Ip_VS_0_PBcfg.h:
 ../RTD/include/LPit_Gpt_Ip_Types.h:
 ../RTD/include/Gpt_EnvCfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IServoController.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ISpeedController.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/IUltrasoundSensorController.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/CarBuilder.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/PixyCamControllerImpl.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/ServoControllerImpl.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/SpeedControllerImpl.hpp:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/include/car/UltrasoundSensorControllerImpl.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IServoController.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ISpeedController.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/IUltrasoundSensorController.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/CarBuilder.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/PixyCamControllerImpl.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/ServoControllerImpl.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/SpeedControllerImpl.hpp:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/include/car/UltrasoundSensorControllerImpl.hpp:

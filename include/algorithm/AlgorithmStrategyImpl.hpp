@@ -4,6 +4,7 @@
 #include "track_states/ATrackStateContext.hpp"
 #include "track_states/ITrackState.hpp"
 #include "utils/lifesource.hpp"
+#include "track_states/TestState.hpp"
 
 namespace ls {
 
@@ -19,7 +20,7 @@ public:
 
 protected:
   AlgorithmStrategyImpl() {
-	  this->setState(&StartingState::getInstance());
+	  this->setState(&TestState::getInstance());
   }
 };
 } // namespace ls

@@ -1,7 +1,7 @@
 generate/src/Ftm_Icu_Ip_VS_0_PBcfg.o: \
  ../generate/src/Ftm_Icu_Ip_VS_0_PBcfg.c \
  ../RTD/include/Ftm_Icu_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Icu_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Icu_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
@@ -14,7 +14,7 @@ generate/src/Ftm_Icu_Ip_VS_0_PBcfg.o: \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Icu_MemMap.h
 ../RTD/include/Ftm_Icu_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Icu_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/ceva2/generate/include/Ftm_Icu_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:

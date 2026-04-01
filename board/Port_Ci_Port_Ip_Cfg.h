@@ -1,5 +1,5 @@
 /*==================================================================================================
-*   Project              : RTD AUTOSAR 4.7 
+*   Project              : RTD AUTOSAR 4.7
 *   Platform             : CORTEXM
 *   Peripheral           : PORT_CI
 *   Dependencies         : none
@@ -8,7 +8,7 @@
 *   Autosar Revision     : ASR_REL_4_7_REV_0000
 *   Autosar Conf.Variant :
 *   SW Version           : 2.0.0
-*   Build Version        : S32K1_S32M24_AUTOSAR_4_4_-_R21-11_RTD_2_0_0_D2308_ASR_REL_4_7_REV_0000_20230804
+*   Build Version        : S32K1_RTD_2_0_0_D2308_ASR_REL_4_7_REV_0000_20230804
 *
 *   Copyright 2020-2023 NXP Semiconductors
 *
@@ -21,11 +21,11 @@
 *   activate or otherwise use the software.
 ==================================================================================================*/
 
-#ifndef _PORT_CI_PORT_IP_CFG_H_
-#define _PORT_CI_PORT_IP_CFG_H_
+#ifndef PORT_CI_PORT_IP_CFG_H
+#define PORT_CI_PORT_IP_CFG_H
 
 /**
-*   @file      Port_Ci_Port_Ip_Cfg.h
+*   @file    Port_Ci_Port_Ip_Cfg.h
 *
 *   @addtogroup Port_CFG
 *   @{
@@ -35,20 +35,24 @@
 extern "C"{
 #endif
 
-
 /*==================================================================================================
-                                         INCLUDE FILES
- 1) system and project includes
- 2) needed interfaces from external units
- 3) internal and external interfaces from this unit
+*                                        INCLUDE FILES
+* 1) system and project includes
+* 2) needed interfaces from external units
+* 3) internal and external interfaces from this unit
 ==================================================================================================*/
-#include "S32K144_PORT.h"
-#include "S32K144_GPIO.h"
 #include "Port_Ci_Port_Ip_Types.h"
 
+#include "Port_Ci_Port_Ip_VS_0_PBcfg.h"
 /*==================================================================================================
 *                              SOURCE FILE VERSION INFORMATION
 ==================================================================================================*/
+/**
+* @brief        Parameters that shall be published within the Port driver header file and also in the
+*               module description file
+* @details      The integration of incompatible files shall be avoided.
+*
+*/
 #define PORT_CI_PORT_IP_VENDOR_ID_CFG_H                       43
 #define PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_CFG_H        4
 #define PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_CFG_H        7
@@ -58,74 +62,85 @@ extern "C"{
 #define PORT_CI_PORT_IP_SW_PATCH_VERSION_CFG_H                0
 
 /*==================================================================================================
-*                                     FILE VERSION CHECKS
+*                                      FILE VERSION CHECKS
 ==================================================================================================*/
-/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same version */
-#if ( PORT_CI_PORT_IP_VENDOR_ID_CFG_H !=  PORT_CI_PORT_IP_VENDOR_ID_TYPES_H)
+/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same vendor */
+#if (PORT_CI_PORT_IP_VENDOR_ID_CFG_H != PORT_CI_PORT_IP_VENDOR_ID_TYPES_H)
     #error "Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h have different vendor ids"
 #endif
-/* Check if Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same Autosar version */
-#if (( PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_CFG_H    !=  PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_TYPES_H) || \
-     ( PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_CFG_H    !=  PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_TYPES_H) || \
-     ( PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_CFG_H !=  PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_TYPES_H) \
+/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same Autosar version */
+#if ((PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_CFG_H    != PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_TYPES_H)  || \
+     (PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_CFG_H    != PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_TYPES_H)  || \
+     (PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_CFG_H != PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_TYPES_H)  \
     )
     #error "AutoSar Version Numbers of Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are different"
 #endif
-/* Check if Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same Software version */
-#if (( PORT_CI_PORT_IP_SW_MAJOR_VERSION_CFG_H !=  PORT_CI_PORT_IP_SW_MAJOR_VERSION_TYPES_H) || \
-     ( PORT_CI_PORT_IP_SW_MINOR_VERSION_CFG_H !=  PORT_CI_PORT_IP_SW_MINOR_VERSION_TYPES_H) || \
-     ( PORT_CI_PORT_IP_SW_PATCH_VERSION_CFG_H !=  PORT_CI_PORT_IP_SW_PATCH_VERSION_TYPES_H)    \
+/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are of the same software version */
+#if ((PORT_CI_PORT_IP_SW_MAJOR_VERSION_CFG_H != PORT_CI_PORT_IP_SW_MAJOR_VERSION_TYPES_H) || \
+     (PORT_CI_PORT_IP_SW_MINOR_VERSION_CFG_H != PORT_CI_PORT_IP_SW_MINOR_VERSION_TYPES_H) || \
+     (PORT_CI_PORT_IP_SW_PATCH_VERSION_CFG_H != PORT_CI_PORT_IP_SW_PATCH_VERSION_TYPES_H)    \
     )
     #error "Software Version Numbers of Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_Types.h are different"
 #endif
+
+/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_PBcfg.h are of the same version */
+#if (PORT_CI_PORT_IP_VENDOR_ID_CFG_H != PORT_CI_PORT_IP_VENDOR_ID_VS_0_PBCFG_H)
+    #error "Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_VS_0_PBcfg.h have different vendor IDs"
+#endif
+ /* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_PBcfg.h are of the same Autosar version */
+#if ((PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_CFG_H != PORT_CI_PORT_IP_AR_RELEASE_MAJOR_VERSION_VS_0_PBCFG_H) ||    \
+     (PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_CFG_H != PORT_CI_PORT_IP_AR_RELEASE_MINOR_VERSION_VS_0_PBCFG_H) ||    \
+     (PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_CFG_H != PORT_CI_PORT_IP_AR_RELEASE_REVISION_VERSION_VS_0_PBCFG_H) \
+    )
+    #error "AutoSar Version Numbers of Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_VS_0_PBcfg.h are different"
+#endif
+/* Check if the files Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_PBcfg.h are of the same software version */
+#if ((PORT_CI_PORT_IP_SW_MAJOR_VERSION_CFG_H != PORT_CI_PORT_IP_SW_MAJOR_VERSION_VS_0_PBCFG_H) || \
+     (PORT_CI_PORT_IP_SW_MINOR_VERSION_CFG_H != PORT_CI_PORT_IP_SW_MINOR_VERSION_VS_0_PBCFG_H) || \
+     (PORT_CI_PORT_IP_SW_PATCH_VERSION_CFG_H != PORT_CI_PORT_IP_SW_PATCH_VERSION_VS_0_PBCFG_H)    \
+    )
+    #error "Software Version Numbers of Port_Ci_Port_Ip_Cfg.h and Port_Ci_Port_Ip_VS_0_PBcfg.h are different"
+#endif
+
 /*==================================================================================================
-                                           CONSTANTS
+*                                          CONSTANTS
 ==================================================================================================*/
 
 /*==================================================================================================
-                                      DEFINES AND MACROS
+*                                      DEFINES AND MACROS
 ==================================================================================================*/
-
-
-/*! @brief Definitions/Declarations for BOARD_InitPins Functional Group */
 /*! @brief User number of configured pins */
-#define NUM_OF_CONFIGURED_PINS_BOARD_InitPins 16
-
+#define NUM_OF_CONFIGURED_PINS 14
 #define PORT_START_SEC_CONFIG_DATA_UNSPECIFIED
 #include "Port_MemMap.h"
 
-/*! @brief User configuration structure */
-extern Port_Ci_Port_Ip_PinSettingsConfig g_pin_mux_InitConfigArr_BOARD_InitPins[NUM_OF_CONFIGURED_PINS_BOARD_InitPins];
+PORT_CI_PORT_CONFIG_VS_0_PB \
 
 #define PORT_STOP_SEC_CONFIG_DATA_UNSPECIFIED
 #include "Port_MemMap.h"
+
 /*==================================================================================================
-                                           ENUMS
+*                                             ENUMS
 ==================================================================================================*/
 
 /*==================================================================================================
-                               STRUCTURES AND OTHER TYPEDEFS
+*                                STRUCTURES AND OTHER TYPEDEFS
 ==================================================================================================*/
 
 /*==================================================================================================
-                               GLOBAL VARIABLE DECLARATIONS
+*                                GLOBAL VARIABLE DECLARATIONS
 ==================================================================================================*/
 
 /*==================================================================================================
-                               FUNCTION PROTOTYPES
+*                                    FUNCTION PROTOTYPES
 ==================================================================================================*/
 
 
-#if defined(__cplusplus)
+#ifdef __cplusplus
 }
 #endif
 
-/*!
- * @}
- */
-#endif /* _PORT_CI_PORT_IP_CFG_H_ */
+/** @} */
 
-/***********************************************************************************************************************
- * EOF
- **********************************************************************************************************************/
+#endif /* PORT_CI_PORT_IP_CFG_H */
 

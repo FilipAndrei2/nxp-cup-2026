@@ -602,7 +602,7 @@
             <processor_version>0.0.0</processor_version>
          </peripherals_profile>
          <functional_groups>
-            <functional_group name="VS_0" uuid="a6d43dcb-893a-49cd-9d9d-0bb26ff0f05b" called_from_default_init="true" id_prefix="" core="core0">
+            <functional_group name="VS_0" uuid="a6d43dcb-893a-49cd-9d9d-0bb26ff0f05b" called_from_default_init="false" id_prefix="" core="core0">
                <description></description>
                <options/>
                <dependencies/>
