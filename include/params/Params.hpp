@@ -22,9 +22,16 @@ public:
    * A volatile loop is used intentionally (consistent with the rest of the
    * codebase; single-threaded init, no concurrent tasks to block).
    * Actual duration varies with CPU clock and compiler optimisation level.
-   * At 80 MHz and typical -O1 code (~6 cycles/iter) 20 000 000 ≈ 2.5 s.
+   * At 80 MHz and -O3 the store-load dependency (~5 cycles/iter) gives:
+   *   32 000 000 ≈ 2 s  |  48 000 000 ≈ 3 s  |  64 000 000 ≈ 4 s
    * Increase this value if the ESC still beeps on startup. */
-  static constexpr uint32_t ESC_ARM_DELAY_ITERATIONS = 20000000U;
+  static constexpr uint32_t ESC_ARM_DELAY_ITERATIONS = 64000000U;
+  static_assert(ESC_ARM_DELAY_ITERATIONS > 0U,
+                "ESC arming delay must be non-zero");
+  static_assert(ESC_MIN_DUTY_CYCLE < ESC_MED_DUTY_CYCLE,
+                "ESC duty cycles must satisfy MIN < MED");
+  static_assert(ESC_MED_DUTY_CYCLE < ESC_MAX_DUTY_CYCLE,
+                "ESC duty cycles must satisfy MED < MAX");
 
   // PIXY
   static constexpr unsigned int PIXY2_I2C_ADDRESS = 0x54U; // Setata in Pixymon
