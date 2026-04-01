@@ -1,7 +1,7 @@
 generate/src/SRtc_Ip_VS_0_PBcfg.o: ../generate/src/SRtc_Ip_VS_0_PBcfg.c \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/SRtc_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_VS_0_PBcfg.h \
  ../RTD/include/SRtc_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/SRtc_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
@@ -14,9 +14,9 @@ generate/src/SRtc_Ip_VS_0_PBcfg.o: ../generate/src/SRtc_Ip_VS_0_PBcfg.c \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Gpt_MemMap.h \
  ../RTD/include/Gpt_Irq.h
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/SRtc_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_VS_0_PBcfg.h:
 ../RTD/include/SRtc_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/SRtc_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/SRtc_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:

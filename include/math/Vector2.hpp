@@ -49,52 +49,20 @@ public: // Getteri setteri
   void setY(T y) { this->y = y; }
 
 public: // Metode statice
-  static Vector2 Add(const Vector2 &lhs, const Vector2 &rhs) {
-    return Vector2(lhs.x + rhs.x, lhs.y + rhs.y);
-  }
-
-  static Vector2 Sub(const Vector2 &lhs, const Vector2 &rhs) {
-    return Vector2(lhs.x - rhs.x, lhs.y - rhs.y);
-  }
-
-  static Vector2 Mul(const Vector2 &v, const float scalar) {
-    return Vector2(v.x * scalar, v.y * scalar);
-  }
-
-  static float Dot(const Vector2 &lhs, const Vector2 &rhs) {
-    return (float)(lhs.x * rhs.x + lhs.y * rhs.y);
-  }
-
-  static float Cross(const Vector2 &lhs, const Vector2 &rhs) {
-    return lhs.x * rhs.y - lhs.y * rhs.x;
-  }
 
   static Vector2 Avg(const Vector2 &lhs, const Vector2 &rhs) {
-    return Vector2((lhs.x + rhs.x) / 2, (lhs.y + rhs.y) / 2);
+    return Vector2((lhs.x/2+ rhs.x/2), (lhs.y/2 + rhs.y/2));
   }
 
-  static float AngleBetween(const Vector2 &lhs, const Vector2 &rhs) {
-    // Use atan2(cross, dot) to obtain the *signed* angle from rhs to lhs.
-    // Coordinate system: y-axis points up (math convention), so
-    //   positive result → lhs is clockwise from rhs  (right turn in screen space)
-    //   negative result → lhs is counter-clockwise   (left turn in screen space)
-    // atan2 works for both normalised and unnormalised inputs because the
-    // common |lhs|*|rhs| factor cancels between cross and dot.
-    auto llen = lhs.len(), rlen = rhs.len();
-    if ((int32_t)(llen * 1000) == 0 || (int32_t)(rlen * 1000) == 0) {
-      return 0.0f;
-    }
-    return std::atan2(Vector2::Cross(lhs, rhs), Vector2::Dot(lhs, rhs));
+  static float SteeringAngle(const Vector2 &v) {
+   // A dot B = ||A|| * ||B|| * cos(alph)
+   // alph = acos(A dot B / ( ||A|| *||B||))
+	  return std::acos(v.y);
   }
+
 
 public: // Membri statici
   inline static const Vector2 NORTH{0, 1};
-
-  inline static const Vector2 EAST{1, 0};
-
-  inline static const Vector2 SOUTH{0, -1};
-
-  inline static const Vector2 WEST{-1, 0};
 
   inline static const Vector2 NULLVECT{0, 0};
 
@@ -108,10 +76,10 @@ public: // Metode instanta
   }
 
   void normalize() {
-    auto l = len();
-    if (l == 0.0f) return;
-    x /= l;
-    y /= l;
+    auto length = len();
+    if (Floats::eq(length, 0.0f)) return;
+    x /= length;
+    y /= length;
   }
 
   void add(const Vector2 &other) {

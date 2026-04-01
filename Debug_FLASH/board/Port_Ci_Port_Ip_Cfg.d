@@ -7,13 +7,13 @@ board/Port_Ci_Port_Ip_Cfg.o: ../board/Port_Ci_Port_Ip_Cfg.c \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Port_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Port_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_GPIO.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_PORT.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SIM.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Port_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Port_Ip_VS_0_PBcfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Port_MemMap.h
 ../board/Port_Ci_Port_Ip_Cfg.h:
 ../RTD/include/Port_Ci_Port_Ip_Types.h:
@@ -24,11 +24,11 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Port_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Port_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_GPIO.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_PORT.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SIM.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Port_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Port_Ip_VS_0_PBcfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Port_MemMap.h:

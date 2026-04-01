@@ -153,7 +153,7 @@ const Pwm_ChannelConfigType Pwm_Channels_VS_0_PB[PWM_VS_0_PB_CFG_CHANNELS_COUNT]
             /** @brief  Hardware Channel Instance ID */
             (Pwm_IpwInstanceType)FTM_PWM_IP_VS_0_I3_CH6_CFG,
             /** @brief The duty cycle of this channel */
-            0U
+            16384U
         },
         /** @brief  The state of the channel output in idle mode */
         PWM_LOW,
@@ -178,7 +178,7 @@ const Pwm_ChannelConfigType Pwm_Channels_VS_0_PB[PWM_VS_0_PB_CFG_CHANNELS_COUNT]
             /** @brief  Hardware Channel Instance ID */
             (Pwm_IpwInstanceType)FTM_PWM_IP_VS_0_I3_CH7_CFG,
             /** @brief The duty cycle of this channel */
-            0U
+            16384U
         },
         /** @brief  The state of the channel output in idle mode */
         PWM_LOW,
@@ -203,7 +203,7 @@ const Pwm_ChannelConfigType Pwm_Channels_VS_0_PB[PWM_VS_0_PB_CFG_CHANNELS_COUNT]
             /** @brief  Hardware Channel Instance ID */
             (Pwm_IpwInstanceType)FTM_PWM_IP_VS_0_I0_CH1_CFG,
             /** @brief The duty cycle of this channel */
-            0U
+            16384U
         },
         /** @brief  The state of the channel output in idle mode */
         PWM_LOW,
@@ -228,7 +228,7 @@ const Pwm_ChannelConfigType Pwm_Channels_VS_0_PB[PWM_VS_0_PB_CFG_CHANNELS_COUNT]
             /** @brief  Hardware Channel Instance ID */
             (Pwm_IpwInstanceType)FTM_PWM_IP_VS_0_I0_CH2_CFG,
             /** @brief The duty cycle of this channel */
-            0U
+            16384U
         },
         /** @brief  The state of the channel output in idle mode */
         PWM_LOW,
@@ -253,7 +253,7 @@ const Pwm_ChannelConfigType Pwm_Channels_VS_0_PB[PWM_VS_0_PB_CFG_CHANNELS_COUNT]
             /** @brief  Hardware Channel Instance ID */
             (Pwm_IpwInstanceType)FTM_PWM_IP_VS_0_I2_CH0_CFG,
             /** @brief The duty cycle of this channel */
-            0U
+            16384U
         },
         /** @brief  The state of the channel output in idle mode */
         PWM_LOW,

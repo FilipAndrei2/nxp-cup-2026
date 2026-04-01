@@ -1,4 +1,5 @@
 #include "algorithm/AlgorithmStrategyImpl.hpp"
+#include "algorithm/AlgorithmStrategyTest.hpp"
 #include "car/Car.hpp"
 #include "car/CarBuilder.hpp"
 #include "car/PixyCamControllerImpl.hpp"
@@ -10,11 +11,10 @@ namespace ls {
 ls::Car buildCar() {
   return ls::CarBuilder()
       .setPixyCamController(ls::PixyCamControllerImpl::getInstance())
-      .setServoController(ls::ServoControllerImpl::getInstance())
       .setSpeedController(ls::SpeedControllerImpl::getInstance())
-      .setUltrasoundSensorController(
-          ls::UltrasoundSensorController::getInstance())
-      .setAlgorithmStrat(ls::AlgorithmStrategyImpl::getInstance())
+      .setServoController(ls::ServoControllerImpl::getInstance())
+      .setUltrasoundSensorController(ls::UltrasoundSensorController::getInstance())
+      .setAlgorithmStrat(ls::AlgorithmStrategyTest::getInstance())
       .buildCar();
 }
 }

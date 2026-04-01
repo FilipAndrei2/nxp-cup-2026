@@ -4,21 +4,25 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/ATrackState.cpp \
 ../src/AlgorithmStrategyImpl.cpp \
+../src/AlgorithmStrategyTest.cpp \
+../src/BreakingState.cpp \
 ../src/Car.cpp \
 ../src/CarBuilder.cpp \
+../src/FinishedState.cpp \
 ../src/ITrackState.cpp \
 ../src/OnTrackState.cpp \
 ../src/PixyCamControllerImpl.cpp \
 ../src/SeeingFirstFinishState.cpp \
-../src/SeeingFinishLineSecondTimeState.cpp \
+../src/SeeingSecondFinishState.cpp \
 ../src/ServoControllerImpl.cpp \
 ../src/SpeedControllerImpl.cpp \
 ../src/StartingState.cpp \
-../src/StoppedState.cpp \
+../src/TestState.cpp \
 ../src/UltrasoundSensorController.cpp \
 ../src/Vectors.cpp \
-../src/WaitingToApproachCubeState.cpp \
+../src/WaitingCubeState.cpp \
 ../src/funcs.cpp \
 ../src/main.cpp 
 
@@ -33,21 +37,25 @@ C_SRCS += \
 ../src/servo.c 
 
 OBJS += \
+./src/ATrackState.o \
 ./src/AlgorithmStrategyImpl.o \
+./src/AlgorithmStrategyTest.o \
+./src/BreakingState.o \
 ./src/Car.o \
 ./src/CarBuilder.o \
+./src/FinishedState.o \
 ./src/ITrackState.o \
 ./src/OnTrackState.o \
 ./src/PixyCamControllerImpl.o \
 ./src/SeeingFirstFinishState.o \
-./src/SeeingFinishLineSecondTimeState.o \
+./src/SeeingSecondFinishState.o \
 ./src/ServoControllerImpl.o \
 ./src/SpeedControllerImpl.o \
 ./src/StartingState.o \
-./src/StoppedState.o \
+./src/TestState.o \
 ./src/UltrasoundSensorController.o \
 ./src/Vectors.o \
-./src/WaitingToApproachCubeState.o \
+./src/WaitingCubeState.o \
 ./src/display.o \
 ./src/esc.o \
 ./src/funcs.o \
@@ -70,21 +78,25 @@ C_DEPS += \
 ./src/servo.d 
 
 CPP_DEPS += \
+./src/ATrackState.d \
 ./src/AlgorithmStrategyImpl.d \
+./src/AlgorithmStrategyTest.d \
+./src/BreakingState.d \
 ./src/Car.d \
 ./src/CarBuilder.d \
+./src/FinishedState.d \
 ./src/ITrackState.d \
 ./src/OnTrackState.d \
 ./src/PixyCamControllerImpl.d \
 ./src/SeeingFirstFinishState.d \
-./src/SeeingFinishLineSecondTimeState.d \
+./src/SeeingSecondFinishState.d \
 ./src/ServoControllerImpl.d \
 ./src/SpeedControllerImpl.d \
 ./src/StartingState.d \
-./src/StoppedState.d \
+./src/TestState.d \
 ./src/UltrasoundSensorController.d \
 ./src/Vectors.d \
-./src/WaitingToApproachCubeState.d \
+./src/WaitingCubeState.d \
 ./src/funcs.d \
 ./src/main.d 
 
@@ -93,7 +105,7 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: Standard S32DS C++ Compiler'
-	arm-none-eabi-g++ "@src/AlgorithmStrategyImpl.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-g++ "@src/ATrackState.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

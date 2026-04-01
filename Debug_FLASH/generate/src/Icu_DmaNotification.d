@@ -7,37 +7,37 @@ generate/src/Icu_DmaNotification.o: ../generate/src/Icu_DmaNotification.c \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Icu_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Icu_Cfg.h \
  ../RTD/include/Icu_EnvCfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Icu_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Icu_VS_0_PBcfg.h \
  ../RTD/include/Icu_Irq.h ../RTD/include/Icu_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Icu_MemMap.h \
  ../RTD/include/Icu_Ipw_Types.h ../RTD/include/Ftm_Icu_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Icu_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Icu_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h \
  ../RTD/include/Lpit_Icu_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Lpit_Icu_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lpit_Icu_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPIT.h \
  ../RTD/include/Lptmr_Icu_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Lptmr_Icu_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Icu_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPTMR.h \
  ../RTD/include/Port_Ci_Icu_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Icu_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Icu_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_PORT.h \
  ../RTD/include/Cmp_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cmp_Ip_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cmp_Ip_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_CMP.h
 ../RTD/include/Icu.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h:
@@ -47,37 +47,37 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Icu_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Icu_Cfg.h:
 ../RTD/include/Icu_EnvCfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Icu_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Icu_VS_0_PBcfg.h:
 ../RTD/include/Icu_Irq.h:
 ../RTD/include/Icu_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Icu_MemMap.h:
 ../RTD/include/Icu_Ipw_Types.h:
 ../RTD/include/Ftm_Icu_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Icu_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Icu_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h:
 ../RTD/include/Lpit_Icu_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Lpit_Icu_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lpit_Icu_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPIT.h:
 ../RTD/include/Lptmr_Icu_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Lptmr_Icu_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Lptmr_Icu_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LPTMR.h:
 ../RTD/include/Port_Ci_Icu_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Port_Ci_Icu_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Port_Ci_Icu_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_PORT.h:
 ../RTD/include/Cmp_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cmp_Ip_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cmp_Ip_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_CMP.h:

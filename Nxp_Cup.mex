@@ -2611,7 +2611,7 @@
                                  </array>
                                  <setting name="PwmPeriodInTicks" value="true"/>
                                  <setting name="PwmPeriodDefault" value="40000"/>
-                                 <setting name="PwmDutycycleDefault" value="0"/>
+                                 <setting name="PwmDutycycleDefault" value="16384"/>
                                  <setting name="PwmPolarity" value="PWM_HIGH"/>
                                  <setting name="PwmIdleState" value="PWM_LOW"/>
                                  <array name="PwmNotification">
@@ -2629,7 +2629,7 @@
                                  </array>
                                  <setting name="PwmPeriodInTicks" value="true"/>
                                  <setting name="PwmPeriodDefault" value="40000"/>
-                                 <setting name="PwmDutycycleDefault" value="0"/>
+                                 <setting name="PwmDutycycleDefault" value="16384"/>
                                  <setting name="PwmPolarity" value="PWM_HIGH"/>
                                  <setting name="PwmIdleState" value="PWM_LOW"/>
                                  <array name="PwmNotification"/>
@@ -2645,7 +2645,7 @@
                                  </array>
                                  <setting name="PwmPeriodInTicks" value="true"/>
                                  <setting name="PwmPeriodDefault" value="2000"/>
-                                 <setting name="PwmDutycycleDefault" value="0"/>
+                                 <setting name="PwmDutycycleDefault" value="16384"/>
                                  <setting name="PwmPolarity" value="PWM_HIGH"/>
                                  <setting name="PwmIdleState" value="PWM_LOW"/>
                                  <array name="PwmNotification"/>
@@ -2661,7 +2661,7 @@
                                  </array>
                                  <setting name="PwmPeriodInTicks" value="true"/>
                                  <setting name="PwmPeriodDefault" value="2000"/>
-                                 <setting name="PwmDutycycleDefault" value="0"/>
+                                 <setting name="PwmDutycycleDefault" value="16384"/>
                                  <setting name="PwmPolarity" value="PWM_HIGH"/>
                                  <setting name="PwmIdleState" value="PWM_LOW"/>
                                  <array name="PwmNotification"/>
@@ -2677,7 +2677,7 @@
                                  </array>
                                  <setting name="PwmPeriodInTicks" value="true"/>
                                  <setting name="PwmPeriodDefault" value="1000"/>
-                                 <setting name="PwmDutycycleDefault" value="0"/>
+                                 <setting name="PwmDutycycleDefault" value="16384"/>
                                  <setting name="PwmPolarity" value="PWM_HIGH"/>
                                  <setting name="PwmIdleState" value="PWM_LOW"/>
                                  <array name="PwmNotification">

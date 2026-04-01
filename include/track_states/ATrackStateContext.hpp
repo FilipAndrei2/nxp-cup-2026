@@ -8,13 +8,18 @@ class ITrackState;
 class ATrackStateContext {
 
 public:
-  void setState(ITrackState *state) { this->state = state; }
+virtual void setState(ITrackState* state) {
+  if (state == nullptr) {
+	  throw std::runtime_error("ATrackStateContext: setState");
+  }
+  this->state = state;
+}
 
 protected:
   ATrackStateContext() = default;
   ITrackState &getState() { return *state; }
 
 private:
-  ITrackState *state = &StartingState::getInstance();
+  ITrackState *state = nullptr;
 };
 } // namespace ls

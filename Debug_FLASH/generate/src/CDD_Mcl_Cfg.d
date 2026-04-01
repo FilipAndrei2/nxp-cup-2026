@@ -1,8 +1,8 @@
 generate/src/CDD_Mcl_Cfg.o: ../generate/src/CDD_Mcl_Cfg.c \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_Cfg.h \
  ../RTD/include/Mcl_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Defines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
@@ -10,62 +10,62 @@ generate/src/CDD_Mcl_Cfg.o: ../generate/src/CDD_Mcl_Cfg.c \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cache_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cache_Ip_Cfg_Defines.h \
  ../RTD/include/Cache_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cache_Ip_Cfg_DeviceRegisters.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cache_Ip_Cfg_DeviceRegisters.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LMEM.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_I2c_Ip_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_I2c_Ip_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FLEXIO.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Pwm_Ip_CfgDefines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Pwm_Ip_CfgDefines.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Mcl_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Mcl_Ip_Cfg_DeviceRegisters.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Mcl_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Mcl_Ip_Cfg_DeviceRegisters.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h \
  ../RTD/include/Trgmux_Ip.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg.h \
  ../RTD/include/Trgmux_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_DeviceRegisters.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_DeviceRegisters.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_TRGMUX.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_VS_0_PBcfg.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcl_MemMap.h \
  ../RTD/include/Flexio_Mcl_Ip.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h \
  ../RTD/include/Flexio_Mcl_Ip_HwAccess.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_DeviceRegisters.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_DeviceRegisters.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_VS_0_PBcfg.h \
  ../RTD/include/Flexio_Mcl_Ip_Types.h \
  ../RTD/include/Flexio_Mcl_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg.h \
  ../RTD/include/Dma_Ip_Types.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Defines.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Devices.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_DeviceRegistersV2.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Defines.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Devices.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_DeviceRegistersV2.h \
  C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_DMA.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_VS_0_PBcfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg.h \
- C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_VS_0_PBcfg.h
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_Cfg.h:
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_VS_0_PBcfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg.h \
+ C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_VS_0_PBcfg.h
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_Cfg.h:
 ../RTD/include/Mcl_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Defines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:
@@ -73,55 +73,55 @@ C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Compiler_Cfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/CompilerDefinition.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/BasicTypes.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cache_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cache_Ip_Cfg_Defines.h:
 ../RTD/include/Cache_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Cache_Ip_Cfg_DeviceRegisters.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Cache_Ip_Cfg_DeviceRegisters.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcal.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/StandardTypes.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Soc_Ips.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Soc_Ips.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Platform_Types.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/IpVersionMacros.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Reg_eSys.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/OsIf_Internal.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/OsIf_ArchCfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/OsIf_ArchCfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_SYSTICK.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_COMMON.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_LMEM.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_I2c_Ip_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_I2c_Ip_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FLEXIO.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/I2c_MemMap.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Pwm_Ip_CfgDefines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Pwm_Ip_CfgDefines.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Std_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Mcl_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Ftm_Mcl_Ip_Cfg_DeviceRegisters.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Mcl_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Ftm_Mcl_Ip_Cfg_DeviceRegisters.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_FTM.h:
 ../RTD/include/Trgmux_Ip.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg.h:
 ../RTD/include/Trgmux_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg_DeviceRegisters.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg_DeviceRegisters.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_TRGMUX.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_VS_0_PBcfg.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/Mcl_MemMap.h:
 ../RTD/include/Flexio_Mcl_Ip.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include/PlatformTypes.h:
 ../RTD/include/Flexio_Mcl_Ip_HwAccess.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_DeviceRegisters.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_DeviceRegisters.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_VS_0_PBcfg.h:
 ../RTD/include/Flexio_Mcl_Ip_Types.h:
 ../RTD/include/Flexio_Mcl_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg.h:
 ../RTD/include/Dma_Ip_Types.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Defines.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_Devices.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_Cfg_DeviceRegistersV2.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Defines.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_Devices.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_Cfg_DeviceRegistersV2.h:
 C:/NXP/S32DS.3.6.6/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header/S32K144_DMA.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Dma_Ip_VS_0_PBcfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Trgmux_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/Flexio_Mcl_Ip_Cfg.h:
-C:/Users/andre/workspaceS32DS.3.6.6/default/generate/include/CDD_Mcl_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Dma_Ip_VS_0_PBcfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Trgmux_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/Flexio_Mcl_Ip_Cfg.h:
+C:/Users/andre/workspaceS32DS.3.6.6/nxp_2.0/nxp-cup-2026/generate/include/CDD_Mcl_VS_0_PBcfg.h:

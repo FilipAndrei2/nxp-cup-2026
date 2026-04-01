@@ -10,7 +10,7 @@ class OnTrackState : public Singleton<OnTrackState>, public ATrackState {
   friend class Singleton<OnTrackState>;
 
 public:
-  virtual void updateNextState(ATrackStateContext &ctx) const override final;
+  virtual void updateNextState(ATrackStateContext &ctx) const override;
 
 protected:
   speed_t virtual computeSpeed(const angle_t inAngle,

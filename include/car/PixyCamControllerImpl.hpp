@@ -12,7 +12,6 @@ class PixyCamControllerImpl : public IPixyCamController,
   /** @brief Returneaza vectorii de la camera pixy.
    * Vectorii returnati sunt normalizati (vectori directie).
    * @returns nullptr daca nu detecteaza niciun vector camera
-   *
    */
   virtual std::shared_ptr<std::vector<Vector2<float>>> getVectors() override;
   ~PixyCamControllerImpl() = default;

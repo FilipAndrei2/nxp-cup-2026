@@ -19,7 +19,7 @@ public:
       angle = FLOAT_PI / 2;
     }
 
-    return static_cast<int>((200.0f / FLOAT_PI) * angle);
+    return static_cast<int>((200 / FLOAT_PI) * angle);
   }
 };
 } // namespace ls

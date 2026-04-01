@@ -64,15 +64,15 @@ protected:
       return (angle_t)0;
     }
     case 1: {
-      return Vector2<float>::AngleBetween(filteredVectors[0], Vectors::NORTH);
+      return Vector2<float>::SteeringAngle(filteredVectors[0]);
     }
     case 2: {
       medi = Vector2<float>::Avg(filteredVectors[0], filteredVectors[1]);
-      return Vector2<float>::AngleBetween(medi, Vectors::NORTH);
+      return Vector2<float>::SteeringAngle(medi);
     }
     default: {
       medi = Vector2<float>::Avg(filteredVectors[0], filteredVectors[1]);
-      return Vector2<float>::AngleBetween(medi, Vectors::NORTH);
+      return Vector2<float>::SteeringAngle(medi);
     }
     }
   }

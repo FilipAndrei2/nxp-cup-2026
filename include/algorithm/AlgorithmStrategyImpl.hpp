@@ -17,7 +17,9 @@ public:
   virtual const ls::DrivingCommandDTO
   computeParameters(const SensorDataDTO &sensorData) override;
 
-private:
-  AlgorithmStrategyImpl() = default;
+protected:
+  AlgorithmStrategyImpl() {
+	  this->setState(&StartingState::getInstance());
+  }
 };
 } // namespace ls

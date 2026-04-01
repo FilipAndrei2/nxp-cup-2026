@@ -33,7 +33,7 @@ extern "C" {
 /*if your chosen ESC has braking capabilities, set this on STD_ON. If not, set
  * it on STD_OFF. Using the wrong configuration can make the car go full speed
  * backward on braking!*/
-#define ESC_HAS_BRAKE STD_ON
+#define ESC_HAS_BRAKE STD_OFF
 
 enum EscStates { Forward, Braking, Neutral, Reverse };
 
