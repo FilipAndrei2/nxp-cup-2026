@@ -87,7 +87,7 @@ int Car::run() {
     auto sensorData = this->readSensors();
     // setLedByVectorNumber(sensorData.vectors->size());
 	auto drivingCommand = this->computeDrivingCommand(sensorData);
-    setLedBySteer(steer);
+    setLedBySteer(drivingCommand.steer);
     this->controlCar(drivingCommand);
     PixyCamControllerImpl::changeLedColor(0, 0, 0);
   }
