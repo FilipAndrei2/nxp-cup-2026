@@ -88,7 +88,18 @@ protected:
     if (steer < 0) {
       steer = -steer;
     }
-    return this->MAX_SPEED() * (speed_t)steer;
+    
+    speed_t perc = 1;
+    if (steer <= Speed::STRAIGHT_ROAD) {
+      perc =  Speed::ROAD_STEP_0_SCALE;
+    } else if (steer > Speed::STRAIGHT_ROAD && steer <= Speed::STEER_STEP_1) {
+      perc = Speed::ROAD_STEP_1_SCALE;
+    } else if (steer > Speed::STEER_STEP_1 && steer <= Speed::STEER_STEP_2) {
+      perc =  Speed::ROAD_STEP_2_SCALE;
+    } else { // steer > STEER_STEP_2
+      perc = Speed::ROAD_STEP_3_SCALE;
+    }
+    return Speed::Scale(MAX_SPEED(), perc);
   }
 
   static FilteredVectorsBuffer filteredVectors;
