@@ -24,11 +24,10 @@ PixyCamControllerImpl::getVectors() {
   if (dv.NumberOfVectors == 0) {
     return res;
   }
-  res->reserve(
-      dv.NumberOfVectors /
-      2); // Mini echilibru intre evitare de copiere si consum de memorie
+  res->reserve(dv.NumberOfVectors / 2); // Mini echilibru intre evitare de copiere si consum de memorie
           // Probabilitatea sa vada mai mult de NumberOfVectors/2 (50) vectori
           // este foarte mica, in general vede 2-3 maxim 5
+          
   for (auto i = 0; i < dv.NumberOfVectors; ++i) {
     Vector v = dv.Vectors[i];
 
@@ -39,9 +38,8 @@ PixyCamControllerImpl::getVectors() {
     if (x == 0 && y == 0) {
       continue; // skip degenerate zero-length segments
     }
-    
-    res->emplace_back((float)x, (float)y);
-    res->back().normalize();
+    res->emplace_back(x, y);
+    (*res)[i].normalize();
   }
 
   return res;

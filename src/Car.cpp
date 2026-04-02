@@ -89,11 +89,14 @@ int Car::run() {
 #ifdef LS_DEBUG
 		// PixyCamControllerImpl::changeLedColor(255, 0, 0);
 #endif
+
 	auto sensorData = this->readSensors();
 	auto drivingCommand = this->computeDrivingCommand(sensorData);
+
 #ifdef LS_DEBUG
-	setLedBySteer(drivingCommand.steer);
+	setLedSteer(drivingCommand.steer);
 #endif
+
 	this->controlCar(drivingCommand);
     PixyCamControllerImpl::changeLedColor(0, 0, 0);
   }

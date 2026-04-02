@@ -7,11 +7,11 @@ namespace ls {
 class Speed {
 public:
   // MAX SPEEDS
-  static constexpr speed_t MAX = 5; // 10 -> Prea mic
-  static constexpr speed_t _4_WAY_CROSSWAY_SPEED = 2; // viteza in intersectia cu 4 cai
-  static constexpr speed_t WAITING_CUBE_SPEED = 2; // viteza maxima asteptand cubul
+  static constexpr speed_t MAX = 10; // 10 -> Prea mic
+  static constexpr speed_t _4_WAY_CROSSWAY_SPEED = 10; // viteza in intersectia cu 4 cai
+  static constexpr speed_t WAITING_CUBE_SPEED = 10; // viteza maxima asteptand cubul
   static constexpr speed_t BREAK = -100;
-  static constexpr speed_t TEST_SPEED = 5;
+  static constexpr speed_t TEST_SPEED = 10;
   
   // THRESHOLD 
   // INTERVAL: [0, 100]

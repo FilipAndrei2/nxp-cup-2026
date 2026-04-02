@@ -55,26 +55,21 @@ public: // Metode statice
     return Vector2((lhs.x/((T)2)+ rhs.x/((T)2)), (lhs.y/((T)2) + rhs.y/((T)2)));
   }
 
-  /**
-   * 
-   * @input  un vector in cadranul 1 sau 2 (y negatic)
-   * @returns Direct input for Servo, [-100, 100]
-   */
-  static int AngleToSteer(const Vector2 &vect) {
-   // A dot B = ||A|| * ||B|| * cos(alph)
-   // alph = acos(A dot B / ( ||A|| *||B||))
-   // vectori normalizati -> ||A|| == ||B|| == 1
-   // A = (0, 1)
-   // alph = acos(v.y)
+   /**
+     * @input vector în coordonate grafice (x dreapta +, y jos +)
+     *        deci „în față” = y negativ
+     * 
+     * @return valoare pentru servo în [-100, 100]
+     *         0 = drept înainte
+     *         + = dreapta
+     *         - = stânga
+     */
+    static int AngleToSteer(const Vector2 &vect) {
+        // unghi față de axa Oy (în sus = -y)
+        float alpha = std::atan2(vect.x, -vect.y); // [-PI, PI]
 
-	  auto alpha = std::acos(-vect.y); // [0, PI/2]
-
-    // Daca vectorul se afla in cadranul 2
-    if (vect.x < 0) {
-      alpha = -alpha;
+        return Angles::angleToDir(alpha);
     }
-    return Angles::angleToDir(alpha); // output intre [-100. 100]
-  }
 
 
 public: // Membri statici
@@ -115,7 +110,7 @@ public: // Metode instanta
 
   void avg(const Vector2 &other) {
     this->x = (this->x + other.x) / 2;
-    this->y = (this->y + other.y) / 2;
+    this->y = (this->y + other.y) / 2;  
   }
 
 public: // Operatori

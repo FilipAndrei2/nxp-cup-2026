@@ -40,8 +40,7 @@ public:
   }
 
   static bool seeingFinishLine(const std::vector<FVector2> &vectors) {
-    return (numberOfFinishLineVectors(vectors) >=
-            Params::FINISH_LINE_NUMBER_OF_VECTORS_THSH);
+    return (numberOfFinishLineVectors(vectors) >= Params::FINISH_LINE_NUMBER_OF_VECTORS_THSH);
   }
 
   static const FVector2 ZERO;

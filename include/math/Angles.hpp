@@ -9,19 +9,16 @@ public:
   static constexpr float FLOAT_PI =
       3.14159265358979323846264338327950288419716939937510f;
 
-  /**
-   * @param angle, un unghi intre [-(PI/2), si PI/2]
-   * 
-   * @return valoare scalata in intervalul [-100, 100]
-   */
   static int angleToDir(angle_t angle) {
-    if (angle < (-FLOAT_PI / 2)) {
-      angle = -FLOAT_PI / 2;
-    } else if (angle > (FLOAT_PI / 2)) {
-      angle = FLOAT_PI / 2;
-    }
+    // clamp
+    if (angle < -FLOAT_PI / 2) angle = -FLOAT_PI / 2;
+    if (angle >  FLOAT_PI / 2) angle =  FLOAT_PI / 2;
 
-    return static_cast<int>((200.0f / FLOAT_PI) * angle);
-  }
+    // normalizare la [-1, 1]
+    float normalized = angle / (FLOAT_PI / 2);
+
+    // scalare la [-100, 100]
+    return static_cast<int>(normalized * 100.0f);
+}
 };
 } // namespace ls
