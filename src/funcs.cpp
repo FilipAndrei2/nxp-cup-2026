@@ -9,13 +9,20 @@
 
 namespace ls {
 ls::Car buildCar() {
-  return ls::CarBuilder()
-      .setPixyCamController(ls::PixyCamControllerImpl::getInstance())
-      .setSpeedController(ls::SpeedControllerImpl::getInstance())
-      .setServoController(ls::ServoControllerImpl::getInstance())
-      .setUltrasoundSensorController(ls::UltrasoundSensorController::getInstance())
-      .setAlgorithmStrat(ls::AlgorithmStrategyTest::getInstance())
-      .buildCar();
+    auto builder = ls::CarBuilder()
+        .setPixyCamController(ls::PixyCamControllerImpl::getInstance())
+        .setSpeedController(ls::SpeedControllerImpl::getInstance())
+        .setServoController(ls::ServoControllerImpl::getInstance())
+        .setUltrasoundSensorController(ls::UltrasoundSensorController::getInstance())
+
+#ifdef LS_DEBUG
+        .setAlgorithmStrat(ls::AlgorithmStrategyTest::getInstance());
+        ls::AlgorithmStrategyTest::getInstance().setInitialState();
+#else 
+        .setAlgorithmStrat(ls::AlgorithmStrategyImpl::getInstance());
+        ls::AlgorithmStrategyImpl::getInstance().setInitialState();
+#endif // LS_DEBUG
+    return builder.buildCar();
 }
 
 void delay(size_t ticks) {

@@ -17,10 +17,11 @@ public:
   virtual ~AlgorithmStrategyImpl() override = default;
   virtual const ls::DrivingCommandDTO
   computeParameters(const SensorDataDTO &sensorData) override;
-
-protected:
-  AlgorithmStrategyImpl() {
-	  this->setState(&StartingState::getInstance());
+  
+  virtual void setInitialState() override {
+    this->setState(&StartingState::getInstance());
   }
+protected:
+  AlgorithmStrategyImpl() = default;
 };
 } // namespace ls

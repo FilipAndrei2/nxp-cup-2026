@@ -16,9 +16,10 @@ virtual const ls::DrivingCommandDTO
 computeParameters(const SensorDataDTO &sensorData) {
 	return this->getState().computeCommand(sensorData);
 }
+virtual void setInitialState() override {
+	this->setState(&TestState::getInstance());
+}
 
-AlgorithmStrategyTest () {
-		this->setState(&TestState::getInstance());
-	}
+AlgorithmStrategyTest () = default;
 };
 }

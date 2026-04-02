@@ -15,6 +15,8 @@ virtual void setState(ITrackState* state) {
   this->state = state;
 }
 
+virtual void setInitialState() = 0;
+
 protected:
   ATrackStateContext() = default;
   ITrackState &getState() { return *state; }
