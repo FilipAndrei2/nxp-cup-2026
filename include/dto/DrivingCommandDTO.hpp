@@ -3,7 +3,7 @@
 
 namespace ls {
 struct DrivingCommandDTO {
-  angle_t angle;
+  int steer;
   speed_t speed;
   bool shouldStop;
 };

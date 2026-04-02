@@ -7,7 +7,7 @@ namespace ls {
 class Angles {
 public:
   static constexpr float FLOAT_PI =
-      3.14159265358979323846264338327950288419716939937510;
+      3.14159265358979323846264338327950288419716939937510f;
 
   /**
    * @param angle, un unghi intre [-(PI/2), si PI/2]
@@ -19,7 +19,7 @@ public:
       angle = FLOAT_PI / 2;
     }
 
-    return static_cast<int>((200 / FLOAT_PI) * angle);
+    return static_cast<int>((200.0f / FLOAT_PI) * angle);
   }
 };
 } // namespace ls

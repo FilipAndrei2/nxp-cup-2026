@@ -6,6 +6,10 @@
 
 namespace ls {
 
+/**
+ * Fiecare state trebuie sa overrideze viteza maxima obligatoriu
+ * 
+ */
 class ATrackState : public ITrackState {
 
 public:
@@ -15,11 +19,12 @@ public:
     detectCrossway();
     detectCube(sensorData.cubeProximity);
 
-    auto angle = computeAngle();
-    auto speed = computeSpeed(angle, sensorData.cubeProximity);
+    auto steer = computeSteer();
+    auto speed = computeSpeed(steer, sensorData.cubeProximity);
 
-    return DrivingCommandDTO{
-        .angle = angle, .speed = speed, .shouldStop = shouldStopCar()};
+    return DrivingCommandDTO {
+        .steer = steer, .speed = speed, .shouldStop = shouldStopCar()
+    };
   }
 
   static constexpr size_t FV_BUFF_SIZE = 5;
@@ -57,30 +62,33 @@ protected:
     this->seeFinishLine = sawFinish;
   }
 
-  virtual angle_t computeAngle() {
+  virtual int computeSteer() {
     static Vector2<float> medi(0.0f, 0.0f);
     switch (numberFilteredVectors) {
     case 0: {
       return (angle_t)0;
     }
     case 1: {
-      return Vector2<float>::SteeringAngle(filteredVectors[0]);
-    }
-    case 2: {
-      medi = Vector2<float>::Avg(filteredVectors[0], filteredVectors[1]);
-      return Vector2<float>::SteeringAngle(medi);
+      return Vector2<float>::AngleToSteer(filteredVectors[0]);
     }
     default: {
       medi = Vector2<float>::Avg(filteredVectors[0], filteredVectors[1]);
-      return Vector2<float>::SteeringAngle(medi);
+      return Vector2<float>::AngleToSteer(medi);
     }
     }
   }
 
   virtual bool shouldStopCar() { return false; }
 
-  virtual speed_t computeSpeed(const angle_t inAngle,
-                               const proximity_t inCubeProxi) = 0;
+  virtual speed_t MAX_SPEED(void) const = 0;
+
+
+  virtual speed_t computeSpeed(int steer, const proximity_t inCubeProxi) {
+    if (steer < 0) {
+      steer = -steer;
+    }
+    return this->MAX_SPEED() * (speed_t)steer;
+  }
 
   static FilteredVectorsBuffer filteredVectors;
   static size_t numberFilteredVectors;
@@ -88,6 +96,7 @@ protected:
   static bool isInCrossway;
   static bool cubeDetected;
   static proximity_t cubeProximity; // Needed for detecting when to stop break
+
 
 private:
   void detectCrossway() {

@@ -4,6 +4,7 @@
 #include <cmath>
 #include <optional>
 #include <type_traits>
+#include "math/Angles.hpp"
 
 namespace ls {
 /**
@@ -51,13 +52,26 @@ public: // Getteri setteri
 public: // Metode statice
 
   static Vector2 Avg(const Vector2 &lhs, const Vector2 &rhs) {
-    return Vector2((lhs.x/2+ rhs.x/2), (lhs.y/2 + rhs.y/2));
+    return Vector2((lhs.x/((T)2)+ rhs.x/((T)2)), (lhs.y/((T)2) + rhs.y/((T)2)));
   }
 
-  static float SteeringAngle(const Vector2 &v) {
+  /**
+   * @returns Direct input for Servo, [-100, 100]
+   */
+  static int AngleToSteer(const Vector2 &vect) {
    // A dot B = ||A|| * ||B|| * cos(alph)
    // alph = acos(A dot B / ( ||A|| *||B||))
-	  return std::acos(v.y);
+   // vectori normalizati -> ||A|| == ||B|| == 1
+   // A = (0, 1)
+   // alph = acos(v.y)
+
+	  auto alpha = std::acos(vect.y); // [0, PI/2]
+
+    int sign = (vect.x >= 0) ? 1 : -1; // Daca vectorul se afla in cadranul 2
+    if (sign) {
+      alpha = -alpha;
+    }
+    return Angles::angleToDir(alpha); // output intre [-100. 100]
   }
 
 

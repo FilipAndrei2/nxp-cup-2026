@@ -9,12 +9,12 @@ class FinishedState : public Singleton<FinishedState>, public ATrackState {
   friend class Singleton<FinishedState>;
 
 public:
-  virtual void updateNextState(ATrackStateContext &ctx) const override;
+  virtual void updateNextState(ATrackStateContext &ctx) const override { };
 
 protected:
-  virtual angle_t computeAngle() override;
-  virtual speed_t computeSpeed(angle_t angle,
-                               proximity_t cubeProximity) override;
-  virtual bool shouldStopCar() override;
+  virtual speed_t MAX_SPEED() const { return 0; }
+  virtual int computeSteer() override { return 0; };
+  virtual speed_t computeSpeed(int steer, proximity_t cubeProximity) override { return MAX_SPEED(); };
+  virtual bool shouldStopCar() override { return true; }
 };
 } // namespace ls

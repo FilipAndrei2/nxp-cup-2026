@@ -2,7 +2,9 @@
 #include "dp/TSingleton.hpp"
 #include "track_states/ATrackState.hpp"
 #include "track_states/ITrackState.hpp"
+#include "track_states/SeeingFirstFinishState.hpp"
 #include "utils/lifesource.hpp"
+#include "params/speed.hpp"
 
 namespace ls {
 class StartingState : public ATrackState, public Singleton<StartingState> {
@@ -12,11 +14,15 @@ class StartingState : public ATrackState, public Singleton<StartingState> {
 public:
   ~StartingState() = default;
 
-  virtual void updateNextState(ATrackStateContext &) const override final;
+  virtual void updateNextState(ATrackStateContext & ctx) const override {
+  // Schimbam stateul daca detectam linia de fin
+  if (seeFinishLine) {
+    ctx.setState(&SeeingFirstFinishState::getInstance());
+  }
+}
 
 protected:
-  virtual speed_t computeSpeed(const angle_t inAngle,
-                               const proximity_t inCubeProxi) override final;
+  virtual speed_t MAX_SPEED() const { return Speed::MAX; }
 
 private:
   StartingState() = default;

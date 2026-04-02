@@ -6,6 +6,12 @@
 
 namespace ls {
 
+/**
+ * Rosu:  0 vectori
+ * Verde: 1 vector
+ * Albastru: 2 vectori
+ * Alb: 3 sau mai multi vectori
+ */
 static void setLedByVectorNumber(size_t number) {
 	PixyCamControllerImpl::changeLedColor(0, 0, 0);
 	if (number == 0) {
@@ -19,35 +25,69 @@ static void setLedByVectorNumber(size_t number) {
 	}
 }
 
+/**
+ * Alb: Viteza = 0
+ * Rosu: Reverse (viteza < 0)
+ * Verde: Viteza intre (0, 50]
+ * Albastru: Viteza Mare (> 50)
+ */
 static void setLedBySpeed(speed_t speed) {
 	PixyCamControllerImpl::changeLedColor(0, 0, 0);
 
-	    if (speed < 0) {
+		if (speed == 0) {
+			PixyCamControllerImpl::changeLedColor(255, 255, 255);
+		}
+	    else if (speed < 0) {
 	    	PixyCamControllerImpl::changeLedColor(255, 0, 0);
-	    } else if (speed >= 0&& speed < 50) {
+	    } else if (speed > 0 && speed < 50) {
 	    	PixyCamControllerImpl::changeLedColor(0, 255, 0);
 	    } else {
-	    	PixyCamControllerImpl::changeLedColor(0, 255, 255);
+	    	PixyCamControllerImpl::changeLedColor(0, 0, 255);
 	    }
 }
 
+/**
+ * Alb - Unghi ~= 0
+ * Rosu = Unghi < 0
+ * Blue = Unghi > 0
+ */
 static void setLedByAngle(angle_t angle) {
 	PixyCamControllerImpl::changeLedColor(0, 0, 0);
 
 	if (((int)(angle * 100000)) == 0) {
 		PixyCamControllerImpl::changeLedColor(255, 255, 255);
-	} // else if ()
+	} else if (angle < 0) {
+		PixyCamControllerImpl::changeLedColor(255, 0, 0);
+	} else {
+		PixyCamControllerImpl::changeLedColor(0, 0, 255);
+	}
 }
 
+/**
+ * Rosu: steer stanga
+ * Verde: fara viraj
+ * Albastru: steer dreapta
+ */
+static void setLedBySteer(int steer) {
+	PixyCamControllerImpl::changeLedColor(0, 0, 0);
+	if (steer < 0) {
+		PixyCamControllerImpl::changeLedColor(255, 0, 0);
+	} else if (steer == 0) {
+		PixyCamControllerImpl::changeLedColor(0, 255, 0);
+	} else {
+		PixyCamControllerImpl::changeLedColor(0, 0, 255);
+	}
+}
+
+// Main Loop
 int Car::run() {
-  // MainLoop
 	// PixyCamControllerImpl::changeLedColor(0, 255, 0);
 	while (this->isRunning) {
 		// PixyCamControllerImpl::changeLedColor(255, 0, 0);
     auto sensorData = this->readSensors();
-    setLedByVectorNumber(sensorData.vectors->size());
-    auto drivingCommand = this->computeDrivingCommand(sensorData);
-
+    // setLedByVectorNumber(sensorData.vectors->size());
+	auto drivingCommand = this->computeDrivingCommand(sensorData);
+    setLedBySteer(steer);
     this->controlCar(drivingCommand);
     PixyCamControllerImpl::changeLedColor(0, 0, 0);
   }
@@ -61,23 +101,21 @@ void Car::stopCar() { this->isRunning = false; }
 
 SensorDataDTO Car::readSensors() {
 
-  return {this->ctx.pixySensor.getVectors(),
-          this->ctx.ultrasoundSensor.cubeProximity()};
+  return { 
+			.vectors 	   = this->ctx.pixySensor.getVectors(),
+          	.cubeProximity = this->ctx.ultrasoundSensor.cubeProximity()
+		};
 }
 
 DrivingCommandDTO Car::computeDrivingCommand(const SensorDataDTO &sensorData) {
   return this->ctx.algorithm.computeParameters(sensorData);
 }
 
-
-
 void Car::controlCar(const DrivingCommandDTO drivingCommand) {
   if (drivingCommand.shouldStop) {
     this->stopCar();
   } else {
-    this->ctx.servoController.steer(drivingCommand.angle);
-    auto speed = drivingCommand.speed;
-
+    this->ctx.servoController.steer(drivingCommand.steer);
     this->ctx.engineController.changeSpeed(drivingCommand.speed);
   }
 }

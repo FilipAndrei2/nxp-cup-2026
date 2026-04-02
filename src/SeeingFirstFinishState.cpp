@@ -9,9 +9,9 @@ namespace ls {
 const ls::DrivingCommandDTO
 SeeingFirstFinishState::computeCommand(const ls::SensorDataDTO &sensorData) {
   filterVectors(*sensorData.vectors);
-  auto angle = computeAngle();
-  auto speed = computeSpeed(angle, sensorData.cubeProximity);
-  return DrivingCommandDTO{.angle = angle, .speed = speed, .shouldStop = false};
+  auto steer = computeSteer();
+  auto speed = computeSpeed(steer, sensorData.cubeProximity);
+  return DrivingCommandDTO{.steer = steer, .speed = speed, .shouldStop = false};
 }
 
 void SeeingFirstFinishState::updateNextState(ATrackStateContext &ctx) const {
@@ -20,8 +20,4 @@ void SeeingFirstFinishState::updateNextState(ATrackStateContext &ctx) const {
   }
 }
 
-speed_t SeeingFirstFinishState::computeSpeed(const angle_t inAngle,
-                                             const proximity_t inCubeProxi) {
-  return Speed::scale(Speed::WAITING_CUBE_SPEED, inAngle);
-}
 } // namespace  ls

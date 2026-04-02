@@ -15,8 +15,7 @@ ServoControllerImpl::ServoControllerImpl() {
 	initServo();
 }
 
-void ServoControllerImpl::steer(ls::angle_t angle) {
-  auto direction = Angles::angleToDir(angle);
-  Steer(direction);
+void ServoControllerImpl::steer(int steer) {
+	Steer(steer);
 }
 } // namespace ls

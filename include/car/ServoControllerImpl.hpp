@@ -1,6 +1,5 @@
 #pragma once
 #include "car/IServoController.hpp"
-#include "utils/lifesource.hpp"
 #include <dp/TSingleton.hpp>
 #include "utils/lifesource.hpp"
 
@@ -11,7 +10,7 @@ class ServoControllerImpl : public IServoController,
 
 public:
   virtual ~ServoControllerImpl() = default;
-  virtual void steer(ls::angle_t angle) override;
+  virtual void steer(int dir) override;
 
 private:
   ServoControllerImpl();
