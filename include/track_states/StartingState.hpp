@@ -14,12 +14,7 @@ class StartingState : public ATrackState, public Singleton<StartingState> {
 public:
   ~StartingState() = default;
 
-  virtual void updateNextState(ATrackStateContext & ctx) const override {
-  // Schimbam stateul daca detectam linia de fin
-  if (seeFinishLine) {
-    ctx.setState(&SeeingFirstFinishState::getInstance());
-  }
-}
+  virtual void updateNextState(ATrackStateContext & ctx) const override;
 
 protected:
   virtual speed_t MAX_SPEED() const { return Speed::MAX; }

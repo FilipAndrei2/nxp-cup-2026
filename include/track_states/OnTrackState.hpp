@@ -12,14 +12,8 @@ class OnTrackState : public Singleton<OnTrackState>, public ATrackState {
   friend class Singleton<OnTrackState>;
 
 public:
-  virtual void updateNextState(ATrackStateContext &ctx) const override {
-    // Schimbam stateul cand detectam linia de finish
-    if (this->seeFinishLine) {
-      ctx.setState(&SeeingSecondFinishState::getInstance());
-    }
-  }
+  virtual void updateNextState(ATrackStateContext &ctx) const override;
 
   virtual int MAX_SPEED() const override { return isInCrossway ? Speed::_4_WAY_CROSSWAY_SPEED : Speed::MAX; }
-
 };
 } // namespace ls

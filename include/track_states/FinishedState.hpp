@@ -9,7 +9,7 @@ class FinishedState : public Singleton<FinishedState>, public ATrackState {
   friend class Singleton<FinishedState>;
 
 public:
-  virtual void updateNextState(ATrackStateContext &ctx) const override { };
+  virtual void updateNextState(ATrackStateContext &ctx) const override;
 
 protected:
   virtual speed_t MAX_SPEED() const { return 0; }

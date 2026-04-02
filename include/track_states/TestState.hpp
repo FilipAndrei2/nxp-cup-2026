@@ -6,10 +6,7 @@
 namespace ls {
 	class TestState : public OnTrackState {
 	public:
-		virtual void updateNextState(ATrackStateContext& context) const override {
-			// Don't change state
-			return;
-		}
+		virtual void updateNextState(ATrackStateContext& context) const override;
 	protected:
 		virtual speed_t MAX_SPEED() { return Speed::TEST_SPEED; }
 };

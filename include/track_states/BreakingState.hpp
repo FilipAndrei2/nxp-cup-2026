@@ -9,11 +9,7 @@ class BreakingState : public Singleton<BreakingState>, public ATrackState {
   friend class Singleton<BreakingState>;
 
 public:
-  virtual void updateNextState(ATrackStateContext &ctx) const override {
-    if (this->cubeProximity > Params::SHOULD_END_BREAK) {
-      ctx.setState(&FinishedState::getInstance());
-    }
-  }
+  virtual void updateNextState(ATrackStateContext &ctx) const override;
 
 protected:
   virtual speed_t MAX_SPEED() const override { return Speed::BREAK; }
