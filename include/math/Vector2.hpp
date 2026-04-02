@@ -56,6 +56,8 @@ public: // Metode statice
   }
 
   /**
+   * 
+   * @input  un vector in cadranul 1 sau 2 (y negatic)
    * @returns Direct input for Servo, [-100, 100]
    */
   static int AngleToSteer(const Vector2 &vect) {
@@ -65,10 +67,10 @@ public: // Metode statice
    // A = (0, 1)
    // alph = acos(v.y)
 
-	  auto alpha = std::acos(vect.y); // [0, PI/2]
+	  auto alpha = std::acos(-vect.y); // [0, PI/2]
 
-    int sign = (vect.x >= 0) ? 1 : -1; // Daca vectorul se afla in cadranul 2
-    if (sign) {
+    // Daca vectorul se afla in cadranul 2
+    if (vect.x < 0) {
       alpha = -alpha;
     }
     return Angles::angleToDir(alpha); // output intre [-100. 100]

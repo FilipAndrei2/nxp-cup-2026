@@ -11,6 +11,8 @@ public:
 
   /**
    * @param angle, un unghi intre [-(PI/2), si PI/2]
+   * 
+   * @return valoare scalata in intervalul [-100, 100]
    */
   static int angleToDir(angle_t angle) {
     if (angle < (-FLOAT_PI / 2)) {
