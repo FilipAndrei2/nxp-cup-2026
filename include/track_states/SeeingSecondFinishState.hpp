@@ -5,6 +5,7 @@
 #include "dto/DrivingCommandDTO.hpp"
 #include "track_states/ATrackState.hpp"
 #include "utils/lifesource.hpp"
+#include "params/speed.hpp"
 
 namespace ls {
 class SeeingSecondFinishState : public Singleton<SeeingSecondFinishState>,
@@ -12,7 +13,7 @@ class SeeingSecondFinishState : public Singleton<SeeingSecondFinishState>,
   friend class Singleton<SeeingSecondFinishState>;
 
 public:
-  virtual speed_t MAX_SPEED() const override { return Speed::WAITING_CUBE_SPEED; }
+  virtual int MAX_SPEED() const override { return Speed::WAITING_CUBE_SPEED; }
   virtual void updateNextState(ATrackStateContext &ctx) const override;
 };
 } // namespace ls

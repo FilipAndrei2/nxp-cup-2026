@@ -8,6 +8,6 @@ namespace ls {
 	public:
 		virtual void updateNextState(ATrackStateContext& context) const override;
 	protected:
-		virtual speed_t MAX_SPEED() { return Speed::TEST_SPEED; }
+		virtual int MAX_SPEED() { return Speed::TEST_SPEED; }
 };
 }

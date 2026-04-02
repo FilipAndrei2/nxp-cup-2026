@@ -1,11 +1,10 @@
 
 #pragma once
+#include "utils/lifesource.hpp"
 #include "dp/TSingleton.hpp"
 #include "dto/DrivingCommandDTO.hpp"
 #include "track_states/ATrackState.hpp"
-#include "utils/lifesource.hpp"
 #include "params/speed.hpp"
-#include "track_states/SeeingSecondFinishState.hpp"
 
 namespace ls {
 class OnTrackState : public Singleton<OnTrackState>, public ATrackState {

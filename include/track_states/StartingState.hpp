@@ -1,8 +1,6 @@
 #pragma once
 #include "dp/TSingleton.hpp"
 #include "track_states/ATrackState.hpp"
-#include "track_states/ITrackState.hpp"
-#include "track_states/SeeingFirstFinishState.hpp"
 #include "utils/lifesource.hpp"
 #include "params/speed.hpp"
 
@@ -17,7 +15,7 @@ public:
   virtual void updateNextState(ATrackStateContext & ctx) const override;
 
 protected:
-  virtual speed_t MAX_SPEED() const { return Speed::MAX; }
+  virtual int MAX_SPEED() const { return Speed::MAX; }
 
 private:
   StartingState() = default;

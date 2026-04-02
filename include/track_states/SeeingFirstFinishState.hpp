@@ -3,6 +3,7 @@
 #include "dto/DrivingCommandDTO.hpp"
 #include "track_states/ATrackState.hpp"
 #include "utils/lifesource.hpp"
+#include "params/speed.hpp"
 
 namespace ls {
 class SeeingFirstFinishState : public Singleton<SeeingFirstFinishState>,
@@ -12,7 +13,7 @@ class SeeingFirstFinishState : public Singleton<SeeingFirstFinishState>,
 public:
   virtual void updateNextState(ATrackStateContext &ctx) const override;
 
-  virtual speed_t MAX_SPEED() const {
+  virtual int MAX_SPEED() const {
     return Speed::MAX;
   }
 

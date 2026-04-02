@@ -1,7 +1,7 @@
 #pragma once
 #include "dto/DrivingCommandDTO.hpp"
 #include "dto/SensorDataDTO.hpp"
-
+#include "params/speed.hpp"
 namespace ls {
 class ATrackStateContext;
 class ITrackState {

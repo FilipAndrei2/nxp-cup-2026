@@ -12,7 +12,7 @@ public:
   virtual void updateNextState(ATrackStateContext &ctx) const override;
 
 protected:
-  virtual speed_t MAX_SPEED() const override { return Speed::BREAK; }
+  virtual int MAX_SPEED() const override { return Speed::BREAK; }
   virtual int computeSteer() override { return 0; };
   virtual speed_t computeSpeed(const int steer, const proximity_t inCubeProxi) override { return this->MAX_SPEED(); };
 };

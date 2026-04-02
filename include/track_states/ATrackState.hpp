@@ -1,6 +1,7 @@
 #pragma once
 #include "math/Vector2.hpp"
 #include "math/Vectors.hpp"
+#include "params/speed.hpp"
 #include "track_states/ITrackState.hpp"
 #include <array>
 
@@ -80,7 +81,7 @@ protected:
 
   virtual bool shouldStopCar() { return false; }
 
-  virtual speed_t MAX_SPEED(void) const = 0;
+  virtual int MAX_SPEED(void) const = 0;
 
 
   virtual speed_t computeSpeed(int steer, const proximity_t inCubeProxi) {
