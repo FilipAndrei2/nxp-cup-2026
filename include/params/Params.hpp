@@ -1,6 +1,8 @@
 #pragma once
 #include "utils/lifesource.hpp"
 
+#define LS_DEBUG 1
+
 namespace ls {
 
 class Params {

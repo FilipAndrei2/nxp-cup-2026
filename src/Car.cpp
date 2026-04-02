@@ -3,9 +3,11 @@
 #include "main_functions.h"
 #include "utils/lifesource.hpp"
 #include <memory>
+#include "params/Params.hpp"
 
 namespace ls {
 
+#ifdef LS_DEBUG
 /**
  * Rosu:  0 vectori
  * Verde: 1 vector
@@ -78,17 +80,21 @@ static void setLedBySteer(int steer) {
 		PixyCamControllerImpl::changeLedColor(0, 0, 255);
 	}
 }
+#endif // LS_DEBUG 
 
 // Main Loop
 int Car::run() {
 	// PixyCamControllerImpl::changeLedColor(0, 255, 0);
 	while (this->isRunning) {
+#ifdef LS_DEBUG
 		// PixyCamControllerImpl::changeLedColor(255, 0, 0);
-    auto sensorData = this->readSensors();
-    // setLedByVectorNumber(sensorData.vectors->size());
+#endif
+		auto sensorData = this->readSensors();
 	auto drivingCommand = this->computeDrivingCommand(sensorData);
-    setLedBySteer(drivingCommand.steer);
-    this->controlCar(drivingCommand);
+#ifdef LS_DEBUG
+	setLedBySteer(drivingCommand.steer);
+#endif
+	this->controlCar(drivingCommand);
     PixyCamControllerImpl::changeLedColor(0, 0, 0);
   }
 
